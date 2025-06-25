@@ -6,17 +6,26 @@ from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 import os
 
-def run_ragas_evaluations():
+def run_ragas_evaluations(result_data, filename):
     """
-    Load final.json and run RAGAS evaluations
+    Run RAGAS evaluations on the provided result data
+    
+    Args:
+        result_data (dict or list): The data to evaluate. Can be a single dictionary or a list of dictionaries.
+        
+    Returns:
+        Evaluation result object or None if evaluation fails
     """
     try:
-        # Load the final dataset
-        final_file_path = './datasets/out/final.json'
-        with open(final_file_path, 'r') as f:
-            dataset = json.load(f)
+        # Ensure result_data is a list
+        if isinstance(result_data, dict):
+            dataset = [result_data]
+        elif isinstance(result_data, list):
+            dataset = result_data
+        else:
+            raise ValueError("result_data must be a dictionary or list of dictionaries")
         
-        print(f"✅ Loaded final dataset: {len(dataset)} entries")
+        print(f"✅ Loaded dataset: {len(dataset)} entries")
         print(f"Dataset type: {type(dataset)}")
         
         # Show sample of the dataset structure
@@ -65,12 +74,34 @@ def run_ragas_evaluations():
         print(f"\n✅ Evaluations completed successfully!")  
         print(f"\n=== Evaluation Results ===")
         print(result)
+        import matplotlib.pyplot as plt
+        result.to_pandas().to_csv(f'./out_csvs/evaluation_results_{filename}.csv')
+        data = result.to_pandas()[['llm_context_precision_with_reference', 'context_recall',
+        'answer_relevancy', 'faithfulness', 'factual_correctness(mode=f1)',
+        'nv_accuracy']]
+        ax = data.plot(kind='bar', figsize=(10, 6))
+        plt.title('Evaluation Metrics Scores')
+        plt.xticks(rotation=45, ha='right')
+        plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+            
+        plt.tight_layout()
+        plt.savefig(f'./out_imgs/evaluation_results_{filename}.png')
+        # Calculate and plot mean values for each metric
+        mean_values = data.mean()
+        plt.figure(figsize=(10, 6))
+        ax = mean_values.plot(kind='bar')
+        plt.title('Average Scores Across All Evaluation Metrics')
+        plt.xticks(rotation=45, ha='right')
+        
+        # Add value labels on top of each bar
+        for i, v in enumerate(mean_values):
+            ax.text(i, v, f'{v:.2f}', ha='center', va='bottom')
+            
+        plt.tight_layout()
+        plt.savefig(f'./out_imgs/agg_evaluation_results_{filename}.png')
         
         return result
         
-    except FileNotFoundError as e:
-        print(f"❌ File not found: {e}")
-        return None
     except ImportError as e:
         print(f"❌ Import error: {e}")
         print("Make sure you have the required packages installed:")
@@ -79,13 +110,3 @@ def run_ragas_evaluations():
     except Exception as e:
         print(f"❌ Error running evaluations: {e}")
         return None
-
-if __name__ == "__main__":
-    print("=== RAGAS Evaluations ===")
-    evaluation_results = run_ragas_evaluations()
-    
-    if evaluation_results:
-        print(f"\n✅ Evaluations completed successfully!")
-        print(f"Results saved in memory")
-    else:
-        print(f"\n❌ Evaluations failed!")
