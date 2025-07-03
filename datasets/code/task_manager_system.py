@@ -1,0 +1,507 @@
+#!/usr/bin/env python3
+"""
+Advanced Task Management System
+A comprehensive task management application with categories, priorities, deadlines, and reporting features.
+"""
+
+import json
+import datetime
+import uuid
+from typing import List, Dict, Optional, Any
+from enum import Enum
+from dataclasses import dataclass, asdict
+import os
+import re
+
+class Priority(Enum):
+    """Task priority levels"""
+    LOW = 1
+    MEDIUM = 2
+    HIGH = 3
+    CRITICAL = 4
+
+class Status(Enum):
+    """Task status options"""
+    PENDING = "pending"
+    IN_PROGRESS = "in_progress"
+    COMPLETED = "completed"
+    CANCELLED = "cancelled"
+    ON_HOLD = "on_hold"
+
+@dataclass
+class Task:
+    """Task data structure"""
+    id: str
+    title: str
+    description: str
+    category: str
+    priority: Priority
+    status: Status
+    created_date: datetime.datetime
+    due_date: Optional[datetime.datetime] = None
+    completed_date: Optional[datetime.datetime] = None
+    tags: List[str] = None
+    estimated_hours: Optional[float] = None
+    actual_hours: Optional[float] = None
+    assignee: Optional[str] = None
+    
+    def __post_init__(self):
+        if self.tags is None:
+            self.tags = []
+    
+    def to_dict(self) -> Dict[str, Any]:
+        """Convert task to dictionary for JSON serialization"""
+        data = asdict(self)
+        data['priority'] = self.priority.value
+        data['status'] = self.status.value
+        data['created_date'] = self.created_date.isoformat()
+        if self.due_date:
+            data['due_date'] = self.due_date.isoformat()
+        if self.completed_date:
+            data['completed_date'] = self.completed_date.isoformat()
+        return data
+    
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> 'Task':
+        """Create task from dictionary"""
+        data['priority'] = Priority(data['priority'])
+        data['status'] = Status(data['status'])
+        data['created_date'] = datetime.datetime.fromisoformat(data['created_date'])
+        if data.get('due_date'):
+            data['due_date'] = datetime.datetime.fromisoformat(data['due_date'])
+        if data.get('completed_date'):
+            data['completed_date'] = datetime.datetime.fromisoformat(data['completed_date'])
+        return cls(**data)
+    
+    def is_overdue(self) -> bool:
+        """Check if task is overdue"""
+        if not self.due_date or self.status == Status.COMPLETED:
+            return False
+        return datetime.datetime.now() > self.due_date
+    
+    def days_until_due(self) -> Optional[int]:
+        """Calculate days until due date"""
+        if not self.due_date:
+            return None
+        delta = self.due_date - datetime.datetime.now()
+        return delta.days
+
+class TaskManager:
+    """Main task management system"""
+    
+    def __init__(self, data_file: str = "tasks.json"):
+        self.data_file = data_file
+        self.tasks: Dict[str, Task] = {}
+        self.categories: set = set()
+        self.load_tasks()
+    
+    def create_task(self, title: str, description: str, category: str, 
+                   priority: Priority = Priority.MEDIUM, 
+                   due_date: Optional[datetime.datetime] = None,
+                   tags: Optional[List[str]] = None,
+                   estimated_hours: Optional[float] = None,
+                   assignee: Optional[str] = None) -> str:
+        """Create a new task and return its ID"""
+        task_id = str(uuid.uuid4())
+        task = Task(
+            id=task_id,
+            title=title,
+            description=description,
+            category=category,
+            priority=priority,
+            status=Status.PENDING,
+            created_date=datetime.datetime.now(),
+            due_date=due_date,
+            tags=tags or [],
+            estimated_hours=estimated_hours,
+            assignee=assignee
+        )
+        
+        self.tasks[task_id] = task
+        self.categories.add(category)
+        self.save_tasks()
+        return task_id
+    
+    def update_task(self, task_id: str, **kwargs) -> bool:
+        """Update task properties"""
+        if task_id not in self.tasks:
+            return False
+        
+        task = self.tasks[task_id]
+        for key, value in kwargs.items():
+            if hasattr(task, key):
+                setattr(task, key, value)
+        
+        # Update category set if category changed
+        if 'category' in kwargs:
+            self.categories.add(kwargs['category'])
+        
+        self.save_tasks()
+        return True
+    
+    def complete_task(self, task_id: str, actual_hours: Optional[float] = None) -> bool:
+        """Mark task as completed"""
+        if task_id not in self.tasks:
+            return False
+        
+        task = self.tasks[task_id]
+        task.status = Status.COMPLETED
+        task.completed_date = datetime.datetime.now()
+        if actual_hours is not None:
+            task.actual_hours = actual_hours
+        
+        self.save_tasks()
+        return True
+    
+    def delete_task(self, task_id: str) -> bool:
+        """Delete a task"""
+        if task_id not in self.tasks:
+            return False
+        
+        del self.tasks[task_id]
+        self.save_tasks()
+        return True
+    
+    def get_task(self, task_id: str) -> Optional[Task]:
+        """Get a specific task by ID"""
+        return self.tasks.get(task_id)
+    
+    def list_tasks(self, category: Optional[str] = None, 
+                  status: Optional[Status] = None,
+                  priority: Optional[Priority] = None,
+                  assignee: Optional[str] = None,
+                  tag: Optional[str] = None) -> List[Task]:
+        """List tasks with optional filters"""
+        filtered_tasks = []
+        
+        for task in self.tasks.values():
+            # Apply filters
+            if category and task.category != category:
+                continue
+            if status and task.status != status:
+                continue
+            if priority and task.priority != priority:
+                continue
+            if assignee and task.assignee != assignee:
+                continue
+            if tag and tag not in task.tags:
+                continue
+            
+            filtered_tasks.append(task)
+        
+        return filtered_tasks
+    
+    def search_tasks(self, query: str) -> List[Task]:
+        """Search tasks by title, description, or tags"""
+        query_lower = query.lower()
+        matching_tasks = []
+        
+        for task in self.tasks.values():
+            # Search in title and description
+            if (query_lower in task.title.lower() or 
+                query_lower in task.description.lower() or
+                any(query_lower in tag.lower() for tag in task.tags)):
+                matching_tasks.append(task)
+        
+        return matching_tasks
+    
+    def get_overdue_tasks(self) -> List[Task]:
+        """Get all overdue tasks"""
+        return [task for task in self.tasks.values() if task.is_overdue()]
+    
+    def get_upcoming_tasks(self, days: int = 7) -> List[Task]:
+        """Get tasks due within specified days"""
+        upcoming = []
+        cutoff_date = datetime.datetime.now() + datetime.timedelta(days=days)
+        
+        for task in self.tasks.values():
+            if (task.due_date and task.status != Status.COMPLETED and 
+                task.due_date <= cutoff_date):
+                upcoming.append(task)
+        
+        return sorted(upcoming, key=lambda t: t.due_date or datetime.datetime.max)
+    
+    def get_statistics(self) -> Dict[str, Any]:
+        """Generate task statistics"""
+        total_tasks = len(self.tasks)
+        if total_tasks == 0:
+            return {"total_tasks": 0}
+        
+        status_counts = {}
+        priority_counts = {}
+        category_counts = {}
+        completed_tasks = []
+        
+        for task in self.tasks.values():
+            # Count by status
+            status_counts[task.status.value] = status_counts.get(task.status.value, 0) + 1
+            
+            # Count by priority
+            priority_name = task.priority.name
+            priority_counts[priority_name] = priority_counts.get(priority_name, 0) + 1
+            
+            # Count by category
+            category_counts[task.category] = category_counts.get(task.category, 0) + 1
+            
+            # Collect completed tasks for time analysis
+            if task.status == Status.COMPLETED:
+                completed_tasks.append(task)
+        
+        # Calculate completion statistics
+        completion_rate = len(completed_tasks) / total_tasks * 100
+        
+        # Calculate average completion time
+        completion_times = []
+        for task in completed_tasks:
+            if task.completed_date:
+                delta = task.completed_date - task.created_date
+                completion_times.append(delta.days)
+        
+        avg_completion_days = sum(completion_times) / len(completion_times) if completion_times else 0
+        
+        # Time estimation accuracy
+        estimation_accuracy = []
+        for task in completed_tasks:
+            if task.estimated_hours and task.actual_hours:
+                accuracy = min(task.estimated_hours, task.actual_hours) / max(task.estimated_hours, task.actual_hours)
+                estimation_accuracy.append(accuracy)
+        
+        avg_estimation_accuracy = sum(estimation_accuracy) / len(estimation_accuracy) if estimation_accuracy else 0
+        
+        return {
+            "total_tasks": total_tasks,
+            "status_breakdown": status_counts,
+            "priority_breakdown": priority_counts,
+            "category_breakdown": category_counts,
+            "completion_rate": round(completion_rate, 2),
+            "average_completion_days": round(avg_completion_days, 2),
+            "overdue_tasks": len(self.get_overdue_tasks()),
+            "estimation_accuracy": round(avg_estimation_accuracy * 100, 2) if avg_estimation_accuracy > 0 else None
+        }
+    
+    def generate_report(self, format_type: str = "summary") -> str:
+        """Generate different types of reports"""
+        stats = self.get_statistics()
+        
+        if format_type == "summary":
+            return self._generate_summary_report(stats)
+        elif format_type == "detailed":
+            return self._generate_detailed_report(stats)
+        elif format_type == "overdue":
+            return self._generate_overdue_report()
+        else:
+            return "Invalid report format. Use 'summary', 'detailed', or 'overdue'."
+    
+    def _generate_summary_report(self, stats: Dict[str, Any]) -> str:
+        """Generate a summary report"""
+        report = ["=== TASK MANAGEMENT SUMMARY REPORT ==="]
+        report.append(f"Generated on: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        report.append("")
+        report.append(f"Total Tasks: {stats['total_tasks']}")
+        report.append(f"Completion Rate: {stats['completion_rate']}%")
+        report.append(f"Overdue Tasks: {stats['overdue_tasks']}")
+        report.append(f"Average Completion Time: {stats['average_completion_days']} days")
+        
+        if stats.get('estimation_accuracy'):
+            report.append(f"Time Estimation Accuracy: {stats['estimation_accuracy']}%")
+        
+        report.append("\n--- Status Breakdown ---")
+        for status, count in stats['status_breakdown'].items():
+            report.append(f"{status.replace('_', ' ').title()}: {count}")
+        
+        report.append("\n--- Priority Distribution ---")
+        for priority, count in stats['priority_breakdown'].items():
+            report.append(f"{priority}: {count}")
+        
+        return "\n".join(report)
+    
+    def _generate_detailed_report(self, stats: Dict[str, Any]) -> str:
+        """Generate a detailed report"""
+        report = [self._generate_summary_report(stats)]
+        report.append("\n\n--- Category Breakdown ---")
+        for category, count in stats['category_breakdown'].items():
+            report.append(f"{category}: {count} tasks")
+        
+        report.append("\n--- Upcoming Tasks (Next 7 Days) ---")
+        upcoming = self.get_upcoming_tasks(7)
+        if upcoming:
+            for task in upcoming:
+                days_left = task.days_until_due()
+                report.append(f"• {task.title} ({task.category}) - Due in {days_left} days")
+        else:
+            report.append("No upcoming tasks in the next 7 days.")
+        
+        return "\n".join(report)
+    
+    def _generate_overdue_report(self) -> str:
+        """Generate overdue tasks report"""
+        overdue_tasks = self.get_overdue_tasks()
+        report = ["=== OVERDUE TASKS REPORT ==="]
+        report.append(f"Generated on: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        report.append(f"\nTotal Overdue Tasks: {len(overdue_tasks)}")
+        
+        if overdue_tasks:
+            report.append("\n--- Overdue Task Details ---")
+            for task in sorted(overdue_tasks, key=lambda t: t.due_date or datetime.datetime.max):
+                days_overdue = abs(task.days_until_due()) if task.days_until_due() else 0
+                report.append(f"• {task.title}")
+                report.append(f"  Category: {task.category} | Priority: {task.priority.name}")
+                report.append(f"  Due: {task.due_date.strftime('%Y-%m-%d')} ({days_overdue} days overdue)")
+                if task.assignee:
+                    report.append(f"  Assignee: {task.assignee}")
+                report.append("")
+        else:
+            report.append("\nNo overdue tasks found!")
+        
+        return "\n".join(report)
+    
+    def export_tasks(self, filename: str, format_type: str = "json") -> bool:
+        """Export tasks to different formats"""
+        try:
+            if format_type == "json":
+                return self._export_json(filename)
+            elif format_type == "csv":
+                return self._export_csv(filename)
+            else:
+                print(f"Unsupported export format: {format_type}")
+                return False
+        except Exception as e:
+            print(f"Export failed: {e}")
+            return False
+    
+    def _export_json(self, filename: str) -> bool:
+        """Export tasks to JSON file"""
+        export_data = {
+            "export_date": datetime.datetime.now().isoformat(),
+            "total_tasks": len(self.tasks),
+            "tasks": [task.to_dict() for task in self.tasks.values()]
+        }
+        
+        with open(filename, 'w') as f:
+            json.dump(export_data, f, indent=2)
+        return True
+    
+    def _export_csv(self, filename: str) -> bool:
+        """Export tasks to CSV file"""
+        import csv
+        
+        fieldnames = ['id', 'title', 'description', 'category', 'priority', 'status', 
+                     'created_date', 'due_date', 'completed_date', 'tags', 
+                     'estimated_hours', 'actual_hours', 'assignee']
+        
+        with open(filename, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            
+            for task in self.tasks.values():
+                row = task.to_dict()
+                row['tags'] = ','.join(row['tags'])  # Convert list to comma-separated string
+                writer.writerow(row)
+        
+        return True
+    
+    def save_tasks(self) -> bool:
+        """Save tasks to JSON file"""
+        try:
+            data = {
+                "tasks": [task.to_dict() for task in self.tasks.values()],
+                "categories": list(self.categories)
+            }
+            with open(self.data_file, 'w') as f:
+                json.dump(data, f, indent=2)
+            return True
+        except Exception as e:
+            print(f"Failed to save tasks: {e}")
+            return False
+    
+    def load_tasks(self) -> bool:
+        """Load tasks from JSON file"""
+        if not os.path.exists(self.data_file):
+            return True  # No file to load, start fresh
+        
+        try:
+            with open(self.data_file, 'r') as f:
+                data = json.load(f)
+            
+            self.tasks = {}
+            for task_data in data.get("tasks", []):
+                task = Task.from_dict(task_data)
+                self.tasks[task.id] = task
+            
+            self.categories = set(data.get("categories", []))
+            return True
+        except Exception as e:
+            print(f"Failed to load tasks: {e}")
+            return False
+
+def main():
+    """Example usage of the TaskManager"""
+    tm = TaskManager()
+    
+    # Create some sample tasks
+    task1_id = tm.create_task(
+        title="Implement user authentication",
+        description="Add login and registration functionality",
+        category="Development",
+        priority=Priority.HIGH,
+        due_date=datetime.datetime.now() + datetime.timedelta(days=5),
+        tags=["backend", "security"],
+        estimated_hours=8.0,
+        assignee="John Doe"
+    )
+    
+    task2_id = tm.create_task(
+        title="Write project documentation",
+        description="Create comprehensive project documentation",
+        category="Documentation",
+        priority=Priority.MEDIUM,
+        due_date=datetime.datetime.now() + datetime.timedelta(days=10),
+        tags=["docs", "writing"],
+        estimated_hours=4.0
+    )
+    
+    task3_id = tm.create_task(
+        title="Fix critical bug in payment system",
+        description="Resolve issue with payment processing",
+        category="Bug Fix",
+        priority=Priority.CRITICAL,
+        due_date=datetime.datetime.now() - datetime.timedelta(days=2),  # Overdue
+        tags=["critical", "payment"],
+        assignee="Jane Smith"
+    )
+    
+    # Demonstrate various operations
+    print("=== Task Management System Demo ===\n")
+    
+    # List all tasks
+    print("All Tasks:")
+    for task in tm.list_tasks():
+        print(f"- {task.title} ({task.priority.name}, {task.status.value})")
+    
+    # Update a task
+    tm.update_task(task1_id, status=Status.IN_PROGRESS)
+    
+    # Complete a task
+    tm.complete_task(task2_id, actual_hours=3.5)
+    
+    # Search tasks
+    print(f"\nSearch results for 'payment':")
+    for task in tm.search_tasks("payment"):
+        print(f"- {task.title}")
+    
+    # Show overdue tasks
+    print(f"\nOverdue tasks:")
+    for task in tm.get_overdue_tasks():
+        print(f"- {task.title} (Due: {task.due_date.strftime('%Y-%m-%d')})")
+    
+    # Generate reports
+    print(f"\n{tm.generate_report('summary')}")
+    
+    # Export tasks
+    tm.export_tasks("tasks_export.json", "json")
+    tm.export_tasks("tasks_export.csv", "csv")
+    
+    print(f"\nTasks exported to JSON and CSV files.")
+
+if __name__ == "__main__":
+    main()

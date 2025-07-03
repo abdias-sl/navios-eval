@@ -1,0 +1,87 @@
+,user_input,retrieved_contexts,response,reference,answer_relevancy,factual_correctness(mode=f1),nv_accuracy
+0,Which department is mentioned in the letterhead?,[],"From reviewing Document 2 (the FDA letter from 1978), the letter mentions the Division of Regulatory Guidance, Bureau of Foods. Specifically, the letter was signed by Donald Plumb, who was identified as the Assistant to the Director of the Division of Regulatory Guidance, Bureau of Foods.
+
+Would you like to know more about any other aspects of this correspondence?","department of health, education, and welfare",0.784029691004445,0.0,0.0
+1,Who is asssistant to the director in division of regulatory guidance?,[],"Based on the project documents, Donald Plumb was the Assistant to the Director of the Division of Regulatory Guidance, Bureau of Foods, as mentioned in the FDA letter dated July 24, 1978.
+
+Would you like to know more about the context in which this information appears?",donald plumb,0.7889698763251326,0.0,1.0
+2,Who signed this letter?,[],"According to the document summary (410.pdf), the letter was signed by Donald Plumb, who was the Assistant to the Director of the Division of Regulatory Guidance, Bureau of Foods.
+
+Is there anything specific about the letter or its contents you'd like to know more about?",donald plumb,0.9187360878864833,0.0,0.75
+3,In whic center does Mr. Brewster work?,[''],"
+
+Based on the available information from the project documents, Letitia Brewster worked at the Center for Science in the Public Interest in Washington, D.C. This information comes from an FDA letter dated July 24, 1978, which was addressed to her at that organization.
+
+Would you like to know more about the context of the FDA's communication with Brewster?",center for science in the public interest,0.8636710682008921,0.0,0.5
+4,In which bureau does Donald Plumb work?,[''],"
+
+Based on the information from the project documents, Donald Plumb worked in the Bureau of Foods, where he held the position of Assistant to the Director of the Division of Regulatory Guidance.
+
+This information comes from the 1978 FDA letter where he is identified as ""Assistant to the Director of the Division of Regulatory Guidance, Bureau of Foods.""
+
+Would you like to know more about Donald Plumb's role or the context of the letter he signed?",bureau of foods,0.9036048746542847,0.0,0.5
+5,Which is the project with the highest(highest value) priority?,[],"I apologize, but while I can see in the document summaries that Document 1 (245.pdf) contains information about projects with priorities, I'm unable to retrieve the specific details about which project has the highest priority value. The document summary indicates it contains a project plan with priority information, but I cannot access the detailed content to determine the highest priority project.
+
+Would you like me to try searching for different aspects of the project information, or would you prefer to know about other aspects of the projects that might be available?",55. sand/inorganics in tobacco,0.0,0.0,0.0
+6,What is the maximum duration (in months) for a project as per this table?,[],"I apologize, but I'm unable to find specific information about the maximum project duration in months from the available documentation. While I can see from the document summaries that there is a project plan mentioned in Document 1 (245.pdf) that covers a two-year period, I cannot determine the specific maximum duration for individual projects from the information available.
+
+Would you be able to provide more context about which table you're referring to? This would help me give you a more accurate answer.",12,0.0,0.0,0.0
+7,How many projects are listed here?,[],"From reviewing the provided project context and documents, there doesn't seem to be a specific comprehensive list of projects that I can definitively count. While Document 1 (245.pdf) mentions that it contains a project plan for developing testing methods over a two-year period with various projects, the actual number isn't directly stated in the summary provided.
+
+To get an accurate count of the projects, we would need to look at more detailed contents of the project plan document. Would you like me to search for more specific details about the projects mentioned in the documentation?",55,0.0,0.0,0.0
+8,What is the duration in months for the first project listed in this table?,[],"I apologize, but I'm not able to find the specific table you're referring to in the provided documentation. Could you please:
+1. Either share the table you're looking at, or
+2. Provide more context about which document or section contains this table
+
+This will help me give you an accurate answer about the project duration you're interested in.",4,0.0,0.0,0.0
+9,Who is the R&D customer for the 2nd project in the list?,[],"I apologize, but while I can see from the document summaries that there is a document (245.pdf) that contains project plan information and a list of projects, I am unable to retrieve the specific details about the R&D customer for the second project in the list. The document summary indicates that it contains project details including priority, duration, and project leaders, but I cannot access the specific content to identify the R&D customer you're asking about.
+
+Would you like me to try searching with different terms to find this information, or would you prefer to know what other information I can help you with?",RHH,0.0,0.0,0.0
+10,"From the 81, how many had IVUS?",[],"Looking at document 4953.pdf from our project context, based on the flowchart information provided:
+
+Of the 81 subjects who had a qualified baseline angiogram, 63 completed the IVUS procedure. The reasons for the difference between 81 and 63 (18 subjects) are not specifically detailed in the flowchart summary provided.
+
+Would you like to know more about any other aspects of the study participation numbers?",63,0.0,0.5,0.5
+11,"From the 100, how many of them had baseline angiogram?",[],"Based on the information from Document 3 (4953.pdf), which contains the flowchart of study participation:
+
+Out of the 100 subjects who proceeded post-consent, 82 subjects participated in the baseline angiogram. 
+
+The progression went as follows:
+- Initially 103 subjects were enrolled
+- 100 proceeded post-consent
+- 82 participated in baseline angiogram
+
+Would you like to know what happened with the remaining participants who didn't complete the baseline angiogram?",81,0.8886244648233417,0.0,0.25
+12,How many subjects were enrolled?,[],"Based on the document 4953.pdf from the project knowledge, the study initially enrolled 103 subjects. Of these:
+- 100 subjects proceeded post-consent
+- Eventually 63 subjects completed the IVUS (Intravascular Ultrasound) procedure
+- The reduction in numbers was due to various factors including protocol violations and subjects refusing to continue
+
+Would you like to know more specific details about the participant flow through the study phases?",100,0.9258076886496185,0.0,0.25
+13,Why were 3 rejected?,[],"Based on the flow chart information from document 4953.pdf, after the initial enrollment of 103 subjects:
+- 100 subjects proceeded post-consent
+- 3 subjects were excluded due to:
+  - 2 protocol violations
+  - 1 subject refused to continue
+
+So to directly answer your question, of the 3 rejections:
+- 2 were due to protocol violations
+- 1 was because the subject chose to withdraw from the study
+
+Would you like more details about the study's participation flow?",Protocol violation,0.8600220831207657,0.0,0.25
+14,How many Subjects signed out the consent form?,[],"Based on the information from Document 3 (4953.pdf) which contains a flowchart of study participation, 103 subjects were initially enrolled in the study, and 100 subjects proceeded post-consent. This indicates that 103 subjects signed the consent form initially, though 3 subjects did not proceed further with the study after signing.
+
+Would you like to know more about what happened with the participants after the consent stage?",103,0.8760653779657009,0.0,1.0
+15,What is the brand name of the chips/snacks produced by ITC?,[],"Based on the document summary provided in the context, ITC's main snack brand is ""Bingo"". The 2013 annual report mentions that Bingo is one of their product offerings in the snacks category, alongside other brands like Candyman and Mint-o in their confectionery portfolio.
+
+Would you like to know more about any specific aspects of ITC's snack products or their other brands?",bingo,0.9392886871890315,0.0,0.75
+16,What is the brand name of the tofee/candy confectioneries produced by ITC?,[],"Based on the project knowledge, specifically from Document 4 (2013 ITC Limited annual report), one of ITC's confectionery brands is ""Candyman"" and ""Mint-o"". The document mentions these as part of ITC's snack and confectionery market offerings.
+
+Would you like to know more about any specific aspects of ITC's confectionery products?",candyman,0.9087780745643163,0.0,0.75
+17,What is the brand name of peppermint confectioneries produced by ITC?,[],"Based on the project document summary (2013 ITC annual report), the brand name for ITC's peppermint confectioneries is ""Mint-o"". This product is mentioned as part of ITC's snack and confectionery market offerings, alongside other brands like Bingo and Candyman.
+
+Would you like to know more about ITC's other confectionery products or brands?",mint-o,0.9874380825493532,0.0,0.75
+18,Which brand does Tangles belong to?,[],"I've searched through the available project documentation, but I cannot find any specific information about which brand Tangles belongs to. While we have some documentation about various products and brands (including ITC's product portfolio from their 2013 annual report), there is no mention of Tangles in the available documents.
+
+Would you like me to search for information about any other specific brands or products?",bingo,0.0,0.0,0.0
+19,Which brand does Yumitos belong to?,[],"I've searched through the available project documents, but I don't find any specific information about which brand Yumitos belongs to. While we have some information about ITC's snack products in the 2013 annual report (like Bingo and Candyman), Yumitos is not mentioned in the available documentation. Would you like me to look up information about other snack brands that are mentioned in our documents?",bingo,0.0,0.0,0.0

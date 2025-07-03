@@ -1,0 +1,84 @@
+{
+  "examples": [
+    {
+      "query": "What React hooks are used in the Calculator component?",
+      "reference_answer": "The Calculator component uses useState for state management, useEffect for handling side effects (keyboard event listeners), and useCallback for memoizing the handleKeyPress function to prevent unnecessary re-renders."
+    },
+    {
+      "query": "How does the keyboard input functionality work in the calculator?",
+      "reference_answer": "The calculator uses useEffect to add a keydown event listener that calls handleKeyPress. The handleKeyPress function maps keyboard keys to calculator functions: numbers 0-9 input numbers, operators (+, -, *, /) perform operations, Enter/= calculates results, Escape/C clears, and Backspace removes the last digit."
+    },
+    {
+      "query": "What happens when the scientific mode is toggled on?",
+      "reference_answer": "When scientific mode is enabled (isScientific state becomes true), the calculator displays additional scientific function buttons like sin, cos, tan, log, ln, factorial, square root, power functions, and constants like π and e. The button grid also changes from 4 columns to 6 columns to accommodate the extra buttons."
+    },
+    {
+      "query": "How is the calculation history stored and displayed?",
+      "reference_answer": "The calculation history is stored in a history state array using useState. Each calculation result is added to the array as a formatted string. The history is displayed in a scrollable sidebar showing the last 20 calculations in reverse order, and users can click on any history item to load that result into the display."
+    },
+    {
+      "query": "What memory functions are available in the calculator?",
+      "reference_answer": "The calculator provides five memory functions: MC (Memory Clear) sets memory to 0, MR (Memory Recall) displays the stored memory value, MS (Memory Store) saves the current display value to memory, M+ adds the current display to memory, and M- subtracts the current display from memory."
+    },
+    {
+      "query": "How does the waitingForNewValue state affect input behavior?",
+      "reference_answer": "The waitingForNewValue state determines whether the next number input should replace the current display or append to it. When true (after operations or calculations), inputting a number replaces the display. When false, numbers are appended to the existing display value."
+    },
+    {
+      "query": "What scientific functions are implemented and how do they handle degrees vs radians?",
+      "reference_answer": "The scientific functions include sin, cos, tan, log, ln, sqrt, square, factorial, inverse, and constants π and e. For trigonometric functions (sin, cos, tan), the calculator checks the isDegrees state - if true, it converts the input from degrees to radians by multiplying by π/180 before applying the Math functions."
+    },
+    {
+      "query": "How does the Button component work and what props does it accept?",
+      "reference_answer": "The Button component is a reusable component that accepts onClick (function), className (string with default empty), children (button content), and disabled (boolean with default false) props. It applies consistent styling with hover effects, scale animations, and conditional disabled styling."
+    },
+    {
+      "query": "What is the structure of the main calculator layout?",
+      "reference_answer": "The calculator uses a responsive layout with flexbox - on large screens it's divided into two sections: the main calculator (2/3 width) containing the display, mode toggles, and button grid, and a history sidebar (1/3 width). On smaller screens, it stacks vertically using flex-col lg:flex-row."
+    },
+    {
+      "query": "How are mathematical operations processed and what operations are supported?",
+      "reference_answer": "Mathematical operations are handled by the calculate function which takes three parameters: firstValue, secondValue, and operation. Supported operations include basic arithmetic (+, -, *, /), power (^), and modulus (mod). The function uses a switch statement to perform the appropriate Math operation and includes division by zero protection."
+    },
+    {
+      "query": "What are the different Priority and Status enums defined in the system?",
+      "reference_answer": "The Priority enum has 4 levels: LOW (1), MEDIUM (2), HIGH (3), and CRITICAL (4). The Status enum has 5 states: PENDING, IN_PROGRESS, COMPLETED, CANCELLED, and ON_HOLD."
+    },
+    {
+      "query": "How does the Task dataclass handle JSON serialization and deserialization?",
+      "reference_answer": "The Task class has to_dict() method that converts the task to a dictionary, handling enum values by converting them to their actual values and datetime objects to ISO format strings. The from_dict() class method does the reverse, converting enum values back to enum objects and ISO strings back to datetime objects."
+    },
+    {
+      "query": "What parameters can be used to filter tasks in the list_tasks method?",
+      "reference_answer": "The list_tasks method accepts optional filters: category (string), status (Status enum), priority (Priority enum), assignee (string), and tag (string). Tasks are only included if they match all specified filters."
+    },
+    {
+      "query": "How does the search_tasks method work and what fields does it search?",
+      "reference_answer": "The search_tasks method performs a case-insensitive search across three fields: task title, task description, and task tags. It converts the query to lowercase and checks if it appears in any of these fields, returning all matching tasks."
+    },
+    {
+      "query": "What statistics are calculated in the get_statistics method?",
+      "reference_answer": "The get_statistics method calculates: total tasks count, status breakdown (count by status), priority breakdown (count by priority), category breakdown (count by category), completion rate percentage, average completion time in days, number of overdue tasks, and estimation accuracy percentage (comparing estimated vs actual hours)."
+    },
+    {
+      "query": "How does the system determine if a task is overdue?",
+      "reference_answer": "A task is considered overdue if it has a due_date set, is not completed (status != COMPLETED), and the current datetime is past the due_date. The is_overdue() method returns False if there's no due date or if the task is already completed."
+    },
+    {
+      "query": "What are the three types of reports that can be generated and what do they contain?",
+      "reference_answer": "The system generates three report types: 'summary' (basic stats, status/priority breakdowns), 'detailed' (summary plus category breakdown and upcoming tasks), and 'overdue' (specifically lists all overdue tasks with details like days overdue and assignee information)."
+    },
+    {
+      "query": "How does the export functionality work and what formats are supported?",
+      "reference_answer": "The export_tasks method supports 'json' and 'csv' formats. JSON export includes metadata like export date and total tasks count along with all task data. CSV export writes tasks to a CSV file with predefined fieldnames, converting the tags list to a comma-separated string."
+    },
+    {
+      "query": "What happens in the complete_task method and what parameters does it accept?",
+      "reference_answer": "The complete_task method takes a task_id (required) and optional actual_hours parameter. It sets the task status to COMPLETED, records the completion date as the current datetime, and if actual_hours is provided, it updates the actual_hours field. The method returns True if successful, False if the task doesn't exist."
+    },
+    {
+      "query": "How does the TaskManager handle data persistence and what file operations are performed?",
+      "reference_answer": "The TaskManager uses JSON file persistence with a configurable data_file (defaults to 'tasks.json'). The save_tasks() method writes tasks and categories to JSON, while load_tasks() reads from the file on initialization. The system automatically saves after create, update, complete, and delete operations."
+    }
+  ]
+}

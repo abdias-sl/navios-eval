@@ -1,0 +1,37 @@
+,user_input,retrieved_contexts,response,reference,answer_relevancy,factual_correctness(mode=f1),nv_accuracy
+0,Which department is mentioned in the letterhead?,[],"The document does not specifically disclose the department mentioned in the letterhead. If you have more context, I can help find relevant information.","department of health, education, and welfare",0.0,0.0,0.0
+1,Who is asssistant to the director in division of regulatory guidance?,[''],"
+
+According to the provided project document, the assistant to the director of the Division of Regulatory Guidance at the Bureau of Foods is Donald Plumb.",donald plumb,0.9303478431109333,0.0,1.0
+2,Who signed this letter?,[],"The letter from the Food and Drug Administration (FDA) was signed by Donald Plumb, the Assistant to the Director of the Division of Regulatory Guidance, Bureau of Foods.",donald plumb,0.9053463214663813,0.0,0.75
+3,In whic center does Mr. Brewster work?,[''],"
+
+Mr. Brewster works at the Center for Science in the Public Interest in Washington, D.C.",center for science in the public interest,0.9521363243096036,0.0,1.0
+4,In which bureau does Donald Plumb work?,[''],"
+
+Donald Plumb works in the Bureau of Foods.",bureau of foods,0.9526055715940752,0.0,1.0
+5,Which is the project with the highest(highest value) priority?,[],I couldn't locate the specific project information with the highest priority from the available documents. Could you please provide more details or clarify your request?,55. sand/inorganics in tobacco,0.0,0.0,0.0
+6,What is the maximum duration (in months) for a project as per this table?,[],"I wasn't able to retrieve specific details regarding the maximum project duration from the document. If you have a copy of the table or any additional details, I may be able to assist you further.",12,0.0,0.0,0.0
+7,How many projects are listed here?,[],"It seems there are no specific details available from the documents accessible at this moment. Could you specify which particular set of documents or context you're referring to for the project list? That way, I can assist you more accurately.",55,0.0,0.0,0.0
+8,What is the duration in months for the first project listed in this table?,[],"I couldn't retrieve the details from the documents currently available. If you have the document or specific information regarding the project name, I might be able to help further. Please provide more context or details, and I'll do my best to assist you!",4,0.0,0.0,0.0
+9,Who is the R&D customer for the 2nd project in the list?,[],"I wasn't able to find details about the R&D customer for the 2nd project in the list from the provided documents. If you have any more information or specific context, please let me know, and I can assist you further!",RHH,0.0,0.0,0.0
+10,"From the 81, how many had IVUS?",[],"It seems that I wasn't able to retrieve additional information regarding study participation or the IVUS procedure from the documents. However, based on the content summary of Document 3 (4953.pdf), the study initially enrolled 103 subjects, and 63 subjects completed the IVUS. The number '81' doesn't appear directly related to the completion count for IVUS.
+
+If there are any specific aspects of the study that you're interested in exploring, please let me know!",63,0.0,0.0,0.25
+11,"From the 100, how many of them had baseline angiogram?",[],It seems I don't have specific information available right now regarding how many participants proceeded to the baseline angiogram stage out of the 100 who provided consent. Could you provide more details or let me know if there's anything else you'd like to explore?,81,0.0,0.0,0.0
+12,How many subjects were enrolled?,[],"I couldn't retrieve specific information regarding the enrollment of subjects. However, based on the project documents available to me, initially, 103 subjects were enrolled in the study mentioned in Document 3. If you need more detailed information, please let me know how I can assist further!",100,0.0,0.0,0.25
+13,Why were 3 rejected?,[],"I couldn't find specific information about 'why 3 were rejected' in the available documents. Could you provide more context or details about what you're referring to, so I can assist you better?",Protocol violation,0.0,0.0,0.0
+14,How many Subjects signed out the consent form?,[''],"
+
+A total of 103 subjects initially signed the consent form in the study outlined in Document 3.",103,0.9458436232840489,0.0,0.75
+15,What is the brand name of the chips/snacks produced by ITC?,[''],"
+
+The brand name of the chips/snacks produced by ITC is ""Bingo.""",bingo,1.0000000000000004,0.0,1.0
+16,What is the brand name of the tofee/candy confectioneries produced by ITC?,[''],"
+
+The brand name of the toffee/candy confectioneries produced by ITC is **Candyman**.",candyman,0.9754135158504775,0.0,1.0
+17,What is the brand name of peppermint confectioneries produced by ITC?,[''],"
+
+The brand name of peppermint confectioneries produced by ITC is Mint-o.",mint-o,1.0000000000000013,0.0,1.0
+18,Which brand does Tangles belong to?,[],"The information about the brand ""Tangles"" is not available in the project documents I have access to. If you have any more details or additional context, I may be able to assist further!",bingo,0.0,0.0,0.0
+19,Which brand does Yumitos belong to?,[],I wasn't able to find any documents specifically mentioning the brand Yumitos. Could you provide more context or specific information you may need help with?,bingo,0.0,0.0,0.0

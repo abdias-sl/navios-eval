@@ -107,29 +107,25 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
 
     client = SSEClient(sse_response)
 
-    # Initialize variables to store results
-    retrieved_contexts = ""
-    response_content = ""
-
     # Process SSE events
+    chunks = [""]
+    response = "Wasn't able to retrieve any context or response"
     for event in client.events():
         data = json.loads(event.data)
         if data["done"] == True:
             # returns the final message as a string
             final_message = data['chunk']['finalMessage']['content']
             
-            # Extract content after "</ToolCall>" for retrieved_contexts
             if "</ToolCall>" in final_message:
                 response = final_message.split("</ToolCall>")[-1].strip()
             else:
                 response = final_message
-            #print(f"Received final event: {final_message}")
-            #print(f"Retrieved contexts: {retrieved_contexts}")
             break
         elif data["chunk"]["event"] == "toolResult":
             # returns an array with the chunks
             tool_content = data['chunk']['chunk']['tools']['messages'][0]['kwargs']['content']
-            
+            #print(f"Received tool event: {tool_content}")
+            #print()
             # Parse the list structure and extract only the "text" values
             try:
                 if isinstance(tool_content, str):
@@ -140,12 +136,12 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
                     # Extract only the "text" values from each object
                     chunks = [json.loads(item.get("text", {})).get("pageContent", "") for item in tool_content if isinstance(item, dict) and "text" in item]
                 else:
-                    chunks = tool_content
-                #print(f"Received tool event: {tool_content}")
-                #print(f"Response content: {response_content}")
+                    chunks = [tool_content]
             except (json.JSONDecodeError, TypeError):
                 # If parsing fails, keep the original content
-                chunks = tool_content
+                chunks = [tool_content]
+            #print(f"Chunks: {chunks}")
+    print("Retreived Contexts: ", len(chunks))
 
     # Prepare results
     results = {
@@ -154,13 +150,3 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
     }
     
     return results
-
-if __name__ == "__main__":
-    # Example usage when running the file directly
-    result = process_chat_query(
-        "Did paul graham do a phd according to the information in the file?",
-        "07cba63e-163f-477a-b2e3-108ed238025f",
-        "your_model_id_here"
-    )
-    print("API Response:", result, type(result))
-        

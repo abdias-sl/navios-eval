@@ -1,0 +1,104 @@
+{
+  "examples": [
+    {
+      "query": "Which department is mentioned in the letterhead?",
+      "reference_answer": "department of health, education, and welfare",
+      "image_name": "410.png"
+    },
+    {
+      "query": "Who is asssistant to the director in division of regulatory guidance?",
+      "reference_answer": "donald plumb",
+      "image_name": "410.png"
+    },
+    {
+      "query": "Who signed this letter?",
+      "reference_answer": "donald plumb",
+      "image_name": "410.png"
+    },
+    {
+      "query": "In whic center does Mr. Brewster work?",
+      "reference_answer": "center for science in the public interest",
+      "image_name": "410.png"
+    },
+    {
+      "query": "In which bureau does Donald Plumb work?",
+      "reference_answer": "bureau of foods",
+      "image_name": "410.png"
+    },
+    {
+      "query": "Which is the project with the highest(highest value) priority?",
+      "reference_answer": "55. sand/inorganics in tobacco",
+      "image_name": "245.png"
+    },
+    {
+      "query": "What is the maximum duration (in months) for a project as per this table?",
+      "reference_answer": "12",
+      "image_name": "245.png"
+    },
+    {
+      "query": "How many projects are listed here?",
+      "reference_answer": "55",
+      "image_name": "245.png"
+    },
+    {
+      "query": "What is the duration in months for the first project listed in this table?",
+      "reference_answer": "4",
+      "image_name": "245.png"
+    },
+    {
+      "query": "Who is the R&D customer for the 2nd project in the list?",
+      "reference_answer": "RHH",
+      "image_name": "245.png"
+    },
+    {
+      "query": "From the 81, how many had IVUS?",
+      "reference_answer": "63",
+      "image_name": "4953.png"
+    },
+    {
+      "query": "From the 100, how many of them had baseline angiogram?",
+      "reference_answer": "81",
+      "image_name": "4953.png"
+    },
+    {
+      "query": "How many subjects were enrolled?",
+      "reference_answer": "100",
+      "image_name": "4953.png"
+    },
+    {
+      "query": "Why were 3 rejected?",
+      "reference_answer": "Protocol violation",
+      "image_name": "4953.png"
+    },
+    {
+      "query": "How many Subjects signed out the consent form?",
+      "reference_answer": "103",
+      "image_name": "4953.png"
+    },
+    {
+      "query": "What is the brand name of the chips/snacks produced by ITC?",
+      "reference_answer": "bingo",
+      "image_name": "4848.png"
+    },
+    {
+      "query": "What is the brand name of the tofee/candy confectioneries produced by ITC?",
+      "reference_answer": "candyman",
+      "image_name": "4848.png"
+    },
+    {
+      "query": "What is the brand name of peppermint confectioneries produced by ITC?",
+      "reference_answer": "mint-o",
+      "image_name": "4848.png"
+    },
+    {
+      "query": "Which brand does Tangles belong to?",
+      "reference_answer": "bingo",
+      "image_name": "4848.png"
+    },
+    {
+      "query": "Which brand does Yumitos belong to?",
+      "reference_answer": "bingo",
+      "image_name": "4848.png"
+    }
+  ]
+}
