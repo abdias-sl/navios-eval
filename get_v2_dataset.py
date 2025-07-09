@@ -23,7 +23,7 @@ print("\nTotal number of rows:", len(df))
 question_types_counts = df['question_types'].explode().value_counts()
 print("\nCounts of each question type:")
 print(question_types_counts)
-input("Press Enter to continue...")
+input("Printed some stats now wil create documents. Continue? press enter...")
 # Get examples for each question type
 print("\n=== Example rows for different question types ===")
 
