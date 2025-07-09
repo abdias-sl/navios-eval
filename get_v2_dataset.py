@@ -19,12 +19,11 @@ print(df.dtypes)
 
 # Get basic counts of rows
 print("\nTotal number of rows:", len(df))
-input("Press Enter to continue...")
 # Get counts of each unique value in the 'question_types' column
 question_types_counts = df['question_types'].explode().value_counts()
 print("\nCounts of each question type:")
 print(question_types_counts)
-
+input("Press Enter to continue...")
 # Get examples for each question type
 print("\n=== Example rows for different question types ===")
 
