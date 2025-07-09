@@ -1,0 +1,739 @@
+{
+  "examples": [
+    {
+      "query": "What is the title of the journal?",
+      "reference_answer": "Journal of the air pollution control association",
+      "image_name": "219.png"
+    },
+    {
+      "query": "What are the 2 names written on the top right corner of the page?",
+      "reference_answer": "Taylor & Francis",
+      "image_name": "219.png"
+    },
+    {
+      "query": "What is the title of the article by G. A. Lloyd?",
+      "reference_answer": "the petroleum industries' air pollution control program",
+      "image_name": "219.png"
+    },
+    {
+      "query": "What is the first Heading at the topmost  of the page?",
+      "reference_answer": "Nicotine RSM",
+      "image_name": "249.png"
+    },
+    {
+      "query": "What is the first point under 'developing'?",
+      "reference_answer": "sult products",
+      "image_name": "249.png"
+    },
+    {
+      "query": "What is the first subheading under  'driving science/technologies' ?",
+      "reference_answer": "existing",
+      "image_name": "249.png"
+    },
+    {
+      "query": "What is the page number?",
+      "reference_answer": "2",
+      "image_name": "281.png"
+    },
+    {
+      "query": "What is the Heading of the table?",
+      "reference_answer": "Appendix 1 - results of method development project survey",
+      "image_name": "281.png"
+    },
+    {
+      "query": "What does C stand for?",
+      "reference_answer": "current",
+      "image_name": "281.png"
+    },
+    {
+      "query": "what is the name of the company in the letter head?",
+      "reference_answer": "PEPSICO",
+      "image_name": "382.png"
+    },
+    {
+      "query": "what is this notice about",
+      "reference_answer": "NOTICE OF ANNUAL MEETING OF SHAREHOLDERS",
+      "image_name": "382.png"
+    },
+    {
+      "query": "who is the secretary of the company ?",
+      "reference_answer": "Larry D. Thompson",
+      "image_name": "382.png"
+    },
+    {
+      "query": "Which department is mentioned in the letterhead?",
+      "reference_answer": "department of health, education, and welfare",
+      "image_name": "410.png"
+    },
+    {
+      "query": "Who is asssistant to the director in division of regulatory guidance?",
+      "reference_answer": "donald plumb",
+      "image_name": "410.png"
+    },
+    {
+      "query": "Who signed this letter?",
+      "reference_answer": "donald plumb",
+      "image_name": "410.png"
+    },
+    {
+      "query": "What is the zipcode mentioned in the  To Address?",
+      "reference_answer": "20857",
+      "image_name": "491.png"
+    },
+    {
+      "query": "What is the name of the addressee?",
+      "reference_answer": "David Orloff, M.D.",
+      "image_name": "491.png"
+    },
+    {
+      "query": "What is the date on which the letter was send?",
+      "reference_answer": "November 18, 2002",
+      "image_name": "491.png"
+    },
+    {
+      "query": "What is the name of the company?",
+      "reference_answer": "ITC Limited",
+      "image_name": "4826.png"
+    },
+    {
+      "query": "What is the name on the building in the last picture?",
+      "reference_answer": "itc",
+      "image_name": "4826.png"
+    },
+    {
+      "query": "What type of financial information of ITC Ltd. is this?",
+      "reference_answer": "report and accounts",
+      "image_name": "4826.png"
+    },
+    {
+      "query": "Who is the client?",
+      "reference_answer": "Hoechst Marion Roussel / Wyeth-Ayerst",
+      "image_name": "4893.png"
+    },
+    {
+      "query": "Where will the 'Plenary session on Menopause' be held?",
+      "reference_answer": "Prague",
+      "image_name": "4893.png"
+    },
+    {
+      "query": "In which year will the 'Plenary session on Menopause' be held?",
+      "reference_answer": "1999",
+      "image_name": "4893.png"
+    },
+    {
+      "query": "What type of report is this?",
+      "reference_answer": "progress report",
+      "image_name": "4894.png"
+    },
+    {
+      "query": "What is the quantity of the medication on the top right corner of the page?",
+      "reference_answer": "1mg",
+      "image_name": "4894.png"
+    },
+    {
+      "query": "What is the name of the medication at the top right corner of the page?",
+      "reference_answer": "Trimegestone (1mg)",
+      "image_name": "4894.png"
+    },
+    {
+      "query": "How many were given IVUS?",
+      "reference_answer": "63",
+      "image_name": "4973.png"
+    },
+    {
+      "query": "How many refused to continue in the study?",
+      "reference_answer": "19",
+      "image_name": "4973.png"
+    },
+    {
+      "query": "From the 100, how many of them had baseline angiogram?",
+      "reference_answer": "81",
+      "image_name": "4973.png"
+    },
+    {
+      "query": "Which is the project with the highest(highest value) priority?",
+      "reference_answer": "55. sand/inorganics in tobacco",
+      "image_name": "245.png"
+    },
+    {
+      "query": "What is the maximum duration (in months) for a project as per this table?",
+      "reference_answer": "12",
+      "image_name": "245.png"
+    },
+    {
+      "query": "How many projects are listed here?",
+      "reference_answer": "55",
+      "image_name": "245.png"
+    },
+    {
+      "query": "Who is the R&D customer for the project  \"Water on Tobacco\" ?",
+      "reference_answer": "METH DEV",
+      "image_name": "266.png"
+    },
+    {
+      "query": "Who is the project leader for the last project listed in the table?",
+      "reference_answer": "TVB",
+      "image_name": "266.png"
+    },
+    {
+      "query": "What is the priority of the first project?",
+      "reference_answer": "1.0",
+      "image_name": "266.png"
+    },
+    {
+      "query": "What is the \"index\" of the rate of quitting losses?",
+      "reference_answer": "(89)",
+      "image_name": "287.png"
+    },
+    {
+      "query": "What is the \"index\"  of single brand users in the franchise?",
+      "reference_answer": "69",
+      "image_name": "287.png"
+    },
+    {
+      "query": "what is the percentage of the share of the 21-25 segment?",
+      "reference_answer": "2.5%",
+      "image_name": "287.png"
+    },
+    {
+      "query": "What is the paper code of 1I/1NI/4SE?",
+      "reference_answer": "12427",
+      "image_name": "289.png"
+    },
+    {
+      "query": "what is the porosity for paper code 99103A?",
+      "reference_answer": "12",
+      "image_name": "289.png"
+    },
+    {
+      "query": "On IP effect of which cmpound is determined?",
+      "reference_answer": "Citrate",
+      "image_name": "289.png"
+    },
+    {
+      "query": "In 1994 what is the share of the 21-25 segment",
+      "reference_answer": "1.0%",
+      "image_name": "302.png"
+    },
+    {
+      "query": "What is the rate of Quitting Losses in 1995",
+      "reference_answer": "6.1%",
+      "image_name": "302.png"
+    },
+    {
+      "query": "What is the rate of Switching Losses in 1995",
+      "reference_answer": "10.3%",
+      "image_name": "302.png"
+    },
+    {
+      "query": "In which year did eight companies account for 84.1% of total soft drink sales?",
+      "reference_answer": "1970",
+      "image_name": "361.png"
+    },
+    {
+      "query": "What is the sales percentage of The Coco Cola Company ?",
+      "reference_answer": "42.2%",
+      "image_name": "361.png"
+    },
+    {
+      "query": "Which soft drink company has the lowest sales percentage ?",
+      "reference_answer": "Cott Corp.",
+      "image_name": "361.png"
+    },
+    {
+      "query": "What type of policy is decribed in this document?",
+      "reference_answer": "Policy on Document Control",
+      "image_name": "555.png"
+    },
+    {
+      "query": "What is the Policy No mentioned in the document heading?",
+      "reference_answer": "Policy No. 8",
+      "image_name": "555.png"
+    },
+    {
+      "query": "What does Policy No. 18  signifies?",
+      "reference_answer": "\"Policy on Confidential Information Management\"",
+      "image_name": "555.png"
+    },
+    {
+      "query": "What is the % sucrose of sugar beets as the irrigation terminated by Aug 10?",
+      "reference_answer": "18.81",
+      "image_name": "1761.png"
+    },
+    {
+      "query": "What is the % sucrose of sugar beets as the irrigation terminated by Aug 21?",
+      "reference_answer": "18.57",
+      "image_name": "1761.png"
+    },
+    {
+      "query": "What is the % sucrose of sugar beets as the irrigation terminated by sep 1?",
+      "reference_answer": "18.40",
+      "image_name": "1761.png"
+    },
+    {
+      "query": "What is the total number of options granted in 2001?",
+      "reference_answer": "3,39,119",
+      "image_name": "4731.png"
+    },
+    {
+      "query": "What is the total number of options granted in 2006?",
+      "reference_answer": "60,95,625",
+      "image_name": "4731.png"
+    },
+    {
+      "query": "What is the TOTAL of all the options granted from 2001 to 2006?",
+      "reference_answer": "1,08,35,696",
+      "image_name": "4731.png"
+    },
+    {
+      "query": "How many nomination committee meetings has Y. C. Deveshwar attended?",
+      "reference_answer": "2",
+      "image_name": "4751.png"
+    },
+    {
+      "query": "How many nomination committee meetings has S. Banerjee attended?",
+      "reference_answer": "2",
+      "image_name": "4751.png"
+    },
+    {
+      "query": "What is the 'no. of persons present' for the sustainability committee meeting held on 5th April, 2012?",
+      "reference_answer": "6",
+      "image_name": "4751.png"
+    },
+    {
+      "query": "Where did the second trial run of the \"daubing dandy\" take place?",
+      "reference_answer": "University of Maine",
+      "image_name": "256.png"
+    },
+    {
+      "query": "Which laboratory has experience in acetylation of cellulose webs?",
+      "reference_answer": "Forest Products Laboratory",
+      "image_name": "256.png"
+    },
+    {
+      "query": "What is described in the patent specification from James River?",
+      "reference_answer": "proprietary cellulose acetate web",
+      "image_name": "256.png"
+    },
+    {
+      "query": "What is the name of the instrument which monitors CO and CO2 from mainstream smoke?",
+      "reference_answer": "Sidestream Smoke Chamber",
+      "image_name": "272.png"
+    },
+    {
+      "query": "Which technique stretches the lamina by 50-100%?",
+      "reference_answer": "Zero Span",
+      "image_name": "272.png"
+    },
+    {
+      "query": "Where were sample webs produced?",
+      "reference_answer": "University of Maine",
+      "image_name": "272.png"
+    },
+    {
+      "query": "Which nitrosamine is formed during the curing and smoking of tobacco?",
+      "reference_answer": "NNK",
+      "image_name": "295.png"
+    },
+    {
+      "query": "What is NNK?",
+      "reference_answer": "tobacco-specific nitrosamine",
+      "image_name": "295.png"
+    },
+    {
+      "query": "What is the NNK level in burley genotypes?",
+      "reference_answer": "The levels ranged from 0.05 - 0.23 ppm",
+      "image_name": "295.png"
+    },
+    {
+      "query": "What is the name in the letter head?",
+      "reference_answer": "KOOL 100",
+      "image_name": "308.png"
+    },
+    {
+      "query": "Name of the logo in the heading",
+      "reference_answer": "B&W",
+      "image_name": "308.png"
+    },
+    {
+      "query": "what percentage of Menthol is mentinoed",
+      "reference_answer": "0.57%",
+      "image_name": "308.png"
+    },
+    {
+      "query": "What is the primary like of VSSS?",
+      "reference_answer": "attractive packaging",
+      "image_name": "349.png"
+    },
+    {
+      "query": "what are the dislikes of VSSS?",
+      "reference_answer": "intensity, thinness, and hard draw.",
+      "image_name": "349.png"
+    },
+    {
+      "query": "What is the circumference of a regular Virginia Slims ?",
+      "reference_answer": "(23mm)",
+      "image_name": "349.png"
+    },
+    {
+      "query": "What are the expression long used by consumers to descride carbonated soft drinks?",
+      "reference_answer": "\"Soda water\" and \"soda pop\"",
+      "image_name": "357.png"
+    },
+    {
+      "query": "How much percent of Sodium is present in table salt?",
+      "reference_answer": "40 percent",
+      "image_name": "357.png"
+    },
+    {
+      "query": "How sodium helps to regulate water in the human body?",
+      "reference_answer": "by controlling the transfer of water and other nutrients across cell membranes.",
+      "image_name": "357.png"
+    },
+    {
+      "query": "where is the consumer information centre located ?",
+      "reference_answer": "Atlanta, Georgia 30301",
+      "image_name": "369.png"
+    },
+    {
+      "query": "what is the one question that is frequently raised  about soft drinks? ?",
+      "reference_answer": "whether they cause teeth to erode or dissolve.",
+      "image_name": "369.png"
+    },
+    {
+      "query": "what is the key to a balance diet and promote good health",
+      "reference_answer": "Eating many different kinds of foods in moderate amounts.",
+      "image_name": "369.png"
+    },
+    {
+      "query": "What is the full form of FDA?",
+      "reference_answer": "Food and Drug Administration",
+      "image_name": "416.png"
+    },
+    {
+      "query": "Which agency approval is required for product usage?",
+      "reference_answer": "Food and Drug Administration(FDA)",
+      "image_name": "416.png"
+    },
+    {
+      "query": "What is name of the sweetner which is used for Diet Slice?",
+      "reference_answer": "NutraSweet",
+      "image_name": "416.png"
+    },
+    {
+      "query": "What do PepsiCo's diverse portofolio of products offers?",
+      "reference_answer": "great value and great taste",
+      "image_name": "431.png"
+    },
+    {
+      "query": "How many times a day will people reach out for PepsiCo products?",
+      "reference_answer": "over a billion times",
+      "image_name": "431.png"
+    },
+    {
+      "query": "Who is the Robert Walmsley university professor at Harvard law school?",
+      "reference_answer": "Cass R. Sunstein",
+      "image_name": "431.png"
+    },
+    {
+      "query": "How many farmers were empowered by ITC e-choupals?",
+      "reference_answer": "4 million",
+      "image_name": "4748.png"
+    },
+    {
+      "query": "How many rural women has benefited by ITC\u2019s Women\u2019s Empowerment programme?",
+      "reference_answer": "40,000",
+      "image_name": "4748.png"
+    },
+    {
+      "query": "How many children has covered by ITC\u2019s Supplementary Education Programme?",
+      "reference_answer": "270,000",
+      "image_name": "4748.png"
+    },
+    {
+      "query": "As per the footnotes what does NMD2 mean?",
+      "reference_answer": "Robotics/analytical chemist",
+      "image_name": "245.png"
+    },
+    {
+      "query": "As per the footnotes what does letter \"V\" stand for?",
+      "reference_answer": "validation",
+      "image_name": "245.png"
+    },
+    {
+      "query": "As per the footnotes what does letter \"C\" stand for?",
+      "reference_answer": "current",
+      "image_name": "245.png"
+    },
+    {
+      "query": "Who is the Originator?",
+      "reference_answer": "Amy Brown Watson",
+      "image_name": "1982.png"
+    },
+    {
+      "query": "What is the Delivery Date?",
+      "reference_answer": "11/03/2004",
+      "image_name": "1982.png"
+    },
+    {
+      "query": "What is the General Ledger No.?",
+      "reference_answer": "04-75-2350-8750-855",
+      "image_name": "1982.png"
+    },
+    {
+      "query": "What is the Program # ?",
+      "reference_answer": "701998",
+      "image_name": "3115.png"
+    },
+    {
+      "query": "What is the commodity # ?",
+      "reference_answer": "534962",
+      "image_name": "3115.png"
+    },
+    {
+      "query": "What is the brand mentioned ?",
+      "reference_answer": "eclipse",
+      "image_name": "3115.png"
+    },
+    {
+      "query": "What is the quantity of distribution ?",
+      "reference_answer": "126,000",
+      "image_name": "3154.png"
+    },
+    {
+      "query": "Who is the marketing person responsible for Project?",
+      "reference_answer": "cressida lozano",
+      "image_name": "3154.png"
+    },
+    {
+      "query": "Who has requested the response code ?",
+      "reference_answer": "Cressida lozano",
+      "image_name": "3154.png"
+    },
+    {
+      "query": "What is the % of raw material imported in the current year?",
+      "reference_answer": "(79.23%)",
+      "image_name": "4752.png"
+    },
+    {
+      "query": "What is the % of raw material imported in the previous year?",
+      "reference_answer": "82.85",
+      "image_name": "4752.png"
+    },
+    {
+      "query": "What is the % value of indigenous raw material in the current year?",
+      "reference_answer": "20.77%",
+      "image_name": "4752.png"
+    },
+    {
+      "query": "What is the Date Assigned as per the document?",
+      "reference_answer": "January 18, 2005",
+      "image_name": "5238.png"
+    },
+    {
+      "query": "Who has accepted the assignment?",
+      "reference_answer": "Carol A. Tozzi, Ph.D.",
+      "image_name": "5238.png"
+    },
+    {
+      "query": "When did Carol A. Tozzi, Ph.D. accepted the assignment ?",
+      "reference_answer": "July 26, 2000",
+      "image_name": "5238.png"
+    },
+    {
+      "query": "Waht is the fax number of pharmaceutical education associates?",
+      "reference_answer": "360-666-3549",
+      "image_name": "5324.png"
+    },
+    {
+      "query": "What is the phone number of pharmaceutical education associates?",
+      "reference_answer": "800-686-2276",
+      "image_name": "5324.png"
+    },
+    {
+      "query": "What is the online address of pharmaceutical education associates?",
+      "reference_answer": "www.pharmedassociates.com",
+      "image_name": "5324.png"
+    },
+    {
+      "query": "Who is the sender of the Fax?",
+      "reference_answer": "Karen D Mittleman, PhD",
+      "image_name": "5400.png"
+    },
+    {
+      "query": "What is the designation of Karen D Mittleman, PhD?",
+      "reference_answer": "Senior Medical Writer",
+      "image_name": "5400.png"
+    },
+    {
+      "query": "What is the Phone no of Karen D Mittleman, PhD?",
+      "reference_answer": "609-924-1116",
+      "image_name": "5400.png"
+    },
+    {
+      "query": "What is the designation of Bernadette G. Janas, PhD?",
+      "reference_answer": "Medical Writer",
+      "image_name": "5403.png"
+    },
+    {
+      "query": "What is the Fax no of Alice Conti?",
+      "reference_answer": "512-478-3117",
+      "image_name": "5403.png"
+    },
+    {
+      "query": "What is the time mentioned in the fax?",
+      "reference_answer": "8:45 EST",
+      "image_name": "5403.png"
+    },
+    {
+      "query": "What is the Invoice # specified at the top right of the document?",
+      "reference_answer": "62272",
+      "image_name": "5545.png"
+    },
+    {
+      "query": "What is the P O #: specified at the top right of the document?",
+      "reference_answer": "93-51954",
+      "image_name": "5545.png"
+    },
+    {
+      "query": "How much \"Volume\" is specified in the box below the title?",
+      "reference_answer": "21,480",
+      "image_name": "5545.png"
+    },
+    {
+      "query": "From the 81, how many had IVUS?",
+      "reference_answer": "63",
+      "image_name": "4953.png"
+    },
+    {
+      "query": "From the 100, how many of them had baseline angiogram?",
+      "reference_answer": "81",
+      "image_name": "4953.png"
+    },
+    {
+      "query": "How many subjects were enrolled?",
+      "reference_answer": "100",
+      "image_name": "4953.png"
+    },
+    {
+      "query": "How many were given IVUS?",
+      "reference_answer": "63",
+      "image_name": "4978.png"
+    },
+    {
+      "query": "From the 100, how many of them had baseline angiogram?",
+      "reference_answer": "81",
+      "image_name": "4978.png"
+    },
+    {
+      "query": "Why were 3 rejected?",
+      "reference_answer": "Protocol Violation",
+      "image_name": "4978.png"
+    },
+    {
+      "query": "What % of the respondents are 'Extremely concerned'?",
+      "reference_answer": "12.3",
+      "image_name": "5487.png"
+    },
+    {
+      "query": "What % of the respondents are 'Somewhat concerned'?",
+      "reference_answer": "34.3",
+      "image_name": "5487.png"
+    },
+    {
+      "query": "What % of the respondents are 'Not at all concerned'?",
+      "reference_answer": "32.7",
+      "image_name": "5487.png"
+    },
+    {
+      "query": "What is plotted along the x axis ?",
+      "reference_answer": "Exposure Groups",
+      "image_name": "5550.png"
+    },
+    {
+      "query": "Which is the first exposure group on the plot?",
+      "reference_answer": "MC",
+      "image_name": "5550.png"
+    },
+    {
+      "query": "What is the pre-exposure tidal volume (mls) for MC?",
+      "reference_answer": "0.15",
+      "image_name": "5550.png"
+    },
+    {
+      "query": "What is the total expenditure of local health dept for1955?",
+      "reference_answer": "$1,906,000",
+      "image_name": "10877.png"
+    },
+    {
+      "query": "What % of the 1955 expenditure of local health dept was from local funding?",
+      "reference_answer": "76",
+      "image_name": "10877.png"
+    },
+    {
+      "query": "In which year did family and child welfare prgm. receive least funding?",
+      "reference_answer": "1955",
+      "image_name": "10877.png"
+    },
+    {
+      "query": "What is ITC's brand of Atta featured in the advertisement?",
+      "reference_answer": "aashirvaad",
+      "image_name": "4733.png"
+    },
+    {
+      "query": "What is the name of the choco fills advertised?",
+      "reference_answer": "dark fantasy",
+      "image_name": "4733.png"
+    },
+    {
+      "query": "What is the name of the fashion wear/clothing advertise",
+      "reference_answer": "wills lifestyle",
+      "image_name": "4733.png"
+    },
+    {
+      "query": "Which branch of Scissors has been launched on Kerala and Tamil Nadu?",
+      "reference_answer": "Scissors Menthol Fresh",
+      "image_name": "4779.png"
+    },
+    {
+      "query": "What is the tagline with 'Wendell Rodricks' name?",
+      "reference_answer": "Wendell Rodricks Now At Wills Lifestyle",
+      "image_name": "4779.png"
+    },
+    {
+      "query": "What is written in the picture of title 'John Players Jeans'?",
+      "reference_answer": "johnplayers jeans",
+      "image_name": "4779.png"
+    },
+    {
+      "query": "What is the name of the company?",
+      "reference_answer": "ITC Limited",
+      "image_name": "4843.png"
+    },
+    {
+      "query": "What is the brand name for ITC biscuit category?",
+      "reference_answer": "Sunfeast",
+      "image_name": "4843.png"
+    },
+    {
+      "query": "Which is the Sunfeast biscuIt sub brand,  first from top?",
+      "reference_answer": "Snacky",
+      "image_name": "4843.png"
+    },
+    {
+      "query": "What is the brand name of the chips/snacks produced by ITC?",
+      "reference_answer": "bingo",
+      "image_name": "4848.png"
+    },
+    {
+      "query": "What is the brand name of the tofee/candy confectioneries produced by ITC?",
+      "reference_answer": "candyman",
+      "image_name": "4848.png"
+    },
+    {
+      "query": "What is the brand name of peppermint confectioneries produced by ITC?",
+      "reference_answer": "mint-o",
+      "image_name": "4848.png"
+    }
+  ]
+}

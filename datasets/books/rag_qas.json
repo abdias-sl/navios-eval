@@ -1,0 +1,204 @@
+{
+  "examples": [
+    {
+      "query": "Who are the credits for \"Emma\"?",
+      "reference_answer": "The credits for \"Emma\" are An Anonymous Volunteer and David Widger."
+    },
+    {
+      "query": "What is Emma Woodhouse's habit regarding reading?",
+      "reference_answer": "Emma has been meaning to read more ever since she was twelve years old, creating many lists of books she intended to read regularly through. These lists were well-chosen and neatly arranged, sometimes alphabetically and sometimes by other rules. However, she will never submit to anything requiring industry, patience, and a subjection of fancy to understanding. Miss Taylor failed to stimulate her reading, and Harriet Smith will not be able to either."
+    },
+    {
+      "query": "How does Emma describe Mr. Elton's manners compared to Mr. Knightley's or Mr. Weston's?",
+      "reference_answer": "Emma believes that Mr. Elton's manners are superior to Mr. Knightley's or Mr. Weston's in terms of gentleness and could be more safely held up as a pattern. She notes that Mr. Weston has an openness, quickness, and almost bluntness that everyone likes due to his good-humour, but it would not be suitable to copy. Mr. Knightley's downright, decided, commanding manner, while suiting him well due to his figure, look, and situation, would be insufferable if copied by any young man. Emma suggests that a young man could very safely take Mr. Elton as a model, describing him as good-humoured, cheerful, obliging, and gentle. She observes that his manners have become particularly gentle lately, speculating he might have a design of ingratiating himself with either Emma or Harriet."
+    },
+    {
+      "query": "Why does Mr. Knightley believe Emma is spoiled?",
+      "reference_answer": "Mr. Knightley believes Emma is spoiled by being the cleverest of her family. He recalls that at ten years old, she could answer questions that puzzled her sister at seventeen. Emma was always quick and assured, while her sister Isabella was slow and diffident. Ever since she was twelve, Emma has been mistress of the house and of everyone in it, having lost her mother, the only person able to cope with her, who must have kept her under subjection and from whom she inherited her talents."
+    },
+    {
+      "query": "What is Harriet Smith's main literary pursuit at present?",
+      "reference_answer": "Harriet Smith's only literary pursuit and mental provision for the evening of life is collecting and transcribing all the riddles of every sort that she could meet with into a thin quarto of hot-pressed paper, which was made up by Emma and ornamented with ciphers and trophies. This collection was inspired by Miss Nash, a head-teacher at Mrs. Goddard’s, who had written out at least three hundred riddles. Emma assists Harriet with her invention, memory, and taste, and Harriet's pretty handwriting makes the collection likely to be of the first order in form and quantity. Mr. Woodhouse is also interested and tries to recall riddles, often ending with 'Kitty, a fair but frozen maid'."
+    },
+    {
+      "query": "How does Emma react to the letter Harriet receives, and what does she advise?",
+      "reference_answer": "Emma is surprised by the style of the letter, finding it much above her expectation, with no grammatical errors and a composition that would not have disgraced a gentleman. She notes the language is plain but strong and unaffected, and the sentiments conveyed are much to the writer's credit, expressing good sense, warm attachment, liberality, propriety, and even delicacy of feeling. Emma initially speculates that one of the writer's sisters must have helped him, though she clarifies it is not the style of a woman due to its strength and conciseness. When Harriet asks what to do, Emma advises her to answer it speedily. Emma insists the letter had much better be Harriet's own, stating there is no danger of her not being intelligible and that expressions of gratitude and concern for the pain inflicted will present themselves unbidden. Harriet clarifies that she means to refuse him, and Emma assures her there will be no difficulty in the answer, assisting in the formation of every sentence, as Harriet was very concerned about making him unhappy and what his mother and sisters would think."
+    },
+    {
+      "query": "What is Mr. Elton's reaction when Emma mentions she has transcribed his charade into Harriet's collection?",
+      "reference_answer": "Mr. Elton appears rather doubting and confused, saying something about \"honour\" and glancing between Emma and Harriet. He then takes up the open book on the table and examines it very attentively. Emma, trying to ease the awkward moment, states that a charade so good should not be confined to one or two and that the writer can be sure of every woman's approbation when writing with such gallantry. Mr. Elton, though hesitating, replies that if his friend feels as he does, seeing his \"little effusion\" honored in the book would be considered the proudest moment of his life."
+    },
+    {
+      "query": "What does Mr. Knightley say about Frank Churchill's letters?",
+      "reference_answer": "Mr. Knightley states that Frank Churchill's letters disgust him. He describes them as being \"full of professions and falsehoods,\" suggesting that Frank persuades himself that he has found the best method of preserving peace at home and preventing his father from complaining. Mr. Knightley argues that Frank's amiable qualities are only \"amiable\" in French, not in English, implying a lack of genuine English delicacy towards others' feelings, and that there is \"nothing really amiable about him.\""
+    },
+    {
+      "query": "What is Miss Bates's reaction to the party at Randalls, and what does she say about Frank Churchill?",
+      "reference_answer": "Miss Bates describes the party and its transformation as \"brilliant indeed!\" and \"admirable!\" She expresses that she 'Could not have imagined it' and finds it 'So well lighted up!' She jokes that Mr. Weston must have had 'Aladdin’s lamp' to achieve such a transformation. Regarding Mr. Frank Churchill, Miss Bates praises his extreme politeness, recalling how he obligingly fastened the rivet of her mother’s spectacles, and mentions that her mother often talks of his good-nature."
+    },
+    {
+      "query": "What crucial mistake does Emma realize regarding Harriet's affections?",
+      "reference_answer": "Emma realizes that she has made a \"most unfortunate—most deplorable mistake\" regarding Harriet's affections. When Emma asks Harriet if she cares about Mr. Frank Churchill, Harriet denies it emphatically, stating \"never, never\" and expressing confusion about Emma's mistake. Emma then clarifies if Harriet is speaking of Mr. Knightley, to which Harriet confirms, stating she \"never could have an idea of any body else\" and thought Emma knew. This revelation deeply perturbs Emma, who listens with \"much inward suffering\" as Harriet details her hopes for Mr. Knightley."
+    },
+    {
+      "query": "Who is the author of \"Frankenstein; Or, The Modern Prometheus\"?",
+      "reference_answer": "Mary Wollstonecraft Shelley."
+    },
+    {
+      "query": "What is the narrator's main \"want\" as expressed in Letter 2?",
+      "reference_answer": "The narrator, Robert Walton, expresses a profound want for a friend, stating he has \"one want which I have never yet been able to satisfy.\" He desires a man who could sympathise with him, whose eyes would reply to his, and who is gentle yet courageous, possessed of a cultivated and capacious mind, with similar tastes to approve or amend his plans. He bitterly feels the want of a friend, particularly one who would have sense enough not to despise him as romantic and affection enough to endeavor to regulate his mind."
+    },
+    {
+      "query": "What is the stranger's initial reaction to the mention of a \"dæmon\" across the ice?",
+      "reference_answer": "The stranger's attention is aroused, and he asks a multitude of questions concerning the route which the \"dæmon,\" as he called him, had pursued. Later, when alone with the narrator, he acknowledges that he has doubtless excited their curiosity."
+    },
+    {
+      "query": "How did Victor Frankenstein react to the subject of natural philosophy after his \"fatal night\"?",
+      "reference_answer": "Ever since the \"fatal night\" that marked the end of his labours and the beginning of his misfortunes, Victor had conceived a violent antipathy even to the name of natural philosophy. When otherwise quite restored to health, the sight of a chemical instrument would renew all the agony of his nervous symptoms. Henry Clerval observed this and removed all his apparatus from view, also changing Victor's apartment because he perceived Victor had acquired a dislike for the room that had previously been his laboratory. When M. Waldman, a professor, praised Victor's astonishing progress in the sciences, it inflicted torture upon Victor, making him writhe under the words, though he dared not show the pain."
+    },
+    {
+      "query": "What does the creature say is his reason for malice?",
+      "reference_answer": "The creature states, \"I am malicious because I am miserable.\" He explains that he is \"shunned and hated by all mankind,\" and even his creator would \"tear me to pieces and triumph.\" He questions why he should pity man more than man pities him, and swears \"inextinguishable hatred\" towards his creator because he is his \"arch-enemy.\""
+    },
+    {
+      "query": "What is Victor Frankenstein's initial response when the creature asks him to create another being?",
+      "reference_answer": "Victor Frankenstein firmly refuses the creature's demand, stating, \"I do refuse it, and no torture shall ever extort a consent from me.\" He vehemently declares, \"never will I create another like yourself, equal in deformity and wickedness,\" fearing that their joint wickedness might desolate the world."
+    },
+    {
+      "query": "Why did Victor Frankenstein decide to travel to England for his second creation?",
+      "reference_answer": "He needed to either journey to England or correspond extensively with English philosophers whose knowledge was indispensable for his undertaking. He found the correspondence method dilatory and unsatisfactory. Additionally, he had an insurmountable aversion to performing his \"loathsome task\" in his father's house while interacting with those he loved, fearing that any slight accident would disclose a horrifying tale to them. He was also aware he would often lose self-command during his \"unearthly occupation\" and wished to absent himself from all he loved while employed, believing that once commenced, the task would be quickly achieved, allowing him to return to his family in peace and happiness, and the monster would depart forever."
+    },
+    {
+      "query": "What does Frankenstein do with the notes the narrator makes about his history?",
+      "reference_answer": "Frankenstein discovered that the narrator made notes concerning his history, asked to see them, and then himself corrected and augmented them in many places. He particularly focused on giving \"life and spirit to the conversations he held with his enemy.\" He stated that since the narration had been preserved, he did not want a \"mutilated one\" to go down to posterity."
+    },
+    {
+      "query": "What is the specific danger threatening the narrator and his companions at the beginning of the September 2nd letter?",
+      "reference_answer": "At the beginning of the September 2nd letter, the narrator writes that he is \"encompassed by peril\" and is \"ignorant whether I am ever doomed to see again dear England and the dearer friends that inhabit it.\" He states that he is \"surrounded by mountains of ice which admit of no escape and threaten every moment to crush my vessel.\" He also notes that the lives of all his companions are endangered through him, and if they are lost, his \"mad schemes are the cause.\""
+    },
+    {
+      "query": "What argument does Frankenstein use to motivate his crew to continue their expedition?",
+      "reference_answer": "Frankenstein rouses himself and passionately addresses the men, demanding to know why they are so easily turned from their design. He reminds them that their expedition was \"glorious\" not because it was smooth, but because it was \"full of dangers and terror,\" requiring their fortitude and courage to be called forth and exhibited. He tells them that danger and death surrounded it, and they were meant to brave and overcome these challenges. He urges them to return as \"heroes who have fought and conquered and who know not what it is to turn their backs on the foe,\" rather than returning with the \"stigma of disgrace\" as cowards who could not endure cold and peril."
+    },
+    {
+      "query": "What is the title of the book and who is its author?",
+      "reference_answer": "The title of the book is \"Gulliver's Travels into Several Remote Regions of the World.\" The author of these travels is introduced as Mr. Lemuel Gulliver."
+    },
+    {
+      "query": "How has this edition of \"Gulliver's Travels\" been adapted from the original?",
+      "reference_answer": "This edition is practically a reprint of the original (1726-27), but the punctuation and capitalization have been modernized, some archaisms changed, and the paragraphs have been made more frequent. Additionally, a few passages that would offend modern ears or are unsuitable for children's reading have been omitted, and some footnotes explaining obsolete words and obscure expressions have been added."
+    },
+    {
+      "query": "According to the \"First Publisher to the Reader,\" what is the author's reputation for veracity?",
+      "reference_answer": "According to the \"First Publisher to the Reader,\" the author, Mr. Lemuel Gulliver, was so distinguished for his veracity that it became a sort of proverb among his neighbors at Redriff: when anyone affirmed a thing, they would say it was \"as true as if Mr. Gulliver had spoken it.\""
+    },
+    {
+      "query": "What was found in Gulliver's pockets during the strict search by the Lilliputians?",
+      "reference_answer": "During the strictest search, the Lilliputians found the following in Gulliver's pockets: In his right coat-pocket, they discovered one great piece of coarse cloth, large enough to be a foot-cloth for their majesty's chief room of state. In his left pocket, they saw a huge silver chest with a cover of the same metal, which they were unable to lift. Upon opening it, one searcher stepping inside found himself up to mid-leg in a sort of dust, part of which caused both searchers to sneeze several times. In his right waistcoat pocket, they found a prodigious number of white, thin substances folded one over another."
+    },
+    {
+      "query": "What were the two struggling parties in the Lilliputian empire, and how did they distinguish themselves?",
+      "reference_answer": "The two struggling parties in the Lilliputian empire were named Tramecksan and Slamecksan. They distinguished themselves by the high and low heels of their shoes. The high heels were alleged to be more agreeable to their ancient constitution, but the reigning majesty used only low heels in government administration and crown offices. The animosities between these parties were so high that they would not eat, drink, or talk with each other. The heir to the crown was even suspected of having some tendency towards the high heels, as one of his heels was higher than the other, causing a hobble in his gait."
+    },
+    {
+      "query": "What was the origin of the war between Lilliput and Blefuscu?",
+      "reference_answer": "The war between Lilliput and Blefuscu originated from a controversy over the correct way to break eggs before eating them. The primitive method involved breaking the larger end. However, the grandfather of the present Lilliputian majesty cut his finger while breaking an egg in the ancient practice, leading his father, the emperor, to issue an edict commanding all subjects to break eggs at the smaller end, under severe penalties. This law caused significant public resentment, resulting in six rebellions, during which one emperor lost his life and another his crown. These civil commotions were continually incited by the monarchs of Blefuscu, who offered refuge to the exiles. It is estimated that eleven thousand people suffered death rather than submit to breaking their eggs at the smaller end."
+    },
+    {
+      "query": "What is the approximate size of the natives of Lilliput and their animals?",
+      "reference_answer": "The common size of the natives of Lilliput is somewhat under six inches high. All other animals, plants, and trees are in exact proportion to this size. For example, the tallest horses and oxen are between four and five inches in height, while sheep are about an inch and a half. Their geese are about the bigness of a sparrow, and the gradations continue downwards to the smallest, which were almost invisible to Gulliver's sight. However, the Lilliputians' eyes are adapted to see nearby objects with great exactness."
+    },
+    {
+      "query": "What suggestion did Reldresal make regarding Gulliver's punishment for his crimes?",
+      "reference_answer": "Reldresal, the principal secretary for private affairs and Gulliver's true friend, suggested that if his majesty would spare Gulliver's life, in consideration of his services and merciful disposition, he should only order both of Gulliver's eyes to be put out. Reldresal argued that this expedient would satisfy justice in some measure and be applauded by the world for the emperor's lenity and the counsellors' fair proceedings. He also contended that the loss of Gulliver's eyes would not impede his bodily strength, allowing him to remain useful to the majesty, and that blindness is an addition to courage by concealing dangers."
+    },
+    {
+      "query": "How did Gulliver read books in the king's library in Brobdingnag?",
+      "reference_answer": "In one of Glumdalclitch's rooms, the queen's joiner contrived a wooden machine, twenty-five feet high, shaped like a standing ladder with steps fifty feet long, serving as a movable pair of stairs. To read a book, Gulliver would place it leaning against the wall, mount to the upper step of the ladder, and turn his face towards the book. He would read from the top of the page by walking eight or ten paces to the right and left, according to the length of the lines, until he was a little below the level of his eyes. Then, he would descend gradually to the bottom, and remount to begin the next page in the same manner, easily turning over the leaf with both his hands, as the leaves were thick and stiff."
+    },
+    {
+      "query": "What was the Brobdingnagian king's opinion of European politics and the art of government?",
+      "reference_answer": "The Brobdingnagian king professed both to abominate and despise all mystery, refinement, and intrigue, whether in a prince or a minister. He could not comprehend what was meant by \"secrets of state\" unless an enemy or rival nation was involved. He confined the knowledge of governing to very narrow bounds, focusing on common sense and reason, justice and lenity, and the speedy determination of civil and criminal causes, along with other obvious topics he deemed not worth considering. He famously stated his opinion that whoever could make two ears of corn or two blades of grass grow upon a spot of ground where only one grew before would deserve better of mankind and do more essential service to his country than the whole race of politicians put together."
+    },
+    {
+      "query": "Who is the author of \"Moby-Dick; Or, The Whale\"?",
+      "reference_answer": "Herman Melville."
+    },
+    {
+      "query": "What are the different \"books\" (classifications) of whales mentioned in the Cetology chapter?",
+      "reference_answer": "In the Cetology chapter, the whales are primarily divided into three \"BOOKS\" (which are subdivisible into chapters) based on their magnitude: The Folio Whale, the Octavo Whale, and the Duodecimo Whale."
+    },
+    {
+      "query": "What type of whale is presented as the type for the \"Folio\" classification?",
+      "reference_answer": "The Sperm Whale is presented as the type of the FOLIO classification."
+    },
+    {
+      "query": "What distinguishes the Fin-Back whale, and why is it considered the \"Cain of its race\"?",
+      "reference_answer": "The Fin-Back whale, also known as Fin-Back, Tall-Spout, and Long-John, is a monster commonly seen in many seas, with its distant jet often descried by Atlantic passengers. It resembles the right whale in length and baleen but has a less portly girth and a lighter, olive-like color. Its distinguishing feature is a prominent fin, three or four feet long, angular, and with a sharp pointed end, growing vertically from the hinder part of its back. This leviathan is considered the \"banished and unconquerable Cain of his race\" because it is not gregarious, seems to be a \"whale-hater\" (like some men are man-haters), always goes solitary, rises unexpectedly in remote waters, and possesses wondrous swimming power and velocity in swimming that defies human pursuit."
+    },
+    {
+      "query": "Why does the author use a \"Bibliographical system\" to classify whales?",
+      "reference_answer": "The author deplores that traditional anatomical distinctions within whales are not helpful for classification. He states that if one descends into the bowels of various leviathans, the distinctions are not a fiftieth part as available to a systematizer as external ones. Therefore, he concludes that the only practical and successful method is to \"take hold of the whales bodily, in their entire liberal volume, and boldly sort them that way,\" thus adopting a \"Bibliographical system.\""
+    },
+    {
+      "query": "What is the \"Hyena Whale\" also known as, and what is its distinctive facial feature?",
+      "reference_answer": "The \"Hyena Whale\" is also known by the popular fisherman's name \"Black Fish,\" although the author notes that \"blackness is the rule among almost all whales.\" Its distinctive facial feature is an \"everlasting Mephistophelean grin\" carried on its face, which results from the inner angles of its lips being curved upwards."
+    },
+    {
+      "query": "What is the minimum amount of oil some Hyena Whales can yield despite thin blubber?",
+      "reference_answer": "Though their blubber is very thin, some Hyena Whales will yield upwards of thirty gallons of oil."
+    },
+    {
+      "query": "What is Captain Sleet's invention mentioned in connection with whale-ships?",
+      "reference_answer": "Captain Sleet, in his narrative \"A Voyage among the Icebergs,\" describes his recently invented crow's-nest, which he named \"Sleet’s crow’s-nest\" in his own honor. This crow's-nest is a small tent or pulpit, shaped like a large tierce or pipe, fixed on the summit of the mast to protect Greenland whaler look-outs from inclement weather. It is open above, furnished with a movable side-screen to keep to windward in a hard gale, and includes a comfortable seat with a locker underneath for umbrellas, comforters, and coats, and a leather rack for nautical conveniences like a speaking trumpet, pipe, and telescope."
+    },
+    {
+      "query": "What is the \"Heidelburgh Tun\" in reference to the Sperm Whale, and what does it contain?",
+      "reference_answer": "The \"Case,\" the upper part of the Sperm Whale's head, is regarded as the \"great Heidelburgh Tun of the Sperm Whale.\" Just as the famous Heidelburgh Tun was always replenished with the finest Rhenish wines, the whale's tun contains the most precious of all its oily vintages: the highly-prized spermaceti. This spermaceti is in its absolutely pure, limpid, and odoriferous state and is not found unalloyed in any other part of the creature. Though fluid in life, it concretes upon exposure to air after death, forming beautiful crystalline shoots. A large whale's case generally yields about five hundred gallons of sperm."
+    },
+    {
+      "query": "What is the significance of the \"hieroglyphical\" marks on the Sperm Whale's surface?",
+      "reference_answer": "The visible surface of the Sperm Whale is almost invariably covered with numberless straight marks, obliquely crossed and re-crossed, resembling those in the finest Italian line engravings. These marks appear to be seen through the thin, transparent outer layer of the skin, as if engraved directly upon the body itself. In some instances, these linear marks provide the ground for \"hieroglyphical\" delineations, which are compared to the mysterious cyphers on the walls of pyramids. The narrator notes that like mystic rocks, the mystic-marked whale remains undecipherable. Additionally, the Sperm Whale's back and flanks often display numerous rude, irregular scratches, which the narrator suggests are probably made by hostile contact with other whales, especially in large, full-grown bulls."
+    },
+    {
+      "query": "Who are the characters present at the beginning of the \"Romeo and Juliet\" excerpt?",
+      "reference_answer": "At the beginning of the excerpt, the characters present are Abram and Balthasar, and Sampson and Gregory."
+    },
+    {
+      "query": "How does Romeo describe his current state to Benvolio?",
+      "reference_answer": "Romeo describes himself as \"Not mad, but bound more than a madman is: Shut up in prison, kept without my food, Whipp’d and tormented.\""
+    },
+    {
+      "query": "What does the Nurse say about Juliet's disposition towards marriage?",
+      "reference_answer": "When Lady Capulet asks Juliet how she stands disposed to be married, Juliet replies, \"It is an honour that I dream not of.\" The Nurse then exclaims, \"An honour! Were not I thine only nurse, I would say thou hadst suck’d wisdom from thy teat.\""
+    },
+    {
+      "query": "Who is Queen Mab, according to Mercutio's description?",
+      "reference_answer": "According to Mercutio, Queen Mab is the fairies’ midwife. She comes in a shape no bigger than an agate-stone on the fore-finger of an alderman, drawn by a team of little atomies over men’s noses as they lie asleep. Her waggon-spokes are made of long spinners’ legs, the cover of grasshoppers’ wings, her traces of the smallest spider’s web, and her collars of the moonshine’s watery beams. Her whip is made of a cricket’s bone with a lash of film, and her waggoner is a small grey-coated gnat. Her chariot is an empty hazelnut, made by the joiner squirrel or old grub."
+    },
+    {
+      "query": "What happens when Romeo kisses Juliet for the first time in the excerpt?",
+      "reference_answer": "When Romeo initiates a kiss, saying his lips are \"two blushing pilgrims\" ready to smooth her hand with a tender kiss, Juliet playfully replies that saints have hands that pilgrims' hands do touch, and \"palm to palm is holy palmers’ kiss.\" Romeo then suggests that lips, like hands, can be used in prayer, to which Juliet agrees, but notes saints do not move though they grant prayers. Romeo then kisses her, declaring, \"Thus from my lips, by thine my sin is purg’d.\" Juliet responds that her lips now have the sin they took, and when Romeo asks for his sin back, she remarks, \"You kiss by the book.\""
+    },
+    {
+      "query": "What does Friar Lawrence collect in his basket at the beginning of Scene III?",
+      "reference_answer": "At the beginning of Scene III, Friar Lawrence enters with a basket and states that he must \"upfill this osier cage of ours With baleful weeds and precious-juiced flowers.\""
+    },
+    {
+      "query": "What does Benvolio tell Mercutio about Tybalt?",
+      "reference_answer": "Benvolio informs Mercutio that Tybalt, the kinsman to old Capulet, has sent a letter to Romeo’s father’s house. Mercutio immediately deduces it is \"A challenge, on my life,\" and Benvolio confirms that Romeo will answer the letter's master, implying a duel."
+    },
+    {
+      "query": "How does Mercutio describe Tybalt as a fighter?",
+      "reference_answer": "Mercutio describes Tybalt as \"More than Prince of cats\" and \"the courageous captain of compliments.\" He fights with precision, keeping \"time, distance, and proportion,\" and rests his minim rest before a thrust into the opponent's bosom, calling him \"the very butcher of a silk button.\" Mercutio also refers to him as a \"duellist, a duellist; a gentleman of the very first house, of the first and second cause,\" mentioning specific fencing terms like the \"passado, the punto reverso, the hay.\""
+    },
+    {
+      "query": "What is Peter's request to the musicians after the Capulet family exits?",
+      "reference_answer": "After the Capulet family exits, Peter approaches the musicians and asks them to play \"Heart’s ease,\" or if they want him to live, to \"play 'Heart’s ease'.\" He explains that he wants this because his \"heart itself plays 'My heart is full'\" and asks for \"some merry dump to comfort me.\""
+    },
+    {
+      "query": "What is the first musician's explanation for \"silver sound\" in the song lyrics Peter recites?",
+      "reference_answer": "When Peter questions \"Why 'silver sound'? Why 'music with her silver sound'?\", the first musician, Simon Catling, replies, \"Marry, sir, because silver hath a sweet sound.\""
+    }
+  ]
+}
