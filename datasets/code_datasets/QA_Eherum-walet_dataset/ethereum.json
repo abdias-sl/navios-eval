@@ -1,0 +1,84 @@
+{
+    "examples": [
+      {
+        "query": "How does the application connect to different Ethereum networks?",
+        "reference_answer": "The user selects a network from a dropdown menu. The connect_to_network method uses the selected network's RPC URL to initialize a Web3 instance, updating the connection status label accordingly."
+      },
+      {
+        "query": "How does the application validate Ethereum addresses before checking balances?",
+        "reference_answer": "The validate_address method checks if the address is a non-empty string, matches the Ethereum hex address regex, and passes Web3.is_address validation."
+      },
+      {
+        "query": "How does the application fetch and display the ETH balance for a given address?",
+        "reference_answer": "When the user clicks 'Check Balance', the app validates the address, then fetches the balance in Wei using web3.eth.get_balance, converts it to Ether, and updates the balance and USD value labels in the GUI."
+      },
+      {
+        "query": "How does the application fetch the current ETH price in USD?",
+        "reference_answer": "The get_eth_price method sends a GET request to the CoinGecko API, parses the JSON response, and updates the eth_price attribute with the current USD price of Ethereum."
+      },
+      {
+        "query": "How does the application display transaction count for a wallet?",
+        "reference_answer": "After fetching wallet info, the GUI updates the tx_count_label with the result of get_transaction_count, showing the number of transactions for the address."
+      },
+      {
+        "query": "How does the application handle invalid wallet addresses?",
+        "reference_answer": "If the user enters an invalid address, the check_balance method shows an error message using messagebox.showerror and logs the error in the logs panel."
+      },
+      {
+        "query": "How does the application support auto-refreshing wallet balances?",
+        "reference_answer": "When auto-refresh is enabled, a background thread repeatedly calls check_balance every refresh_interval seconds, as long as auto_refresh is True and an address is present."
+      },
+      {
+        "query": "How does the application allow users to view wallet addresses on a blockchain explorer?",
+        "reference_answer": "The 'View on Explorer' button constructs a URL using the selected network's explorer base and the address, then opens it in the default web browser using webbrowser.open."
+      },
+      {
+        "query": "How does the application handle copying wallet addresses to the clipboard?",
+        "reference_answer": "The copy_address method clears the clipboard, appends the current address, logs the action, and shows a messagebox to inform the user."
+      },
+      {
+        "query": "How does the application maintain a history of checked wallets?",
+        "reference_answer": "Each time a balance is checked and saved, the wallet info (address, balance, USD value, time) is added to both the Treeview widget and the wallet_history list for later retrieval or export."
+      },
+      {
+        "query": "How does the application export wallet history?",
+        "reference_answer": "The export_history method serializes the wallet_history list to a JSON file named wallet_history.json, and notifies the user upon success or failure."
+      },
+      {
+        "query": "How does the application handle logs and user feedback?",
+        "reference_answer": "The log_message method appends timestamped log entries to the ScrolledText widget in the logs frame and prints them to the console for debugging."
+      },
+      {
+        "query": "How does the application handle threading for network and balance checks?",
+        "reference_answer": "Network connections and balance checks are run in background threads using threading.Thread to keep the GUI responsive and avoid blocking the main event loop."
+      },
+      {
+        "query": "How does the application allow users to load sample addresses?",
+        "reference_answer": "Sample address buttons are provided below the address entry. Clicking a button sets the address_var to the corresponding sample address for quick testing."
+      },
+      {
+        "query": "How does the application handle clearing input and resetting the UI?",
+        "reference_answer": "The clear_input method resets the address entry, balance and USD labels, disables action buttons, and clears displayed address and transaction count."
+      },
+      {
+        "query": "How does the application handle keyboard shortcuts?",
+        "reference_answer": "The setup_bindings method binds keys like Return (check balance), Ctrl+C (copy address), Ctrl+L (clear logs), and F5 (refresh balance) to their respective actions."
+      },
+      {
+        "query": "How does the application update the status bar and progress bar?",
+        "reference_answer": "The update_status method sets the status bar text, and the progress bar is started and stopped during long-running operations like network connections and balance checks."
+      },
+      {
+        "query": "How does the application allow users to save and load wallet info from history?",
+        "reference_answer": "The save_to_history method adds the current wallet info to the history, and load_from_history loads the selected entry's address back into the input field for re-checking."
+      },
+      {
+        "query": "How does the application handle clearing and saving logs?",
+        "reference_answer": "The clear_logs method clears the log text widget, and save_logs writes the current log content to a text file, notifying the user of success or failure."
+      },
+      {
+        "query": "How does the application ensure the GUI remains responsive during network operations?",
+        "reference_answer": "All network and balance-fetching operations are run in separate threads, so the Tkinter mainloop is never blocked, keeping the interface responsive."
+      }
+    ]
+  }

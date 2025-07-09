@@ -1,0 +1,84 @@
+{
+    "examples": [
+      {
+        "query": "How does the search functionality filter products?",
+        "reference_answer": "The searchTerm state is updated as the user types. The filteredProducts array is computed by checking if each product's name includes the searchTerm (case-insensitive) and matches the selectedCategory."
+      },
+      {
+        "query": "How are product categories implemented and used for filtering?",
+        "reference_answer": "Categories are defined as an array of Category objects. When a category button is clicked, selectedCategory is updated, and only products matching that category (or all, if 'all' is selected) are shown."
+      },
+      {
+        "query": "How does the addToCart function work?",
+        "reference_answer": "addToCart checks if the product is already in the cart. If so, it increments the quantity; otherwise, it adds the product to the cart with quantity 1. The cart state is updated immutably."
+      },
+      {
+        "query": "How does the removeFromCart function handle item removal?",
+        "reference_answer": "If the item's quantity is greater than 1, removeFromCart decrements the quantity. If the quantity is 1, it removes the item from the cart entirely."
+      },
+      {
+        "query": "How is the total price of the cart calculated?",
+        "reference_answer": "getCartTotal uses Array.reduce to sum the price times quantity for each item in the cart, returning the total as a number."
+      },
+      {
+        "query": "How does the application display the number of items in the cart?",
+        "reference_answer": "getCartItemCount sums the quantity of all items in the cart. If the count is greater than zero, a badge with the count is shown on the cart icon."
+      },
+      {
+        "query": "How does the cart sidebar open and close?",
+        "reference_answer": "The showCart state controls the sidebar's visibility. Clicking the cart icon toggles showCart, and clicking the overlay or close button sets showCart to false."
+      },
+      {
+        "query": "How are organic products visually indicated?",
+        "reference_answer": "If a product has the organic property set to true, a green 'Organic' badge with a Leaf icon is displayed in the top-right corner of the product card."
+      },
+      {
+        "query": "How are product ratings displayed?",
+        "reference_answer": "Each product card shows a Star icon and the product's rating value, visually indicating the product's average rating."
+      },
+      {
+        "query": "How does the application handle empty cart and no products found states?",
+        "reference_answer": "If the cart is empty, a message and icon are shown in the cart sidebar. If no products match the search or category filter, a 'No products found' message and icon are displayed."
+      },
+      {
+        "query": "How are the ProductCard and CartItem components structured?",
+        "reference_answer": "ProductCard and CartItem are defined as inner React.FC components. ProductCard displays product info and an Add button; CartItem shows product info, quantity controls, and remove/add buttons."
+      },
+      {
+        "query": "How does the application ensure immutability when updating the cart?",
+        "reference_answer": "Both addToCart and removeFromCart use setCart with a callback, returning new arrays and objects rather than mutating the existing cart state directly."
+      },
+      {
+        "query": "How does the checkout button behave?",
+        "reference_answer": "The checkout button is only visible if the cart has items. Clicking it currently does nothing, but it is styled to look interactive and ready for future checkout logic."
+      },
+      {
+        "query": "How does the application display the number of filtered products?",
+        "reference_answer": "Above the products grid, the count of filteredProducts is shown next to the category name, updating dynamically as filters or search terms change."
+      },
+      {
+        "query": "How does the overlay work when the cart is open?",
+        "reference_answer": "When showCart is true, a semi-transparent black overlay covers the main content. Clicking the overlay closes the cart sidebar."
+      },
+      {
+        "query": "How does the application use TypeScript interfaces for type safety?",
+        "reference_answer": "The Product, CartItem, and Category interfaces define the structure of products, cart items, and categories, ensuring type safety throughout the component."
+      },
+      {
+        "query": "How are icons used throughout the application?",
+        "reference_answer": "The application uses lucide-react icons for cart, plus, minus, search, star, leaf, clock, and truck, providing visual cues for actions and product features."
+      },
+      {
+        "query": "How does the application handle responsive design?",
+        "reference_answer": "The layout uses Tailwind CSS utility classes for responsive grids, flex layouts, and spacing. The sidebar and header are sticky or fixed for usability on all screen sizes."
+      },
+      {
+        "query": "How does the application handle navigation links in the header and footer?",
+        "reference_answer": "Navigation links are present in both the header and footer, styled for hover effects. They currently use anchor tags and could be replaced with React Router links for SPA navigation."
+      },
+      {
+        "query": "How does the application display delivery and service features in the hero section?",
+        "reference_answer": "The hero section highlights features like same-day delivery, free shipping, and organic options, each with a relevant icon and label, to build user trust and communicate value."
+      }
+    ]
+  }

@@ -39,7 +39,7 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
     
     # Make login request
     response = requests.post(
-        "https://auth.shyftos.shyftops.io/rbac/auth/login",
+        "http://localhost:9009/rbac/auth/login",
         headers=headers,
         json=login_data,
     )
@@ -77,7 +77,7 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
 
         # Make the POST request
         response = requests.post(
-            'http://localhost:8000/api/chat-messages',
+            'http://localhost:9000/api/chat-messages',
             headers=headers,
             files=form_data
         )
@@ -98,7 +98,7 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
         raise Exception("Could not find assistant message ID in response")
 
     # Connect to SSE stream
-    sse_url = f"http://localhost:8000/api/sse/connect/{assistant_message_id}"
+    sse_url = f"http://localhost:9000/api/sse/connect/{assistant_message_id}"
     sse_response = requests.get(
         sse_url,
         headers={'Authorization': f'Bearer {access_token}', "accept": "*/*"},

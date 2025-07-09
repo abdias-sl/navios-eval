@@ -7,3 +7,4 @@ pandas==2.1.4
 langchain_openai
 dotenv
 sseclient-py
+matplotlib
