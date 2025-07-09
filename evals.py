@@ -68,6 +68,7 @@ def run_ragas_evaluations(result_data, filename):
                 if isinstance(contexts, list):
                     # Check if any context is not empty
                     if any(context and context.strip() for context in contexts):
+                        print(f"✅ Found meaningful contexts in the dataset")
                         has_meaningful_contexts = True
                 elif isinstance(contexts, str) and contexts.strip():
                     has_meaningful_contexts = True

@@ -1,0 +1,44 @@
+{
+  "date": "20250706",
+  "attempt": 1,
+  "total_examples": 10,
+  "response_columns_evaluated": [
+    "response_default",
+    "response_thinking",
+    "response_c37",
+    "response_c35",
+    "response_gpt"
+  ],
+  "metrics_used": [
+    "ResponseRelevancy",
+    "FactualCorrectness",
+    "AnswerAccuracy"
+  ],
+  "results": {
+    "response_default": {
+      "ResponseRelevancy": 0.8929589740627562,
+      "FactualCorrectness": 0.568,
+      "AnswerAccuracy": 1.0
+    },
+    "response_thinking": {
+      "ResponseRelevancy": 0.8074343145348145,
+      "FactualCorrectness": 0.378,
+      "AnswerAccuracy": 0.9
+    },
+    "response_c37": {
+      "ResponseRelevancy": 0.7234248998634742,
+      "FactualCorrectness": 0.542,
+      "AnswerAccuracy": 0.95
+    },
+    "response_c35": {
+      "ResponseRelevancy": 0.810319179266358,
+      "FactualCorrectness": 0.524,
+      "AnswerAccuracy": 0.9
+    },
+    "response_gpt": {
+      "ResponseRelevancy": 0.9052511859073398,
+      "FactualCorrectness": 0.515,
+      "AnswerAccuracy": 0.75
+    }
+  }
+}

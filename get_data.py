@@ -115,7 +115,6 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
         if data["done"] == True:
             # returns the final message as a string
             final_message = data['chunk']['finalMessage']['content']
-            
             if "</ToolCall>" in final_message:
                 response = final_message.split("</ToolCall>")[-1].strip()
             else:
@@ -124,8 +123,6 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
         elif data["chunk"]["event"] == "toolResult":
             # returns an array with the chunks
             tool_content = data['chunk']['chunk']['tools']['messages'][0]['kwargs']['content']
-            #print(f"Received tool event: {tool_content}")
-            #print()
             # Parse the list structure and extract only the "text" values
             try:
                 if isinstance(tool_content, str):
