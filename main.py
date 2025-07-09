@@ -103,7 +103,7 @@ async def execute(
             })
         
         # Run RAGAS evaluations on results
-        evaluation_results = run_ragas_evaluations(results, model)
+        evaluation_results = run_ragas_evaluations(results, model, dataset, project_id, actual_num_examples)
         print("evaluation_results")
         
         return {
