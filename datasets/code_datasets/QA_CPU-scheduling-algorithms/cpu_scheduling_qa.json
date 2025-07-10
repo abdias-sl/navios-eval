@@ -1,0 +1,84 @@
+{
+  "examples": [
+    {
+      "query": "How does the user input and modify the list of processes in the CPU Scheduling Visualizer?",
+      "reference_answer": "The user inputs processes using the ProcessInputForm component, which provides fields for process name, arrival time, burst time, and priority. Users can add new processes with the 'Add Process' button and remove existing ones using the trash icon. All changes update the React state in the parent component."
+    },
+    {
+      "query": "Which component is responsible for orchestrating the running of all scheduling algorithms and managing their results?",
+      "reference_answer": "The CPUSchedulingVisualizer component manages the list of processes, time quantum, and results for each algorithm. It calls the scheduling functions and updates the UI with the results."
+    },
+    {
+      "query": "Where are the core CPU scheduling algorithms implemented, and how are they structured?",
+      "reference_answer": "All algorithms (FCFS, RR, SPN, SRT, HRRN) are implemented as pure functions in lib/scheduling-algorithms.ts. Each function takes a list of processes (and time quantum for RR) and returns a SchedulingResult object containing process metrics and a timeline."
+    },
+    {
+      "query": "How does the application visualize the execution timeline of processes for each algorithm?",
+      "reference_answer": "The AlgorithmVisualizer component renders a Gantt chart-style timeline, where each process's execution is shown as a colored bar. Idle CPU time is also visualized. The timeline is interactive, supporting animation and playback controls."
+    },
+    {
+      "query": "How does the user trigger the scheduling algorithms to run on the current process list?",
+      "reference_answer": "The user clicks the 'Run Algorithms' button in the ProcessInputForm component. This calls the runAlgorithms function in CPUSchedulingVisualizer, which executes all algorithms and updates the results state."
+    },
+    {
+      "query": "How does the application allow users to switch between different scheduling algorithms in the UI?",
+      "reference_answer": "The app uses a tabbed interface (Tabs, TabsList, TabsTrigger components) to let users select between FCFS, RR, SPN, SRT, and HRRN. Each tab displays the visualization, results, and info for the selected algorithm."
+    },
+    {
+      "query": "How are process metrics such as waiting time, turnaround time, and response time calculated?",
+      "reference_answer": "The calculateMetrics helper function in lib/scheduling-algorithms.ts computes these metrics for each process based on the generated timeline, updating each process object with the calculated values."
+    },
+    {
+      "query": "How does the application explain the working, advantages, and disadvantages of each scheduling algorithm?",
+      "reference_answer": "The AlgorithmInfo component provides a detailed description, step-by-step working, advantages, and disadvantages for each algorithm. This information is displayed in the corresponding tab."
+    },
+    {
+      "query": "How does the application support animation and playback of the scheduling timeline?",
+      "reference_answer": "AlgorithmVisualizer uses React state and requestAnimationFrame to animate the current time indicator. Users can play, pause, skip forward/backward, and reset the animation using the provided controls."
+    },
+    {
+      "query": "How does the application ensure all logic and state management runs on the client side?",
+      "reference_answer": "All scheduling logic, state management, and visualization are implemented in React components and TypeScript modules. There is no backend or server-side code; everything runs in the browser."
+    },
+    {
+      "query": "How can a user compare the efficiency of different scheduling algorithms using the app?",
+      "reference_answer": "By running the algorithms on the same set of processes, users can switch between tabs to compare average waiting time, turnaround time, and response time, as shown in the ResultsTable component."
+    },
+    {
+      "query": "What happens if the user enters only one process in the input form?",
+      "reference_answer": "The app still runs all algorithms, and the timeline will show only that process executing from its arrival time. The ResultsTable will display metrics for the single process."
+    },
+    {
+      "query": "How does the application handle and visualize idle CPU time?",
+      "reference_answer": "If there is a gap between process arrivals, the timeline includes 'idle' events, which are visually represented in the Gantt chart by a distinct color (e.g., gray)."
+    },
+    {
+      "query": "How does the user set the time quantum for the Round Robin algorithm?",
+      "reference_answer": "The time quantum is set via a numeric input field in the ProcessInputForm component. The value is passed to the runRoundRobin function when running the RR algorithm."
+    },
+    {
+      "query": "How does the application display per-process and average metrics for each algorithm?",
+      "reference_answer": "The ResultsTable component displays a table of metrics for each process (waiting time, turnaround time, response time) and shows the averages at the bottom."
+    },
+    {
+      "query": "How does the application handle process priorities in the input form?",
+      "reference_answer": "Each process has a priority field in the input form, but the current algorithms do not use priority for scheduling. The field is included for extensibility and possible future algorithms."
+    },
+    {
+      "query": "How does the application handle user errors, such as entering negative burst times or arrival times?",
+      "reference_answer": "The input fields for arrival time, burst time, and priority are restricted to non-negative values using the min attribute. The app prevents invalid input at the UI level."
+    },
+    {
+      "query": "How does the application update the visualization and results when the process list or time quantum changes?",
+      "reference_answer": "When the user modifies the process list or time quantum and clicks 'Run Algorithms', the CPUSchedulingVisualizer component re-runs all algorithms and updates the results and visualizations accordingly."
+    },
+    {
+      "query": "How does the application structure the data for processes and scheduling results?",
+      "reference_answer": "The app uses TypeScript interfaces: Process (for each process), TimelineEvent (for each execution segment), and SchedulingResult (containing the list of processes, timeline, and average metrics)."
+    },
+    {
+      "query": "How does the application ensure a responsive and modern UI for the scheduling visualizer?",
+      "reference_answer": "The app uses modern React patterns, Tailwind CSS for styling, and component libraries for UI elements, ensuring a responsive and visually appealing interface across devices."
+    }
+  ]
+} 

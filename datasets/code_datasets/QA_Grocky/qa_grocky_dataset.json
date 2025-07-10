@@ -1,0 +1,84 @@
+{
+  "examples": [
+    {
+      "query": "What is the main purpose of the Grocky platform?",
+      "reference_answer": "Grocky is an AI-powered job interview preparation platform that simulates real interview scenarios using AI voice agents, providing users with real-time feedback and transcripts to help them improve."
+    },
+    {
+      "query": "Which technologies are used to build Grocky?",
+      "reference_answer": "Grocky uses Next.js for frontend and backend logic, Tailwind CSS for styling, Firebase for authentication and backend services, Vapi AI for voice agent interactions, shadcn/ui for UI components, Google Gemini for AI-based feedback, and Zod for input validation."
+    },
+    {
+      "query": "How does a user start an interview simulation on Grocky?",
+      "reference_answer": "A user logs in, navigates to the interview section, and initiates an interview session, which starts an AI voice agent using the Agent component."
+    },
+    {
+      "query": "How does the Agent component manage the interview call and transcript?",
+      "reference_answer": "The Agent component uses the Vapi SDK to start and manage the AI voice call, listens for events like call start, end, and transcript messages, and updates the UI with the current call status and transcript."
+    },
+    {
+      "query": "How does Grocky provide feedback to users after an interview?",
+      "reference_answer": "After the interview ends, the Agent component triggers the createFeedback action, which saves the transcript and navigates the user to the feedback page, where AI-generated feedback is displayed."
+    },
+    {
+      "query": "How is authentication handled in Grocky?",
+      "reference_answer": "Authentication is managed using Firebase, with the AuthForm component providing the UI for login and registration."
+    },
+    {
+      "query": "How does the platform ensure real-time updates during an interview?",
+      "reference_answer": "The Agent component listens for Vapi SDK events such as 'message' for transcript updates and 'speech-start'/'speech-end' for speaking status, updating the UI in real time."
+    },
+    {
+      "query": "How does Grocky use Google Gemini?",
+      "reference_answer": "Google Gemini is used to generate AI-based feedback on the user's interview performance, which is shown on the feedback page after the interview."
+    },
+    {
+      "query": "What is the role of the InterviewCard component?",
+      "reference_answer": "The InterviewCard component displays information about available or past interviews, including details like interview type, status, and actions to start or review an interview."
+    },
+    {
+      "query": "How does the feedback page present results to the user?",
+      "reference_answer": "The feedback page displays the AI-generated feedback, the full transcript of the interview, and may include suggestions for improvement."
+    },
+    {
+      "query": "How does Grocky handle environment configuration for third-party services?",
+      "reference_answer": "Environment variables for Vapi, Google Gemini, and Firebase are set in a .env.local file, which is required for the app to connect to these services."
+    },
+    {
+      "query": "How does the user interact with the AI interviewer during a session?",
+      "reference_answer": "The user speaks with the AI interviewer via the Agent component, which manages the voice call and displays both the AI and user avatars, as well as the live transcript."
+    },
+    {
+      "query": "How does Grocky store and retrieve interview transcripts?",
+      "reference_answer": "Transcripts are collected in real time during the interview and saved via the createFeedback action, which stores them in the backend (Firebase or another service)."
+    },
+    {
+      "query": "How does the app validate user input in forms?",
+      "reference_answer": "The app uses the Zod library for input validation, ensuring that user-provided data meets the required schema before processing."
+    },
+    {
+      "query": "How does the platform support both frontend and backend logic?",
+      "reference_answer": "Grocky uses Next.js, which allows for both frontend React components and backend API routes in the same codebase."
+    },
+    {
+      "query": "How does the Agent component handle call status changes?",
+      "reference_answer": "The Agent component tracks call status using React state and Vapi SDK events, updating the UI to reflect whether the call is connecting, active, or finished."
+    },
+    {
+      "query": "How does Grocky ensure a modern and responsive UI?",
+      "reference_answer": "The app uses Tailwind CSS and shadcn/ui component library to provide a modern, responsive, and accessible user interface."
+    },
+    {
+      "query": "How does the user review past interviews?",
+      "reference_answer": "Users can view past interviews via InterviewCard components, which provide access to transcripts and feedback for completed sessions."
+    },
+    {
+      "query": "How does the app handle errors during the interview or feedback process?",
+      "reference_answer": "The Agent component listens for error events from the Vapi SDK and displays appropriate messages or redirects the user if an error occurs."
+    },
+    {
+      "query": "How does Grocky support dynamic interview questions?",
+      "reference_answer": "When starting an interview, the Agent component can receive a list of questions, which are formatted and passed to the AI interviewer for a customized session."
+    }
+  ]
+} 
