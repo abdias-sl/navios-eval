@@ -14,7 +14,8 @@ app = FastAPI(title="Agent API", description="A simple API for agent interaction
 DATASET_PATHS = {
     "code": "./datasets/code/code_examples.json",
     "docs": "./datasets/docVQA/selected_examples.json",
-    "single": "./datasets/essay/rag_dataset.json"
+    "single": "./datasets/essay/rag_dataset.json",
+    "final": "./datasets/final_qas.json"
 }
 
 # Model mappings

@@ -39,7 +39,7 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
     
     # Make login request
     response = requests.post(
-        "http://localhost:9009/rbac/auth/login",
+        "https://auth.shyftos.shyftops.io/rbac/auth/login",
         headers=headers,
         json=login_data,
     )
@@ -77,7 +77,7 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
 
         # Make the POST request
         response = requests.post(
-            'http://localhost:9000/api/chat-messages',
+            'http://localhost:8000/api/chat-messages',
             headers=headers,
             files=form_data
         )
@@ -98,7 +98,7 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
         raise Exception("Could not find assistant message ID in response")
 
     # Connect to SSE stream
-    sse_url = f"http://localhost:9000/api/sse/connect/{assistant_message_id}"
+    sse_url = f"http://localhost:8000/api/sse/connect/{assistant_message_id}"
     sse_response = requests.get(
         sse_url,
         headers={'Authorization': f'Bearer {access_token}', "accept": "*/*"},
@@ -107,10 +107,33 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
 
     client = SSEClient(sse_response)
 
-    # Process SSE events
+    # Initialize variables to store results
+    retrieved_contexts = ""
+    response_content = ""
     chunks = [""]
     response = "Wasn't able to retrieve any context or response"
+    # Process SSE events
+    import time
+    last_event_time = time.time()
+    timeout_seconds = 10  # 10 seconds timeout
+    loop_start_time = time.time()
+    max_loop_duration = 120  # 2 minutes in seconds
+    
     for event in client.events():
+        current_time = time.time()
+        
+        # Check if we've been waiting too long for events
+        if current_time - last_event_time > timeout_seconds:
+            print("⏰ No events received for 10 seconds, breaking loop")
+            break
+            
+        # Check if the entire loop has been running for more than 2 minutes
+        if current_time - loop_start_time > max_loop_duration:
+            print("⏰ SSE loop has been running for more than 2 minutes, breaking loop")
+            break
+            
+        last_event_time = current_time
+        
         data = json.loads(event.data)
         if data["done"] == True:
             # returns the final message as a string
@@ -145,5 +168,11 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
         "response": response,
         "retrieved_contexts": chunks
     }
+    print("<query>")
+    print(content)
+    print("</query>")
+    print("<response>")
+    print(results["response"])
+    print("</response>")
     
     return results

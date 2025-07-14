@@ -1,0 +1,77 @@
+|-tsconfig.json
+ |-components
+ | |-DisplayTechIcons.tsx
+ | |-FormField.tsx
+ | |-ui
+ | | |-form.tsx
+ | | |-input.tsx
+ | | |-label.tsx
+ | | |-sonner.tsx
+ | | |-button.tsx
+ | |-Agent.tsx
+ | |-InterviewCard.tsx
+ | |-AuthForm.tsx
+ |-firebase
+ | |-client.ts
+ | |-admin.ts
+ |-README.md
+ |-next.config.ts
+ |-public
+ | |-robot.png
+ | |-calendar.svg
+ | |-user-avatar.png
+ | |-window.svg
+ | |-upload.svg
+ | |-tailwind.svg
+ | |-covers
+ | | |-quora.png
+ | | |-adobe.png
+ | | |-skype.png
+ | | |-hostinger.png
+ | | |-reddit.png
+ | | |-amazon.png
+ | | |-pinterest.png
+ | | |-facebook.png
+ | | |-telegram.png
+ | | |-tiktok.png
+ | | |-yahoo.png
+ | | |-spotify.png
+ | |-pattern.png
+ | |-profile.svg
+ | |-logo.svg
+ | |-globe.svg
+ | |-ai-avatar.png
+ | |-tech.svg
+ | |-star.svg
+ | |-react.svg
+ | |-file.svg
+ |-app
+ | |-(auth)
+ | | |-sign-in
+ | | | |-page_sign_in.tsx
+ | | |-layout_auth.tsx
+ | | |-sign-up
+ | | | |-page_sign_up.tsx
+ | |-layout.tsx
+ | |-(root)
+ | | |-layout_interview.tsx
+ | | |-interview
+ | | | |-[id]
+ | | | | |-feedback
+ | | | | | |-page_feedback.tsx
+ | | | | |-page_id.tsx
+ | | | |-page.tsx
+ | | |-page_interview.tsx
+ | |-globals.css
+ | |-api
+ | | |-vapi
+ | | | |-generate
+ | | | | |-route.ts
+ | |-favicon.ico
+ |-constants
+ | |-index.ts
+ |-package.json
+ |-types
+ | |-index.d.ts
+ | |-vapi.d.ts
+

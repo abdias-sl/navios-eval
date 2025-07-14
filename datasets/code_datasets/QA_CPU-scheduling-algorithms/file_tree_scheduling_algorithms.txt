@@ -1,0 +1,76 @@
+|-styles
+ | |-globals.css
+ |-components
+ | |-cpu-scheduling-visualizer.tsx
+ | |-results-table.tsx
+ | |-ui
+ | | |-separator.tsx
+ | | |-toggle-group.tsx
+ | | |-select.tsx
+ | | |-badge.tsx
+ | | |-carousel.tsx
+ | | |-dialog.tsx
+ | | |-textarea.tsx
+ | | |-accordion.tsx
+ | | |-table.tsx
+ | | |-context-menu.tsx
+ | | |-resizable.tsx
+ | | |-toaster.tsx
+ | | |-navigation-menu.tsx
+ | | |-toast.tsx
+ | | |-slider.tsx
+ | | |-form.tsx
+ | | |-alert-dialog.tsx
+ | | |-collapsible.tsx
+ | | |-alert.tsx
+ | | |-input.tsx
+ | | |-hover-card.tsx
+ | | |-switch.tsx
+ | | |-calendar.tsx
+ | | |-toggle.tsx
+ | | |-checkbox.tsx
+ | | |-card.tsx
+ | | |-tooltip.tsx
+ | | |-pagination.tsx
+ | | |-label.tsx
+ | | |-sonner.tsx
+ | | |-scroll-area.tsx
+ | | |-input-otp.tsx
+ | | |-avatar.tsx
+ | | |-popover.tsx
+ | | |-drawer.tsx
+ | | |-sidebar.tsx
+ | | |-menubar.tsx
+ | | |-use-toast.ts
+ | | |-skeleton.tsx
+ | | |-tabs.tsx
+ | | |-progress.tsx
+ | | |-dropdown-menu.tsx
+ | | |-sheet.tsx
+ | | |-chart.tsx
+ | | |-command.tsx
+ | | |-button.tsx
+ | | |-use-mobile.tsx
+ | | |-breadcrumb.tsx
+ | | |-radio-group.tsx
+ | | |-aspect-ratio.tsx
+ | |-algorithm-info.tsx
+ | |-algorithm-visualizer.tsx
+ | |-process-input-form.tsx
+ | |-theme-provider.tsx
+ |-README.md
+ |-hooks
+ | |-use-toast.ts
+ | |-use-mobile.tsx
+ |-public
+ | |-placeholder.jpg
+ | |-placeholder.svg
+ | |-placeholder-user.jpg
+ | |-placeholder-logo.svg
+ | |-placeholder-logo.png
+ |-app
+ | |-layout.tsx
+ | |-globals.css
+ | |-page.tsx
+ |-package.json
+

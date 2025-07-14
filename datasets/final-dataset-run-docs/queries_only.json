@@ -1,0 +1,388 @@
+{
+  "examples": [
+    {
+      "query": "Who is the signatory of this official 1978 letter from the Department of Health, Education, and Welfare's Food and Drug Administration, and what was their position within the organization?"
+    },
+    {
+      "query": "Based on the corporate document policy shown in this image, what is the specific title or purpose of Policy No. 18 as referenced in Article 2 of the Document Control Policy?"
+    },
+    {
+      "query": "According to the expenditure chart for health care services in Cuyahoga County shown in Figure V-8, in which year between 1955 and 1960 did the Family and Child Welfare Programs (including public assistance and other health and welfare programs) receive the lowest total funding allocation?"
+    },
+    {
+      "query": "According to the research document on paper development, which specific chemical compound's effect is being evaluated on IP (Internal Penetration) using the base sheet 99103A-12 Coresta as shown in section I.2 of the technical report?"
+    },
+    {
+      "query": "According to the Consumer Dynamics GPC report from B&W shown in this document, what percentage of market share does the company hold in the 21-25 age demographic segment, and how does this figure compare to their other performance metrics?"
+    },
+    {
+      "query": "What is the specific date on which this formal correspondence from Takeda Pharmaceuticals North America, Inc. to Dr. David Orloff at the FDA's Division of Metabolic & Endocrine Drug Products was issued, as indicated in the letter header?"
+    },
+    {
+      "query": "According to the ITC Employee Stock Option Scheme data shown in this annexure to the Report of Directors dated March 31, 2009, what is the total cumulative number of stock options that were granted or allocated by ITC Limited across all years from 2001 through 2006 as displayed in the summary table?"
+    },
+    {
+      "query": "According to the clinical trial flow chart shown in this document, out of the 100 study subjects who were enrolled in the drug trial, how many of them underwent and completed a baseline angiogram procedure as part of the initial assessment?"
+    },
+    {
+      "query": "According to the balance sheet schedules of CIGFIL Limited, Chennai as of March 31, 2004, what percentage of the total raw materials consumed during the current year was sourced indigenously (domestically) as opposed to imported?"
+    },
+    {
+      "query": "What is the specific brand name mentioned in this material approval form for relationship marketing, and where is it positioned in the document's layout?"
+    },
+    {
+      "query": "Based on the images from ITC Limited's corporate materials, what specific type of financial documentation is shown in the top-right corner of this composite image that appears to showcase both manufacturing facilities and corporate properties?"
+    },
+    {
+      "query": "According to this dental health information document from Coca-Cola, what nutritional approach is recommended as the key to maintaining a balanced diet and promoting overall good health, especially in the context of preventing tooth decay?"
+    },
+    {
+      "query": "Based on the product development information shown in this B&W tobacco company slide about KOOL 100 cigarettes, what specific percentage of menthol content is mentioned in the implementation details of the KOOL \"C\" product variant?"
+    },
+    {
+      "query": "Looking at this ITC Limited Report and Accounts page from 2013 showcasing various brand advertisements, what is the name of the fashion wear or clothing brand being advertised in the bottom section of the page that appears to feature lifestyle fashion marketing?"
+    },
+    {
+      "query": "According to the footnotes at the bottom of this Methods Development Two-Year Project Plan (Appendix IIA), what does the letter \"C\" stand for when it appears as a prefix in the project listings, as indicated in the document's legend?"
+    },
+    {
+      "query": "According to this Response Code Request Form for the Winston brand tobacco promotion, which marketing professional is identified as the person who officially requested the response code Z37 for the \"JM Smoker-Get-A-Smoker Name Generation Card\" project?"
+    },
+    {
+      "query": "According to the progress report document shown in the image, which contains information about medical conferences related to trimegestone research, in what specific year is the \"Plenary Session on Menopause\" scheduled to take place in Prague?"
+    },
+    {
+      "query": "According to the technical report document shown in the image, what specific proprietary technology is mentioned in the James River patent specification that has been requested, and what is the subject matter of this patent as described in the \"PM Web\" section?"
+    },
+    {
+      "query": "According to the article about GM food labeling that appears to be from an industry publication, who is identified as the Robert Walmsley university professor at Harvard Law School who has also served as an administrator in the White House?"
+    },
+    {
+      "query": "According to the B&W Consumer Dynamics report for KOOL comparing 1994 versus 1995, what percentage of customers were lost due to switching to other brands in 1995, and how does this compare to the previous year's switching losses?"
+    },
+    {
+      "query": "According to the fax cover sheet from DesignWrite Incorporated that was sent in January 2005, what specific time is indicated in the document, and in which time zone was this communication sent?"
+    },
+    {
+      "query": "According to the DesignWrite contract document shown in the image, what was the specific date when Carol A. Tozzi, Ph.D. formally accepted the writing assignment as indicated in the \"ASSIGNMENT ACCEPTED BY\" section at the bottom of the form?"
+    },
+    {
+      "query": "According to the ITC Report on Corporate Governance for 2013 shown in this image, what was the number of members present at the Sustainability Committee meeting that took place on 5th April, 2012, as indicated in the attendance table on the right side of the document?"
+    },
+    {
+      "query": "According to the pie chart titled \"Chemical Compounds Found In Cigarettes (First Response)\" shown in this image, what percentage of survey respondents indicated they were \"Not At All Concerned\" about chemical compounds in cigarettes?"
+    },
+    {
+      "query": "According to the EAGAR subject flow diagram, why were 3 participants excluded from the initial 103 subjects who signed consent forms, leaving only 100 enrolled in the drug study?"
+    },
+    {
+      "query": "According to the journal article page shown in this image from the Journal of the Air Pollution Control Association, what is the title of the scholarly work authored by G. A. Lloyd that was published in 1961 and later digitized online in 2012?"
+    },
+    {
+      "query": "Looking at this R.J. Reynolds Tobacco Co. invoice document from 1997, what specific quantity is listed in the \"Volume\" field that appears in the boxed section near the top of the form, just below the \"YA Job Quote/Invoice\" heading?"
+    },
+    {
+      "query": "According to this Philip Morris internal memo from 1990 regarding NNK (4-(methylnitrosoamino)-1-(3-pyridyl)-1-butanone), what specific concentration levels of this tobacco-specific nitrosamine were measured in burley tobacco genotypes during the 1981 study when no nitrogen fertilization was applied?"
+    },
+    {
+      "query": "According to Table 3 which shows the effect of terminating irrigation at different dates on sugar beet production, what was the percentage of sucrose content in sugar beets when irrigation was terminated on September 1 (Treatment No. 9)?"
+    },
+    {
+      "query": "According to the 1970 soft drink industry market concentration data shown on this document page, which soft drink company held the smallest percentage of total soft drink sales among the eight major companies that collectively accounted for 84.1% of the market?"
+    },
+    {
+      "query": "Looking at this tobacco industry document about nicotine research, what is the first category or classification listed under the \"DRIVING SCIENCE/TECHNOLOGIES\" section of this strategic planning document?"
+    },
+    {
+      "query": "Looking at this FMCG (Fast-Moving Consumer Goods) product launch document from 2011-12, what exactly is written in the John Players Jeans section of the advertisement, and what specific information does the text provide about this denim brand?"
+    },
+    {
+      "query": "Looking at this Method Development Project Survey appendix document, I notice there are some entries marked with \"C\" in parentheses at the beginning of certain project names. According to the legend at the bottom of the table, what does this \"C\" designation stand for in the context of these tobacco research and development projects?"
+    },
+    {
+      "query": "According to the clinical study flow chart diagram, what was the total number of subjects who were officially enrolled in the study after signing consent forms, and before accounting for those who later refused to continue participation?"
+    },
+    {
+      "query": "According to the Notice of Annual Meeting of Shareholders document from PepsiCo dated March 24, 2006, who is identified as the Secretary of the company, as evidenced by the signature at the bottom of the notice?"
+    },
+    {
+      "query": "Based on this informational document about sodium in soft drinks, how does sodium function in the human body to regulate water balance and maintain proper hydration levels, particularly in relation to cellular processes?"
+    },
+    {
+      "query": "Based on this ITC Limited Report and Accounts 2013 page featuring Sunfeast products, which Sunfeast biscuit sub-brand appears first in the top row of the product display showcasing their full biscuit portfolio?"
+    },
+    {
+      "query": "According to this Pepsi-Cola product information sheet from 1986, which specific sweetener is used in the diet versions of Slice beverages, including Diet Slice, Diet Mandarin Orange Slice, Diet Apple Slice, and Diet Cherry Cola Slice, as mentioned in the nutritional data and product description?"
+    },
+    {
+      "query": "Looking at this R.J. Reynolds Tobacco Company request form for gratis tobacco products from 2004, what is the General Ledger Number listed on the form that would be used for accounting and tracking purposes?"
+    },
+    {
+      "query": "According to the cigarette product research document shown in the image, what is the specific circumference measurement of a regular Virginia Slims cigarette as mentioned in the \"Suggestions for Improvements\" section when discussing potential changes to the VSSS product?"
+    },
+    {
+      "query": "What is the name and dosage of the medication mentioned in the header section of this clinical progress report document, specifically positioned in the top right corner of the page?"
+    },
+    {
+      "query": "According to the bar graph in this 14-day smoke inhalation study conducted on mice (TRD-ATS-020), what was the mean tidal volume in milliliters (mls) for the MC exposure group during the pre-exposure period, as indicated by the white bar in the first group shown on the left side of the chart?"
+    },
+    {
+      "query": "According to the Methods Development Two-Year Project Plan shown in Appendix IIB, what priority level has been assigned to the first project listed in the table (\"Replace Flex Tester\"), and how does this priority compare to other projects on the tobacco research planning document?"
+    },
+    {
+      "query": "Based on the informational brochure for the Pharmaceutical Education Associates conference \"Publication Planning 2003\" shown in this image, what is the official website URL where potential attendees can register or find more information about the organization hosting this pharmaceutical industry event?"
+    },
+    {
+      "query": "According to the fax cover sheet from DesignWrite Incorporated dated January 22, 2001, what is the telephone contact number for Karen D. Mittleman, PhD, who is identified as a Senior Medical Writer sending correspondence regarding a \"Low-Dose Review Paper Response\"?"
+    },
+    {
+      "query": "Based on this page from ITC Limited's 2013 Report and Accounts, which brand name is specifically associated with the peppermint confectionery products in ITC's portfolio of candy and mint offerings?"
+    },
+    {
+      "query": "According to ITC Limited's 2012 Report and Accounts document, specifically in the section outlining ITC's Sustainability Initiatives and their scale and impact, how many children have been covered by ITC's Supplementary Education Programme as stated in the sustainability metrics?"
+    },
+    {
+      "query": "According to the technical document on tobacco research and filter development, at which academic institution were the experimental web filters for cigarettes produced as mentioned in the \"Web Filter Development\" section?"
+    },
+    {
+      "query": "How does the user input and modify the list of processes in the CPU Scheduling Visualizer?"
+    },
+    {
+      "query": "Which component is responsible for orchestrating the running of all scheduling algorithms and managing their results?"
+    },
+    {
+      "query": "Where are the core CPU scheduling algorithms implemented, and how are they structured?"
+    },
+    {
+      "query": "How does the application visualize the execution timeline of processes for each algorithm?"
+    },
+    {
+      "query": "How does the user trigger the scheduling algorithms to run on the current process list?"
+    },
+    {
+      "query": "How does the application allow users to switch between different scheduling algorithms in the UI?"
+    },
+    {
+      "query": "How are process metrics such as waiting time, turnaround time, and response time calculated?"
+    },
+    {
+      "query": "How does the application explain the working, advantages, and disadvantages of each scheduling algorithm?"
+    },
+    {
+      "query": "How does the application support animation and playback of the scheduling timeline?"
+    },
+    {
+      "query": "How does the application ensure all logic and state management runs on the client side?"
+    },
+    {
+      "query": "How can a user compare the efficiency of different scheduling algorithms using the app?"
+    },
+    {
+      "query": "What happens if the user enters only one process in the input form?"
+    },
+    {
+      "query": "How does the application handle and visualize idle CPU time?"
+    },
+    {
+      "query": "How does the user set the time quantum for the Round Robin algorithm?"
+    },
+    {
+      "query": "How does the application display per-process and average metrics for each algorithm?"
+    },
+    {
+      "query": "How does the application handle process priorities in the input form?"
+    },
+    {
+      "query": "How does the application handle user errors, such as entering negative burst times or arrival times?"
+    },
+    {
+      "query": "How does the application update the visualization and results when the process list or time quantum changes?"
+    },
+    {
+      "query": "How does the application structure the data for processes and scheduling results?"
+    },
+    {
+      "query": "How does the application ensure a responsive and modern UI for the scheduling visualizer?"
+    },
+    {
+      "query": "What is the main purpose of the Grocky platform?"
+    },
+    {
+      "query": "Which technologies are used to build Grocky?"
+    },
+    {
+      "query": "How does a user start an interview simulation on Grocky?"
+    },
+    {
+      "query": "How does the Agent component manage the interview call and transcript?"
+    },
+    {
+      "query": "How does Grocky provide feedback to users after an interview?"
+    },
+    {
+      "query": "How is authentication handled in Grocky?"
+    },
+    {
+      "query": "How does the platform ensure real-time updates during an interview?"
+    },
+    {
+      "query": "How does Grocky use Google Gemini?"
+    },
+    {
+      "query": "What is the role of the InterviewCard component?"
+    },
+    {
+      "query": "How does the feedback page present results to the user?"
+    },
+    {
+      "query": "How does Grocky handle environment configuration for third-party services?"
+    },
+    {
+      "query": "How does the user interact with the AI interviewer during a session?"
+    },
+    {
+      "query": "How does Grocky store and retrieve interview transcripts?"
+    },
+    {
+      "query": "How does the app validate user input in forms?"
+    },
+    {
+      "query": "How does the platform support both frontend and backend logic?"
+    },
+    {
+      "query": "How does the Agent component handle call status changes?"
+    },
+    {
+      "query": "How does Grocky ensure a modern and responsive UI?"
+    },
+    {
+      "query": "How does the user review past interviews?"
+    },
+    {
+      "query": "How does the app handle errors during the interview or feedback process?"
+    },
+    {
+      "query": "How does Grocky support dynamic interview questions?"
+    },
+    {
+      "query": "Who are the credits for \"Emma\"?"
+    },
+    {
+      "query": "What is Emma Woodhouse's habit regarding reading?"
+    },
+    {
+      "query": "How does Emma describe Mr. Elton's manners compared to Mr. Knightley's or Mr. Weston's?"
+    },
+    {
+      "query": "Why does Mr. Knightley believe Emma is spoiled?"
+    },
+    {
+      "query": "What is Harriet Smith's main literary pursuit at present?"
+    },
+    {
+      "query": "How does Emma react to the letter Harriet receives, and what does she advise?"
+    },
+    {
+      "query": "What is Mr. Elton's reaction when Emma mentions she has transcribed his charade into Harriet's collection?"
+    },
+    {
+      "query": "What does Mr. Knightley say about Frank Churchill's letters?"
+    },
+    {
+      "query": "What is Miss Bates's reaction to the party at Randalls, and what does she say about Frank Churchill?"
+    },
+    {
+      "query": "What crucial mistake does Emma realize regarding Harriet's affections?"
+    },
+    {
+      "query": "What is the title of the book and who is its author?"
+    },
+    {
+      "query": "How has this edition of \"Gulliver's Travels\" been adapted from the original?"
+    },
+    {
+      "query": "According to the \"First Publisher to the Reader,\" what is the author's reputation for veracity?"
+    },
+    {
+      "query": "What was found in Gulliver's pockets during the strict search by the Lilliputians?"
+    },
+    {
+      "query": "What were the two struggling parties in the Lilliputian empire, and how did they distinguish themselves?"
+    },
+    {
+      "query": "What was the origin of the war between Lilliput and Blefuscu?"
+    },
+    {
+      "query": "What is the approximate size of the natives of Lilliput and their animals?"
+    },
+    {
+      "query": "What suggestion did Reldresal make regarding Gulliver's punishment for his crimes?"
+    },
+    {
+      "query": "How did Gulliver read books in the king's library in Brobdingnag?"
+    },
+    {
+      "query": "What was the Brobdingnagian king's opinion of European politics and the art of government?"
+    },
+    {
+      "query": "Who is the author of \"Moby-Dick; Or, The Whale\"?"
+    },
+    {
+      "query": "What are the different \"books\" (classifications) of whales mentioned in the Cetology chapter?"
+    },
+    {
+      "query": "What type of whale is presented as the type for the \"Folio\" classification?"
+    },
+    {
+      "query": "What distinguishes the Fin-Back whale, and why is it considered the \"Cain of its race\"?"
+    },
+    {
+      "query": "Why does the author use a \"Bibliographical system\" to classify whales?"
+    },
+    {
+      "query": "What is the \"Hyena Whale\" also known as, and what is its distinctive facial feature?"
+    },
+    {
+      "query": "What is the minimum amount of oil some Hyena Whales can yield despite thin blubber?"
+    },
+    {
+      "query": "What is Captain Sleet's invention mentioned in connection with whale-ships?"
+    },
+    {
+      "query": "What is the \"Heidelburgh Tun\" in reference to the Sperm Whale, and what does it contain?"
+    },
+    {
+      "query": "What is the significance of the \"hieroglyphical\" marks on the Sperm Whale's surface?"
+    },
+    {
+      "query": "Who are the characters present at the beginning of the \"Romeo and Juliet\" excerpt?"
+    },
+    {
+      "query": "How does Romeo describe his current state to Benvolio?"
+    },
+    {
+      "query": "What does the Nurse say about Juliet's disposition towards marriage?"
+    },
+    {
+      "query": "Who is Queen Mab, according to Mercutio's description?"
+    },
+    {
+      "query": "What happens when Romeo kisses Juliet for the first time in the excerpt?"
+    },
+    {
+      "query": "What does Friar Lawrence collect in his basket at the beginning of Scene III?"
+    },
+    {
+      "query": "What does Benvolio tell Mercutio about Tybalt?"
+    },
+    {
+      "query": "How does Mercutio describe Tybalt as a fighter?"
+    },
+    {
+      "query": "What is Peter's request to the musicians after the Capulet family exits?"
+    },
+    {
+      "query": "What is the first musician's explanation for \"silver sound\" in the song lyrics Peter recites?"
+    }
+  ]
+}

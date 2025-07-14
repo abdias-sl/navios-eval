@@ -1,0 +1,1817 @@
+{
+  "project_id": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+  "upload_url": "http://localhost:8000/api/projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/upload",
+  "source_directory": "./datasets/final-dataset/",
+  "total_files": 81,
+  "successful_uploads": 81,
+  "failed_uploads": 0,
+  "upload_results": [
+    {
+      "filename": "tsconfig.json",
+      "status": "success",
+      "response": {
+        "id": "5e681b5a-be49-4343-ad3c-b12a8900c383",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/5e681b5a-be49-4343-ad3c-b12a8900c383/tsconfig.json",
+        "title": "tsconfig.json",
+        "type": "json",
+        "fileSize": "598",
+        "metadata": {
+          "originalFilename": "tsconfig.json",
+          "mimeType": "application/json"
+        },
+        "summary": "This file is a TypeScript configuration for a Next.js project. It specifies the compiler options such as target, library, and module settings, allowing JavaScript, enabling strict type checking, and configuring module resolution. Paths and included/excluded files are also defined. The configuration optimizes for modern JavaScript and React development. Author and date metadata are not available.",
+        "createdAt": "2025-07-11T10:04:41.412Z",
+        "updatedAt": "2025-07-11T10:04:42.842Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "410.png",
+      "status": "success",
+      "response": {
+        "id": "d12a6654-46c5-4861-a740-a3d35d6c4704",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/d12a6654-46c5-4861-a740-a3d35d6c4704/410.png",
+        "title": "410.png",
+        "type": "image",
+        "fileSize": "65444",
+        "metadata": {
+          "originalFilename": "410.png",
+          "mimeType": "image/png",
+          "imageTitle": "FDA Correspondence on Meeting Minutes Regarding Labeling",
+          "imageDescription": "The image depicts a letter from the Department of Health, Education, and Welfare, specifically the Food and Drug Administration (FDA), dated July 24, 1978. Addressed to Letitia Brewster at the Center for Science in the Public Interest in Washington, D.C., the letter is from Donald Plumb, Assistant to the Director of the Division of Regulatory Guidance, Bureau of Foods. The correspondence is in response to a previous request from June 26, 1978, providing a copy of the meeting minutes from May 5, 1978, discussing labeling. The letter underlines the official communication concerning regulatory matters and includes an enclosure as noted at the bottom."
+        },
+        "summary": "This document is a letter from the Department of Health, Education, and Welfare, specifically the Food and Drug Administration, dated July 24, 1978. It is addressed to Letitia Brewster from the Center for Science in the Public Interest. The letter acknowledges the receipt of a previous request and encloses a copy of the minutes from a meeting held on May 5, 1978, concerning labeling. The letter is signed by Donald Plumb, Assistant to the Director, Division of Regulatory Guidance, Bureau of Foods.",
+        "createdAt": "2025-07-11T10:04:50.012Z",
+        "updatedAt": "2025-07-11T10:04:58.617Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "page_root.tsx",
+      "status": "success",
+      "response": {
+        "id": "8a1a83e0-5291-4743-aadb-789155c11c74",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/8a1a83e0-5291-4743-aadb-789155c11c74/page_root.tsx",
+        "title": "page_root.tsx",
+        "type": "text",
+        "fileSize": "2700",
+        "metadata": {
+          "originalFilename": "page_root.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines the main page of an application that offers AI-powered interview practice and feedback. It fetches the current user and displays their past and upcoming interviews using components like Link, Button, and InterviewCard. Users can start new interviews and view existing ones. The page contains sections for AI practice, user's past interviews, and available upcoming interviews. Author and creation date information is not provided in the file.",
+        "createdAt": "2025-07-11T10:05:02.811Z",
+        "updatedAt": "2025-07-11T10:05:03.411Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "555.png",
+      "status": "success",
+      "response": {
+        "id": "c8c925b0-7a31-4571-b06e-faa67cffa22c",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/c8c925b0-7a31-4571-b06e-faa67cffa22c/555.png",
+        "title": "555.png",
+        "type": "image",
+        "fileSize": "176713",
+        "metadata": {
+          "originalFilename": "555.png",
+          "mimeType": "image/png",
+          "imageTitle": "Policy on Document Control - General Provisions",
+          "imageDescription": "The image displays a section from a document titled 'Policy on Document Control,' specifically labeled as Policy No. 8. This excerpt includes Chapter 1, titled 'General Provisions,' outlining the purpose, general provisions, and definitions related to the document control policy. Article 1 discusses the purpose, focusing on managing and utilizing document information effectively in response to legal and administrative needs. Article 2 delves into the handling of documents according to specified policies like handling contracts, confidential information, and IT security. Article 3 provides definitions for terms such as 'Documents,' 'Disks,' and 'Storage,' detailing the types of materials and methods for storing documents. The image serves to illustrate the structured approach taken to document management within a company, ensuring clarity and consistency in handling various types of records. The context emphasizes legal compliance and organizational standards. Text within the image includes headers, article titles, and a footer indicating confidentiality and the document source."
+        },
+        "summary": "This document outlines the Policy on Document Control (Policy No. 8), detailing general provisions regarding the creation, storage, and disposal of documents within a company. It aims to ensure that documents are managed effectively in response to legal or administrative needs. The document provides definitions and standards for handling various types of records and follows related policies on IT security and confidential information management. The document is marked confidential and subject to a protective order.",
+        "createdAt": "2025-07-11T10:05:11.209Z",
+        "updatedAt": "2025-07-11T10:05:24.399Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "10877.png",
+      "status": "success",
+      "response": {
+        "id": "6cb9550f-b228-45cd-8dc0-9368019f1588",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/6cb9550f-b228-45cd-8dc0-9368019f1588/10877.png",
+        "title": "10877.png",
+        "type": "image",
+        "fileSize": "1334223",
+        "metadata": {
+          "originalFilename": "10877.png",
+          "mimeType": "image/png",
+          "imageTitle": "Expenditures for Health Care Services in Cuyahoga County (1955-1960)",
+          "imageDescription": "The image is a bar chart titled 'Figure V-8' depicting the expenditures for health care services under public health and family and child welfare programs in Cuyahoga County from 1955 to 1960. It presents the data by source of funds, categorized as Local, Federal, State, and Private, along with the percentage of the total expenditure. The chart shows comparisons between the years 1955 and 1960, highlighting two main categories: Local Health Dept Programs (including nursing and school health services) and Family and Child Welfare Programs (including public assistance). The monetary values are indicated at the top of each bar, while the percentages are shown in circular markers. The purpose of this image is to illustrate the shifts in funding sources and expenditure amounts for health services over the specified years."
+        },
+        "summary": "This file presents a bar graph analyzing the expenditures for health care services under public health, family, and child welfare programs in Cuyahoga County from 1955 to 1960. It compares local, federal, state, and private funding sources between two time points for both local health department programs and family and child welfare programs. The graph includes monetary figures and percentages detailing changes in spending patterns over the five-year period. The document is identified as Figure V-8, with a source link provided at the bottom.",
+        "createdAt": "2025-07-11T10:05:34.064Z",
+        "updatedAt": "2025-07-11T10:05:58.830Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "289.png",
+      "status": "success",
+      "response": {
+        "id": "a5ff95f4-e7b1-4313-bacc-0b61a5544bfd",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/a5ff95f4-e7b1-4313-bacc-0b61a5544bfd/289.png",
+        "title": "289.png",
+        "type": "image",
+        "fileSize": "126499",
+        "metadata": {
+          "originalFilename": "289.png",
+          "mimeType": "image/png",
+          "imageTitle": "Evaluation and Effects of Citrate on Rip Paper and Ignition Propensity",
+          "imageDescription": "The image displays a document focused on two main sections: the collaboration with Ecusta to develop RIP paper and the effect of rinsing fabric on ignition propensity. The first section evaluates Coresta papers with GPC blend to determine pass/fail criteria on RIP-4, listing paper codes, porosity, citrate percentage, and RIP-4 evaluation results. It further investigates the effect of citrate on IP using a base sheet with varied citrate and alkali metal presence. The second section studies the fabric's ignition propensity before and after washing, providing comparison data for different cigarette names and RIP types. It ends with a flame test of cotton ducks, giving flame-out times before and after rinsing. This document appears significant for research on paper and fabric ignition properties."
+        },
+        "summary": "This document details experiments conducted to evaluate different Coresta papers with GPC blends and their impact on RIP-4. It includes data on porosity, citrate concentration, and alkali metals affecting paper performance. Additionally, it examines the effects of fabric rinsing on ignition propensity, highlighting flame-out times. The document summarizes results for various test conditions and materials, although it lacks specific author and date information.",
+        "createdAt": "2025-07-11T10:06:04.869Z",
+        "updatedAt": "2025-07-11T10:06:15.622Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "287.png",
+      "status": "success",
+      "response": {
+        "id": "2d991586-a69e-4b89-994e-46ef663ff316",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/2d991586-a69e-4b89-994e-46ef663ff316/287.png",
+        "title": "287.png",
+        "type": "image",
+        "fileSize": "119816",
+        "metadata": {
+          "originalFilename": "287.png",
+          "mimeType": "image/png",
+          "imageTitle": "Consumer Dynamics GPC Statistics",
+          "imageDescription": "The image displays key statistical data from a report titled 'Consumer Dynamics GPC' by a company represented with the logo 'B&W.' It includes metrics related to consumer behavior and brand retention, specifically in the context of franchise retention, switching and quitting losses, single brand users, industry switchers gained, and the 21-25 age segment. Each metric is listed with a percentage value and an index number in parentheses. The source of the data is cited as 'USMM 1/95-6/95, 12-Month Data.' This information is crucial for understanding consumer loyalty and market trends in the given timeframe."
+        },
+        "summary": "This document presents a statistical analysis of consumer behavior related to brand retention, switching losses, and demographic segments for the B&W brand. The contents include percentages detailing retention rates, switching and quitting losses, single-brand users, industry switchers gained, and the specific share of the 21-25 age segment. Produced using data from January to May 1995 over a 12-month period, this report provides insights into consumer loyalty and market segment performance.",
+        "createdAt": "2025-07-11T10:06:20.223Z",
+        "updatedAt": "2025-07-11T10:06:28.414Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "491.png",
+      "status": "success",
+      "response": {
+        "id": "2618a69d-73ef-47e9-b794-0b4057fcb617",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/2618a69d-73ef-47e9-b794-0b4057fcb617/491.png",
+        "title": "491.png",
+        "type": "image",
+        "fileSize": "183015",
+        "metadata": {
+          "originalFilename": "491.png",
+          "mimeType": "image/png",
+          "imageTitle": "Takeda Pharmaceuticals Correspondence to FDA Regarding ACTOS",
+          "imageDescription": "The image shows a letter from Takeda Pharmaceuticals North America, Inc. dated November 18, 2002, addressed to Dr. David Orloff at the FDA's Division of Metabolic & Endocrine Drug Products. The letter references a response to an FDA request for information concerning ACTOS (pioglitazone HCl) tablets in 15, 30, and 45 mg doses. It details a telephone conference between FDA representatives and Takeda about clinical studies involving ACTOS, specifically addressing a case involving a 58-year-old male patient diagnosed with bladder cancer. The purpose is to comply with a Division request regarding study medication. The letter includes the Takeda logo, contact details, and a 'Confidential - Subject to Protective Order' note at the bottom. An 'EXHIBIT' stamp marks the document for reference in a legal or regulatory context."
+        },
+        "summary": "The document is a letter from Takeda Pharmaceuticals North America, Inc., dated November 18, 2002, addressed to Dr. David Orloff from the FDA's Division of Metabolic & Endocrine Drug Products. It discusses a response to a request for information about ACTOS (Pioglitazone HCl) tablets related to a telephone conference regarding clinical trials. The letter describes details concerning patients involved in the studies, including a case of a male patient diagnosed with bladder cancer. Metadata includes the author as Takeda Pharmaceuticals, the date as November 18, 2002, and identification as an exhibit document produced in MDL on 09/11/2012.",
+        "createdAt": "2025-07-11T10:06:36.205Z",
+        "updatedAt": "2025-07-11T10:06:44.322Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "layout.tsx",
+      "status": "success",
+      "response": {
+        "id": "cd6aeec9-e56a-45f9-bae1-ecd44a2c4f43",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/cd6aeec9-e56a-45f9-bae1-ecd44a2c4f43/layout.tsx",
+        "title": "layout.tsx",
+        "type": "text",
+        "fileSize": "655",
+        "metadata": {
+          "originalFilename": "layout.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines the root layout component for a web application named Grocky, an AI-powered platform for mock interview preparation. It imports and configures a custom font, includes a global toaster notification system, and applies a dark theme by default. Metadata such as the title and description of the platform are specified. The layout wraps its children components in HTML and body tags with specific styles and classes. Author and date metadata are not provided in the file.",
+        "createdAt": "2025-07-11T10:06:49.692Z",
+        "updatedAt": "2025-07-11T10:06:50.330Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4731.png",
+      "status": "success",
+      "response": {
+        "id": "3129305b-c551-48f3-9ec5-0d198a48873c",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/3129305b-c551-48f3-9ec5-0d198a48873c/4731.png",
+        "title": "4731.png",
+        "type": "image",
+        "fileSize": "127144",
+        "metadata": {
+          "originalFilename": "4731.png",
+          "mimeType": "image/png",
+          "imageTitle": "Summary of ITC Employee Stock Option Scheme Allocations and Pricing",
+          "imageDescription": "The image is an annexure to the Report of the Directors from the ITC Report and Accounts 2009. It presents a detailed summary of the ITC Employee Stock Option Scheme statistics as of 31st March, 2009. The table is divided into several sections, outlining the total number of options granted from 2001 to 2008, the pricing formula for options, the exercise price per option across the years, and various data points such as the total number of options vested and exercised, shares arising from exercised options, lapsed options, term variations, and money realized through exercise. The detailed tabulations within the image serve to provide transparency and compliance with the Securities and Exchange Board of India's guidelines. The information is crucial for stakeholders to understand the financial implications and operational aspects of the company's stock option program."
+        },
+        "summary": "The document is an annexure to the Report of the Directors, detailing the Employee Stock Option Scheme of ITC Limited as of March 31, 2009. It covers the number of options granted, pricing formula, exercise prices, and other related data from 2001 to 2008. The annexure includes tables showing options granted, vested, exercised, and lapsed, as well as financial details like money realized from options. The source is credited to a document from ITC Report and Accounts 2009.",
+        "createdAt": "2025-07-11T10:06:56.883Z",
+        "updatedAt": "2025-07-11T10:07:06.200Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "page_feeback.tsx",
+      "status": "success",
+      "response": {
+        "id": "69764f55-9706-4383-b928-6d3a65efe09e",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/69764f55-9706-4383-b928-6d3a65efe09e/page_feeback.tsx",
+        "title": "page_feeback.tsx",
+        "type": "text",
+        "fileSize": "3451",
+        "metadata": {
+          "originalFilename": "page_feeback.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a React component that presents feedback on a specific interview. It retrieves interview details and associated feedback, including an overall impression score, final assessment, strengths, and areas for improvement. The component also offers navigation options to retake the interview or return to the dashboard. No specific author or date metadata is provided in the file.",
+        "createdAt": "2025-07-11T10:07:08.250Z",
+        "updatedAt": "2025-07-11T10:07:08.869Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "client.ts",
+      "status": "success",
+      "response": {
+        "id": "b52b7be1-a45f-47f4-80d2-27ab25323606",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/b52b7be1-a45f-47f4-80d2-27ab25323606/client.ts",
+        "title": "client.ts",
+        "type": "text",
+        "fileSize": "1069",
+        "metadata": {
+          "originalFilename": "client.ts",
+          "mimeType": "text/plain"
+        },
+        "summary": "This TypeScript file contains the setup for a Firebase web application. It imports Firebase modules such as Authentication and Firestore, and initializes the app using configuration variables stored in environment variables. The conditional logic checks if the app is already initialized to prevent re-initialization. Metadata such as the author and date of creation are not provided in the file.",
+        "createdAt": "2025-07-11T10:07:10.436Z",
+        "updatedAt": "2025-07-11T10:07:11.082Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4973.png",
+      "status": "success",
+      "response": {
+        "id": "550322ea-08f3-452e-8940-8e8cc4ada42f",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/550322ea-08f3-452e-8940-8e8cc4ada42f/4973.png",
+        "title": "4973.png",
+        "type": "image",
+        "fileSize": "39292",
+        "metadata": {
+          "originalFilename": "4973.png",
+          "mimeType": "image/png",
+          "imageTitle": "Flow Chart of Subject Enrollment and Study Progression",
+          "imageDescription": "The image presents a flowchart detailing the enrollment and progression of subjects in a study. It starts with 'Subjects Signed Consent (signed consent form) N=103', indicating the total number of participants who signed the consent form. From these, 'study Subjects Enrolled drug N=100' moved forward with the drug study, while there were 'Protocol violation N=3 (Table 1)', which accounts for those not adhering to the protocol. The enrolled subjects are further divided into those with 'Subject with baseline angiogram n=81' and those who 'Subject refused to continue in study N=19 (Table 2)'. Among those with baseline angiogram, there are 'IVUS N=63', and 'No IVUS N=18', with all SVGs occluded or diseased. This flowchart serves to visually summarize the subject flow and decision points in the study, providing clarity on participant distribution and attrition throughout the study stages."
+        },
+        "summary": "This file is a flowchart illustrating the enrollment and categorization of subjects in a study. It shows the process from the initial signing of consent forms by 103 subjects, to various groupings such as those on protocol violation, subjects who refused to continue, and those with baseline angiograms. Out of 81 subjects with baseline angiograms, 63 underwent IVUS while 18 did not due to occluded or diseased SVG. Metadata includes a source link to the UCSF Industry Documents Library.",
+        "createdAt": "2025-07-11T10:07:17.178Z",
+        "updatedAt": "2025-07-11T10:07:24.063Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4752.png",
+      "status": "success",
+      "response": {
+        "id": "8cf9d065-df84-4d76-891d-ec4a2e307864",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/8cf9d065-df84-4d76-891d-ec4a2e307864/4752.png",
+        "title": "4752.png",
+        "type": "image",
+        "fileSize": "115759",
+        "metadata": {
+          "originalFilename": "4752.png",
+          "mimeType": "image/png",
+          "imageTitle": "Financial Schedule for CIGFIL Limited as of March 31, 2004",
+          "imageDescription": "The image contains a financial schedule for CIGFIL Limited, Chennai, which forms part of the balance sheet dated March 31, 2004. It includes detailed sections on various materials and goods. The schedule provides quantities and financial data for 'Acetate Filament Yarn/Fibre', 'Acetate Tow', and 'Poly Propylene', comparing figures between the current and previous years. It also details the opening and closing stock for 'Cigarette Filter Rods' and 'Poly Propylene Woven Fabrics/Sacks', again showing both current and previous year data. Furthermore, it specifies the value of imported and indigenous raw materials used, indicating percentages and values in terms of lakhs. This schedule is significant as it provides insight into the company's resource management and financial adjustments over the specified periods."
+        },
+        "summary": "This document is a schedule forming part of the balance sheet for GICFIL Limited, Chennai, as of March 31, 2004. It details the quantities and financial figures of various materials such as Acetate Filament Yarn, Acetate Tow, and Poly Propylene during the current and previous year. The document also covers opening and closing stock figures for cigarette filter rods and woven fabrics, along with the value of imported and indigenous raw materials consumed. The source is indicated as https://www.industrydocuments.ucsf.edu/docs/yivj0223.",
+        "createdAt": "2025-07-11T10:07:30.066Z",
+        "updatedAt": "2025-07-11T10:07:39.787Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "layout_auth.tsx",
+      "status": "success",
+      "response": {
+        "id": "3f1b8a8a-c8dd-433c-931d-72b947f3513a",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/3f1b8a8a-c8dd-433c-931d-72b947f3513a/layout_auth.tsx",
+        "title": "layout_auth.tsx",
+        "type": "text",
+        "fileSize": "397",
+        "metadata": {
+          "originalFilename": "layout_auth.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "The file defines an asynchronous React component called AuthLayout used in a Next.js application to handle authentication logic. It checks if a user is authenticated and redirects them if they are. It specializes in wrapping content (children) within an authentication context. The file imports ReactNode from React and a custom authentication check from actions. No specific author or date metadata is present in the file.",
+        "createdAt": "2025-07-11T10:07:51.694Z",
+        "updatedAt": "2025-07-11T10:07:52.587Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "3115.png",
+      "status": "success",
+      "response": {
+        "id": "9a0c8bfe-e9f2-4d52-8d4a-11d1f46fa8e1",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/9a0c8bfe-e9f2-4d52-8d4a-11d1f46fa8e1/3115.png",
+        "title": "3115.png",
+        "type": "image",
+        "fileSize": "51856",
+        "metadata": {
+          "originalFilename": "3115.png",
+          "mimeType": "image/png",
+          "imageTitle": "Material Approval Form for Relationship Marketing",
+          "imageDescription": "This image shows a material approval form related to relationship marketing. It is used for the approval of a program under the brand 'Eclipse.' The form includes specific details such as the program number '701998' and commodity number '534962.' The item being approved is described as 'Insert Letter - Pink Dot Direct Sell Test Program.' The form indicates the originator as 'Joe A Leinster' with a date of 8-7-97. The dimensions of the item are specified as 7 5/8 x 5 7/16, totaling an area of 41.5 square inches. The W/S code is 'EXH 1-C.' There is an approval section listing different departments like Purchasing, Legal, Tax, and Brand Management, with only the Purchasing department showing initial approval by 'XXHL' on 8/11/97. This form appears to be used to document and track the approval process for marketing materials, ensuring that various departments sign off before implementation."
+        },
+        "summary": "This document is a material approval form related to a relationship marketing initiative titled 'Insert Letter - Pink Dot Direct Sell Test Program'. It details the program and commodity numbers, brand, item description, and approval details with initials. The originator is Joe A. Leinster, with a date of 8-7-97. There is a purchasing approval dated 8-11-99, while other sections like legal and tax are not filled. The document serves as an internal approval record for marketing materials within the 'Eclipse' brand.",
+        "createdAt": "2025-07-11T10:07:56.711Z",
+        "updatedAt": "2025-07-11T10:08:28.435Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "route.ts",
+      "status": "success",
+      "response": {
+        "id": "76af6902-1aab-4653-a05d-7842925b837d",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/76af6902-1aab-4653-a05d-7842925b837d/route.ts",
+        "title": "route.ts",
+        "type": "text",
+        "fileSize": "1793",
+        "metadata": {
+          "originalFilename": "route.ts",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file contains a TypeScript implementation of an API route that handles POST and GET requests to generate job interview questions. The POST request processes incoming data about the job role, experience level, and technology stack to generate tailored interview questions using an AI model. The questions are formatted and stored in a Firestore database. The GET request returns a simple success message. No specific author or date metadata is available within the file.",
+        "createdAt": "2025-07-11T10:08:30.553Z",
+        "updatedAt": "2025-07-11T10:08:31.097Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4826.png",
+      "status": "success",
+      "response": {
+        "id": "61df36e6-8ac7-40da-aaa9-c9a5990ac5d8",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/61df36e6-8ac7-40da-aaa9-c9a5990ac5d8/4826.png",
+        "title": "4826.png",
+        "type": "image",
+        "fileSize": "1365653",
+        "metadata": {
+          "originalFilename": "4826.png",
+          "mimeType": "image/png",
+          "imageTitle": "Industrial and Architectural Developments in ITC Limited Report 2013",
+          "imageDescription": "The image consists of three main components. The top section depicts an industrial setting with a production line showing food products being processed. Workers wearing protective gear are seen monitoring the machinery, demonstrating the manufacturing operations within ITC Limited. Above this section is the text 'ITC Limited REPORT AND ACCOUNTS 2013.' The middle section illustrates an aerial view of an expansive architectural complex, signifying planned or existing infrastructure associated with ITC's business ventures. The bottom section displays a modern, multi-story building with unique architectural design elements, likely representing corporate presence or office space for ITC. This composite image collectively highlights the industrial capabilities, planned infrastructure, and corporate identity of ITC Limited, aligning with the themes of development and progress highlighted in the report."
+        },
+        "summary": "The image depicts pages from the ITC Limited's report and accounts for the year 2013. It includes photographs and drawings related to manufacturing processes and architectural designs of ITC facilities. The top section shows an industrial setup with employees and production lines, likely for food processing. The middle section features an aerial rendering of a large facility or campus, while the bottom section showcases the architectural design of a modern building. The source is cited as the Industry Documents Library.",
+        "createdAt": "2025-07-11T10:08:42.466Z",
+        "updatedAt": "2025-07-11T10:08:53.420Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "form.tsx",
+      "status": "success",
+      "response": {
+        "id": "b8151872-d53c-4e6f-9f4a-8cac204ec531",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/b8151872-d53c-4e6f-9f4a-8cac204ec531/form.tsx",
+        "title": "form.tsx",
+        "type": "text",
+        "fileSize": "3759",
+        "metadata": {
+          "originalFilename": "form.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a set of React components for creating and managing forms using the react-hook-form library. It includes components such as Form, FormField, FormItem, FormLabel, FormControl, FormDescription, and FormMessage. These components leverage context to manage form state and are designed to handle form field validation, error messaging, and layout. The components are built with a focus on flexibility and reusability. Metadata details like the author and date are not provided in the file.",
+        "createdAt": "2025-07-11T10:08:56.289Z",
+        "updatedAt": "2025-07-11T10:08:56.799Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "gullivers_travels.pdf",
+      "status": "success",
+      "response": {
+        "id": "9b0690db-60f9-4153-a4f6-f90f2f64fa20",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/9b0690db-60f9-4153-a4f6-f90f2f64fa20/gullivers_travels.pdf",
+        "title": "gullivers_travels.pdf",
+        "type": "pdf",
+        "fileSize": "8698574",
+        "metadata": {
+          "originalFilename": "gullivers_travels.pdf",
+          "mimeType": "application/pdf",
+          "textFileKey": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/9b0690db-60f9-4153-a4f6-f90f2f64fa20/gullivers_travels_text.txt",
+          "pageCount": 72,
+          "extractedImages": [
+            "page_1_img__Im18.png",
+            "page_1_img__Im20.png",
+            "page_2_img__Im20.png",
+            "page_3_img__Im20.png",
+            "page_5_img__Im20.png",
+            "page_5_img__Im87.png",
+            "page_6_img__Im95.png",
+            "page_6_img__Im20.png",
+            "page_8_img__Im114.png",
+            "page_8_img__Im116.png",
+            "page_9_img__Im124.png",
+            "page_10_img__Im132.png",
+            "page_10_img__Im134.png",
+            "page_11_img__Im142.png",
+            "page_11_img__Im20.png",
+            "page_11_img__Im144.png",
+            "page_12_img__Im153.png",
+            "page_13_img__Im162.png",
+            "page_14_img__Im171.png",
+            "page_15_img__Im179.png",
+            "page_15_img__Im20.png",
+            "page_15_img__Im181.png",
+            "page_17_img__Im196.png",
+            "page_18_img__Im20.png",
+            "page_18_img__Im204.png",
+            "page_19_img__Im213.png",
+            "page_20_img__Im221.png",
+            "page_20_img__Im20.png",
+            "page_21_img__Im230.png",
+            "page_22_img__Im240.png",
+            "page_23_img__Im247.png",
+            "page_23_img__Im20.png",
+            "page_25_img__Im262.png",
+            "page_26_img__Im271.png",
+            "page_26_img__Im273.png",
+            "page_27_img__Im280.png",
+            "page_27_img__Im20.png",
+            "page_28_img__Im288.png",
+            "page_29_img__Im295.png",
+            "page_31_img__Im309.png",
+            "page_31_img__Im20.png",
+            "page_31_img__Im311.png",
+            "page_32_img__Im318.png",
+            "page_33_img__Im326.png",
+            "page_34_img__Im336.png",
+            "page_34_img__Im338.png",
+            "page_35_img__Im347.png",
+            "page_35_img__Im20.png",
+            "page_36_img__Im356.png",
+            "page_36_img__Im20.png",
+            "page_37_img__Im363.png",
+            "page_38_img__Im370.png",
+            "page_40_img__Im387.png",
+            "page_40_img__Im20.png",
+            "page_41_img__Im394.png",
+            "page_42_img__Im402.png",
+            "page_43_img__Im410.png",
+            "page_43_img__Im20.png",
+            "page_44_img__Im422.png",
+            "page_45_img__Im430.png",
+            "page_47_img__Im447.png",
+            "page_48_img__Im455.png",
+            "page_48_img__Im457.png",
+            "page_48_img__Im20.png",
+            "page_50_img__Im474.png",
+            "page_50_img__Im20.png",
+            "page_50_img__Im476.png",
+            "page_51_img__Im483.png",
+            "page_52_img__Im491.png",
+            "page_53_img__Im502.png",
+            "page_54_img__Im20.png",
+            "page_54_img__Im510.png",
+            "page_55_img__Im519.png",
+            "page_57_img__Im535.png",
+            "page_57_img__Im20.png",
+            "page_59_img__Im550.png",
+            "page_60_img__Im558.png",
+            "page_60_img__Im20.png",
+            "page_60_img__Im560.png",
+            "page_61_img__Im569.png",
+            "page_62_img__Im579.png",
+            "page_64_img__Im593.png",
+            "page_65_img__Im601.png",
+            "page_67_img__Im20.png"
+          ]
+        },
+        "summary": "This file is a classic satirical novel by Jonathan Swift, detailing the fantastical voyages of Lemuel Gulliver. The book is divided into parts, each describing different strange and distant lands, including Lilliput and Brobdingnag. The narrative explores themes of human nature and societal structures through Gulliver's interactions with various cultures. Originally published in 1726, this edition was edited by Thomas M. Balliet. The book is in English and was released as an eBook by Project Gutenberg in 2005, with the last update in 2025. It includes illustrations and a preface by Lord Lytton.",
+        "createdAt": "2025-07-11T10:10:45.042Z",
+        "updatedAt": "2025-07-11T10:21:18.834Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "page_sign_in.tsx",
+      "status": "success",
+      "response": {
+        "id": "bba960f4-bc27-4c63-af83-f7dd8a4290e3",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/bba960f4-bc27-4c63-af83-f7dd8a4290e3/page_sign_in.tsx",
+        "title": "page_sign_in.tsx",
+        "type": "text",
+        "fileSize": "131",
+        "metadata": {
+          "originalFilename": "page_sign_in.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a React component for the sign-in page of an application. It imports the 'AuthForm' component configured for user sign-in. Metadata such as author and date are not available.",
+        "createdAt": "2025-07-11T10:21:21.091Z",
+        "updatedAt": "2025-07-11T10:21:21.629Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "369.png",
+      "status": "success",
+      "response": {
+        "id": "e94a0a3c-da8f-400f-aca4-8341ecc3a4c7",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/e94a0a3c-da8f-400f-aca4-8341ecc3a4c7/369.png",
+        "title": "369.png",
+        "type": "image",
+        "fileSize": "280403",
+        "metadata": {
+          "originalFilename": "369.png",
+          "mimeType": "image/png",
+          "imageTitle": "Guidelines for Preventing Tooth Decay and Soft Drink Consumption",
+          "imageDescription": "This image features an article discussing the impact of soft drinks on tooth decay. It provides insights into how teeth are affected by soft drinks and offers guidelines to prevent tooth decay. Key points include the effect of sugar in foods versus sugar in drinks, the importance of saliva in protecting teeth, and practical advice like regular dental visits and limiting sugary snacks. The article concludes with the Coca-Cola Company's support for dental health research. Additional information lists several references from dental research studies, contributing to the context of the document."
+        },
+        "summary": "This document provides insights into the relationship between soft drinks and tooth decay. It discusses common misconceptions about erosion caused by soft drinks and offers practical guidelines to minimize tooth decay, such as regular dental visits and dietary considerations. The content emphasizes the importance of understanding dental health in relation to dietary habits. The Coca-Cola Company appears to have produced this material to support further research and education on dental health issues. The document includes references from various studies on nutrition and caries research.",
+        "createdAt": "2025-07-11T10:21:27.085Z",
+        "updatedAt": "2025-07-11T10:21:34.388Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "admin.ts",
+      "status": "success",
+      "response": {
+        "id": "06e7272a-9b06-450f-9504-305ed5203b5a",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/06e7272a-9b06-450f-9504-305ed5203b5a/admin.ts",
+        "title": "admin.ts",
+        "type": "text",
+        "fileSize": "698",
+        "metadata": {
+          "originalFilename": "admin.ts",
+          "mimeType": "text/plain"
+        },
+        "summary": "This TypeScript file sets up the Firebase Admin SDK in a Node.js environment. It contains a function `initFirebaseAdmin` that initializes the Firebase app using credentials from environment variables and provides access to Firestore and Authentication services. There is no author or date information available.",
+        "createdAt": "2025-07-11T10:21:36.525Z",
+        "updatedAt": "2025-07-11T10:21:37.054Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "308.png",
+      "status": "success",
+      "response": {
+        "id": "3cf35104-8e6c-4f79-a13e-4e4d006f24f2",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/3cf35104-8e6c-4f79-a13e-4e4d006f24f2/308.png",
+        "title": "308.png",
+        "type": "image",
+        "fileSize": "79275",
+        "metadata": {
+          "originalFilename": "308.png",
+          "mimeType": "image/png",
+          "imageTitle": "Analysis of KOOL 100 Cigarette Product",
+          "imageDescription": "The image outlines a presentation slide from B&W regarding the KOOL 100 cigarette product. It contains three main sections: 'Objective', 'CPT Results', and 'Status'. The 'Objective' section states the aim to develop a KOOL 100 product superior to Newport 100 among KOOL 100 smokers, utilizing KOOL 'C' technologies. The 'CPT Results' highlight that KOOL 'C' was found superior to Newport 100 with a 94% confidence level and was at parity with current KOOL 100 among smokers. Additionally, smokers found KOOL 'C' to have a better menthol taste. The 'Status' section notes the implementation of KOOL 'C' with 0.57% menthol and 17% vent in October 1994. This slide serves to communicate the product's development objectives and testing outcomes, emphasizing its market positioning and enhancements in flavor."
+        },
+        "summary": "This document outlines the objectives, results, and status of the development of KOOL 100 cigarettes, aimed at achieving superiority over Newport 100. The main objective was to use KOOL 'C' technologies to develop a product favored by KOOL 100 smokers. The results indicated KOOL 'C' had superior taste and menthol flavor, with a 0.57% menthol and 17% vent implemented as of October 1994. The document is associated with B&W, focusing on product positioning and consumer preference analysis.",
+        "createdAt": "2025-07-11T10:21:41.662Z",
+        "updatedAt": "2025-07-11T10:21:49.764Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "DisplayTechIcons.tsx",
+      "status": "success",
+      "response": {
+        "id": "ee4ffc26-3b87-405f-9a8f-6791ae083c14",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/ee4ffc26-3b87-405f-9a8f-6791ae083c14/DisplayTechIcons.tsx",
+        "title": "DisplayTechIcons.tsx",
+        "type": "text",
+        "fileSize": "790",
+        "metadata": {
+          "originalFilename": "DisplayTechIcons.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a React component for displaying a series of technology icons in a row. It imports utility functions to fetch technology logos and manages CSS styling for layout. The component accepts a 'techStack' argument, retrieves corresponding logos, and displays them with some overlapping styling effects and tooltips. No author or date metadata is available in the file.",
+        "createdAt": "2025-07-11T10:21:53.143Z",
+        "updatedAt": "2025-07-11T10:21:53.677Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "FormField.tsx",
+      "status": "success",
+      "response": {
+        "id": "eacb863e-ad56-423a-b28b-763921b971aa",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/eacb863e-ad56-423a-b28b-763921b971aa/FormField.tsx",
+        "title": "FormField.tsx",
+        "type": "text",
+        "fileSize": "1004",
+        "metadata": {
+          "originalFilename": "FormField.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a reusable form field component using TypeScript and React Hook Form. The component, `FormField`, is equipped to handle different input types such as text, email, and password. It leverages the `Controller` from React Hook Form to manage form state and includes custom UI elements like `FormItem`, `FormLabel`, `FormControl`, `FormMessage`, and `Input` for display. The file does not provide author or date metadata.",
+        "createdAt": "2025-07-11T10:21:57.006Z",
+        "updatedAt": "2025-07-11T10:21:57.637Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "input.tsx",
+      "status": "success",
+      "response": {
+        "id": "3eea8ff1-c686-4d27-b7ef-a8301b5de3e3",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/3eea8ff1-c686-4d27-b7ef-a8301b5de3e3/input.tsx",
+        "title": "input.tsx",
+        "type": "text",
+        "fileSize": "971",
+        "metadata": {
+          "originalFilename": "input.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a React component named 'Input' which is used to render an HTML input element with various styling and behavior options. It includes support for customization through class names and additional props. The component applies specific styles for different states such as focus and disabled, and utilizes utility functions for class manipulation. No specific author or date metadata is available in the file.",
+        "createdAt": "2025-07-11T10:22:00.193Z",
+        "updatedAt": "2025-07-11T10:22:00.954Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "page_interview.tsx",
+      "status": "success",
+      "response": {
+        "id": "3f940cf6-c0d2-47f5-9228-599ce76440ab",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/3f940cf6-c0d2-47f5-9228-599ce76440ab/page_interview.tsx",
+        "title": "page_interview.tsx",
+        "type": "text",
+        "fileSize": "404",
+        "metadata": {
+          "originalFilename": "page_interview.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a React component for an Interview Generation page. It imports and utilizes an 'Agent' component, leveraging user data obtained from an authentication action to personalize the interface. The main feature is generating interview content for the current user. Metadata such as the author and date are not provided within this file.",
+        "createdAt": "2025-07-11T10:22:03.269Z",
+        "updatedAt": "2025-07-11T10:22:03.935Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "page_id.tsx",
+      "status": "success",
+      "response": {
+        "id": "2bcbbe6e-542e-4d21-8277-bd737b98ff70",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/2bcbbe6e-542e-4d21-8277-bd737b98ff70/page_id.tsx",
+        "title": "page_id.tsx",
+        "type": "text",
+        "fileSize": "1690",
+        "metadata": {
+          "originalFilename": "page_id.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a React component for displaying interview details using Next.js. It fetches data such as the interview information and user feedback based on the interview ID, and displays the interview role, type, and associated technology stack. Metadata includes fetching functions `getInterviewById` and `getFeedbackByInterviewId`, and utilizes components like `Agent` and `DisplayTechIcons` to render the information.",
+        "createdAt": "2025-07-11T10:22:05.523Z",
+        "updatedAt": "2025-07-11T10:22:06.234Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "globals.css",
+      "status": "success",
+      "response": {
+        "id": "32c63119-b734-4e08-8c52-090bf5f21e53",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/32c63119-b734-4e08-8c52-090bf5f21e53/globals.css",
+        "title": "globals.css",
+        "type": "text",
+        "fileSize": "9545",
+        "metadata": {
+          "originalFilename": "globals.css",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file contains global styles and theme configurations for a web project using Tailwind CSS, including color schemes, typography, and utility classes. It defines light and dark mode variants, custom themes, and utility classes to streamline design consistency across components. Key features include custom color variables, border-radius settings, and responsive text and layout classes. Metadata such as author or date is not available in the file.",
+        "createdAt": "2025-07-11T10:22:09.091Z",
+        "updatedAt": "2025-07-11T10:22:09.952Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4733.png",
+      "status": "success",
+      "response": {
+        "id": "b5a8e753-3c5c-4517-8c77-5c6c8031b8d6",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/b5a8e753-3c5c-4517-8c77-5c6c8031b8d6/4733.png",
+        "title": "4733.png",
+        "type": "image",
+        "fileSize": "775800",
+        "metadata": {
+          "originalFilename": "4733.png",
+          "mimeType": "image/png",
+          "imageTitle": "ITC's Brands Display in 2013 Report",
+          "imageDescription": "The image features a collage of ITC's diverse product advertisements, highlighting ITC's brands as national assets. Central to the image is an ad for 'Aashirvaad Atta with Multigrains,' emphasizing nourishment for all ages. Surrounding this are ads for other ITC products including 'Fiama Di Wills,' promoting soft skin, 'Dark Fantasy Choco Fills' with a focus on indulgence, 'Bingo!' snacks showcasing irresistible tastes, ITC's 'Vivel' skincare, and 'Wills Lifestyle' fashion. Accompanying the image is text emphasizing ITC's role as a top FMCG player in India and its contribution to economic and social growth. The composition of products and the auxiliary text underscore ITC's impact on consumer markets, aiming to fulfill aspirations and generate value across its value chains."
+        },
+        "summary": "This document is a page from the ITC Limited Report and Accounts for 2013, focusing on the impact and value of ITC's brands in India. It highlights ITC's ambition to become the leading FMCG player in the country, driven by its rapidly growing new FMCG businesses. By meeting consumer needs and generating economic value, ITC's brands contribute to India's competitiveness and sustainable growth. The document includes images of various ITC products, showcasing their wide market presence. The source link provides additional access to the complete report.",
+        "createdAt": "2025-07-11T10:22:17.004Z",
+        "updatedAt": "2025-07-11T10:22:24.073Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "245.png",
+      "status": "success",
+      "response": {
+        "id": "9153d163-fcc7-4462-b6f8-77f89e9135a9",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/9153d163-fcc7-4462-b6f8-77f89e9135a9/245.png",
+        "title": "245.png",
+        "type": "image",
+        "fileSize": "342086",
+        "metadata": {
+          "originalFilename": "245.png",
+          "mimeType": "image/png",
+          "imageTitle": "Methods Development Two-Year Project Plan",
+          "imageDescription": "This image presents 'Appendix IIA' from a document detailing a Methods Development Two-Year Project Plan. It lists various projects committed to research and development (R&D) with columns specifying customer, priority, duration in months, and project leader. Each project is numbered and includes tasks such as CV HCN/Acetaldehyde in Smoke, MACON CA Flavor/Concentrate Methods, and Eval ION Track Pack Seal Tester. Text within the image includes a table format with column headings like 'PROJECTS COMMITTED TO DO,' 'CUSTOMER,' 'PRIORITY,' 'DURATION MONTHS,' and 'PROJECT LEADER.' There's also a legend indicating the meanings of symbols such as 'V' for Validation and 'C' for Current. The document's purpose is to outline and prioritize R&D projects, detailing the specific tasks, responsible parties, and timelines involved. At the bottom is a source link to industrydocuments.ucsf.edu and a reference number '570363436.'"
+        },
+        "summary": "This document lists the projects committed to by the R&D department as part of a two-year methods development plan. It includes a table with details on various project tasks, such as customer, priority, duration in months, and project leader. Some tasks involve projects like HCN/Acetaldehyde in Smoke, Macon Flavor/Concentrate Methods, and Quantitate HFP for Tobacco. The appendix highlights different groupings, validations, and current project notes. Metadata includes a source link: https://www.industrydocuments.ucsf.edu/docs/nrcj0037 and a document identifier: 570363436.",
+        "createdAt": "2025-07-11T10:22:30.102Z",
+        "updatedAt": "2025-07-11T10:22:41.457Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "label.tsx",
+      "status": "success",
+      "response": {
+        "id": "f16950f8-fa6b-479d-bfd4-adb2a44d4336",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/f16950f8-fa6b-479d-bfd4-adb2a44d4336/label.tsx",
+        "title": "label.tsx",
+        "type": "text",
+        "fileSize": "611",
+        "metadata": {
+          "originalFilename": "label.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a custom React component called 'Label', which is based on the LabelPrimitive from Radix UI. The component utilizes Tailwind CSS classes to create a flexible and customizable label that adapts to different states, such as being disabled. No explicit author or date metadata is provided in the file.",
+        "createdAt": "2025-07-11T10:22:43.413Z",
+        "updatedAt": "2025-07-11T10:22:44.032Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "3154.png",
+      "status": "success",
+      "response": {
+        "id": "f069e6be-2c7f-4746-a415-f0b79295f0be",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/f069e6be-2c7f-4746-a415-f0b79295f0be/3154.png",
+        "title": "3154.png",
+        "type": "image",
+        "fileSize": "75931",
+        "metadata": {
+          "originalFilename": "3154.png",
+          "mimeType": "image/png",
+          "imageTitle": "Response Code Request Form for MM Smoker Name Generation Card",
+          "imageDescription": "This image shows a Response Code Request Form related to a project called 'MM Smoker-Get-A-Smoker Name Generation Card.' The form is designed for tracking a marketing campaign by the RJR brand Winston and includes details such as the RJR program number (700422) and response code (Z37). Key components of the form include distribution details like quantity (126,000), percentage response (5.00%), and number of responders (6300). The campaign's timing is outlined with a mailout date on 08/25/97 and expiration on 12/31/97. The document notes a direct mail distribution vehicle, with other sections for age verification, data entry specifics, and fulfillment information. Notable contacts include Bonnie Tucker, Paula Carter, and Cressida Lozano. Comments mention changes to quantity and dates as of 5/21/97. The form serves as a logistical and administrative guide for the execution of the targeted marketing effort."
+        },
+        "summary": "The document is a response code request form related to the Winston brand under an RJR Program. It outlines the details of a project named 'MM Smoker-Get-A-Smoker Name Generation Card' aimed at distributing 126,000 units via direct mail. The form includes specific timing details like the expiration date on 12/31/97 and project contact information. It was prepared with Cressida Lozano responsible for the project, with a mailout date of 08/25/97. The document includes agency details, distribution information, and contacts like Bonnie Tucker and Sharon Dawson.",
+        "createdAt": "2025-07-11T10:22:49.962Z",
+        "updatedAt": "2025-07-11T10:22:58.375Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "sonner.tsx",
+      "status": "success",
+      "response": {
+        "id": "7202efcc-f691-4f7b-a8cc-10410b4afa69",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/7202efcc-f691-4f7b-a8cc-10410b4afa69/sonner.tsx",
+        "title": "sonner.tsx",
+        "type": "text",
+        "fileSize": "564",
+        "metadata": {
+          "originalFilename": "sonner.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a custom Toaster component for a React application, integrating with the 'next-themes' package to apply theme-specific styles. It utilizes the Toaster component from the 'sonner' library, allowing the application to display notifications with a theme dynamically set to 'system'. The file includes CSS properties for customizing the appearance of the toaster notifications. No specific author or date metadata is available.",
+        "createdAt": "2025-07-11T10:23:00.552Z",
+        "updatedAt": "2025-07-11T10:23:01.124Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4893.png",
+      "status": "success",
+      "response": {
+        "id": "0a2ac21e-7880-408f-8944-7e0cbfc024c0",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/0a2ac21e-7880-408f-8944-7e0cbfc024c0/4893.png",
+        "title": "4893.png",
+        "type": "image",
+        "fileSize": "100126",
+        "metadata": {
+          "originalFilename": "4893.png",
+          "mimeType": "image/png",
+          "imageTitle": "Progress Report on Menopause Research and Upcoming Presentations",
+          "imageDescription": "The image displays a progress report focused on menopause research, specifically regarding the effects of trimegestone. It outlines planned activities and presentations related to this topic. The main section discusses a plenary session in Prague, 1999, where a highlights report is planned. This session centers on Dr. Al-Azzawi\u2019s research about trimegestone's preclinical profile and its effects on the endometrium, with Peter Miller providing additional data. Future abstracts by Dr. Al-Azzawi are mentioned, including topics on uterine bleeding patterns, lipoprotein profiles in trimegestone-based hormone replacement therapy (HRT), and structural abnormalities in the uterine cavity. Moreover, the report lists conferences where the research will be presented in 2000, such as the European Menopause Congress in Copenhagen, the International Federation of Gynecology and Obstetrics (FIGO) conference in Washington, and a symposium on Gynecological Endocrinology in Florence. The document serves as a plan for upcoming scholarly communications in the field of menopause treatment research."
+        },
+        "summary": "This document is a progress report detailing the planned highlights and abstracts for a plenary session on menopause, focusing on trimegestone and its effects. Key presentations include studies on trimegestone's impact on uterine bleeding and lipoprotein profiles. Scheduled events include the European Menopause Congress in Copenhagen and Gynecological Endocrinology in Florence, with symposiums and posters planned. The document is associated with the client Hoechst Marion Roussel / Wyeth-Ayerst and is marked confidential.",
+        "createdAt": "2025-07-11T10:23:09.430Z",
+        "updatedAt": "2025-07-11T10:23:18.232Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "256.png",
+      "status": "success",
+      "response": {
+        "id": "a652f789-880c-49ea-b6cd-acb11a61af2e",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/a652f789-880c-49ea-b6cd-acb11a61af2e/256.png",
+        "title": "256.png",
+        "type": "image",
+        "fileSize": "137423",
+        "metadata": {
+          "originalFilename": "256.png",
+          "mimeType": "image/png",
+          "imageTitle": "Research and Development of Magnesium Containing Papers",
+          "imageDescription": "The image is a page from a document discussing the research and development efforts in mechanistic studies of magnesium-containing papers. It provides details about a study conducted in a laboratory to determine if drainage times for magnesium carbonate fillers can be predicted based on centrifuged material. The image also mentions the second trial run of a 'daubing dandy' at the University of Maine, focusing on improving paper quality through different cellulose slurry methods. Additionally, it touches on a patent specification request from James River and collaboration intentions with a Forest Products Laboratory in Madison for projects on cellulose webs and pulps. Text and labels within the image include section titles like 'Project Tomorrow,' 'PM Web,' and 'Miscellaneous,' and the content appears to be related to the document's broader theme of material and process optimization in paper manufacturing."
+        },
+        "summary": "This document discusses studies and experiments related to magnesium carbonate fillers in paper production and drainage time predictions. It summarizes experimental trials at the University of Maine regarding 'daubing dandy' techniques, and efforts to optimize paper band definition. Additionally, it mentions collaboration with a Forest Products Laboratory on cellulose web development. No specific author or date is provided.",
+        "createdAt": "2025-07-11T10:23:22.054Z",
+        "updatedAt": "2025-07-11T10:23:30.206Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "431.png",
+      "status": "success",
+      "response": {
+        "id": "4ce6a57d-0acb-43c5-b39d-2416491c61e7",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/4ce6a57d-0acb-43c5-b39d-2416491c61e7/431.png",
+        "title": "431.png",
+        "type": "image",
+        "fileSize": "226381",
+        "metadata": {
+          "originalFilename": "431.png",
+          "mimeType": "image/png",
+          "imageTitle": "PepsiCo Product Range Promotion",
+          "imageDescription": "The image showcases a variety of PepsiCo products, including Tropicana, Quaker Oats, Gatorade, and Aquafina, among others. The accompanying text highlights PepsiCo's influence with over one billion consumer interactions daily, emphasizing the company's long-standing provision of nourishing, hydrating, and enjoyable products globally. The image supports the text by visually representing PepsiCo's diverse portfolio, reinforcing their brand\u2019s value and taste. The purpose of the image within the document is to highlight the widespread reach and impact of PepsiCo products while promoting their quality and variety."
+        },
+        "summary": "This document explores the implications of compulsory GM labeling, with arguments against it suggesting it could lead to unnecessary consumer distrust and economic consequences for producers. The second part highlights PepsiCo's product range, emphasizing its global presence and the diversity of its offerings. Authored by Cass R. Sunstein, a Harvard Law School professor and Bloomberg View columnist, the document reflects his personal opinions.",
+        "createdAt": "2025-07-11T10:23:37.596Z",
+        "updatedAt": "2025-07-11T10:23:46.896Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "Agent.tsx",
+      "status": "success",
+      "response": {
+        "id": "7478d451-5f96-4c1b-aaba-9e4fb6e05d2f",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/7478d451-5f96-4c1b-aaba-9e4fb6e05d2f/Agent.tsx",
+        "title": "Agent.tsx",
+        "type": "text",
+        "fileSize": "5835",
+        "metadata": {
+          "originalFilename": "Agent.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file implements the logic for an AI-powered interview system using React and Next.js. It manages call statuses, message handling, and user interactions during the interview process. Key features include initiating and ending calls, managing interview transcripts, and generating feedback. The component relies on external libraries and APIs for speech detection and call management. No specific author or creation date is mentioned in the file.",
+        "createdAt": "2025-07-11T10:23:48.844Z",
+        "updatedAt": "2025-07-11T10:23:49.490Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "302.png",
+      "status": "success",
+      "response": {
+        "id": "a26f99e2-a18d-4d74-911e-8cb999acc354",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/a26f99e2-a18d-4d74-911e-8cb999acc354/302.png",
+        "title": "302.png",
+        "type": "image",
+        "fileSize": "109919",
+        "metadata": {
+          "originalFilename": "302.png",
+          "mimeType": "image/png",
+          "imageTitle": "Consumer Dynamics for KOOL: 1994 vs. 1995",
+          "imageDescription": "This image is a data comparison chart titled 'Consumer Dynamics KOOL' highlighting key metrics from 1994 and 1995. The chart provides percentages related to franchise retention, switching losses, quitting losses, single brand users, industry switchers gained, and the share of the 21-25 segment. Key data points indicate an increase in retention of franchise from 80.7% in 1994 to 83.6% in 1995, a decrease in the rate of switching losses from 14.1% to 10.3%, and a slight increase in single brand users in the franchise from 75.7% to 78.2%. The share of industry switchers gained and the share of the 21-25 segment remained relatively stable. The data appears to be sourced from USMM, suggesting it is part of a detailed analysis report. The image serves to provide a clear, quantified comparison of consumer loyalty and behavior over the two years."
+        },
+        "summary": "This document compares consumer metrics for the KOOL brand between the years 1994 and 1995. It provides data on franchise retention, switching losses, quitting losses, single brand users, industry switchers gained, and the 21-25 segment share. The report indicates an increase in franchise retention and single brand users, alongside a decrease in switching losses. Source: USMM. No author or date is specified beyond the comparison years.",
+        "createdAt": "2025-07-11T10:23:54.017Z",
+        "updatedAt": "2025-07-11T10:24:04.210Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "5403.png",
+      "status": "success",
+      "response": {
+        "id": "6aaa819a-ffaa-4a3e-bdfd-be36a8b2be1d",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/6aaa819a-ffaa-4a3e-bdfd-be36a8b2be1d/5403.png",
+        "title": "5403.png",
+        "type": "image",
+        "fileSize": "189924",
+        "metadata": {
+          "originalFilename": "5403.png",
+          "mimeType": "image/png",
+          "imageTitle": "DesignWrite Fax Cover Sheet on Expert Forum Plans",
+          "imageDescription": "The image is a fax cover sheet from DesignWrite, sent by Bernadette G. Janas, PhD, a Medical Writer, to Alice Conti at Wyeth-Ayerst Pharmaceuticals. The fax, dated January 19, 2005, is marked with high importance, urging immediate delivery. It outlines an attached overview of an expert forum on breast health and hormone replacement therapy (HRT). Bernadette Janas discusses ideas for the forum, including objectives like providing perspectives on breast cancer risks associated with estrogen replacement therapy and educating healthcare providers. The document emphasizes developing publications for women's health care providers. Additional contact information and organization details are also included, as well as a handwritten exhibit label on the bottom right, indicating its archival status."
+        },
+        "summary": "This document is a fax message sent by Bernadette G. Janas, PhD, a medical writer at DesignWrite, to Alice Conti from Wyeth-Ayerst Pharmaceuticals on January 19, 2005. It outlines the expert forum plans focusing on breast health and hormone replacement therapy (HRT), including specific aims such as developing publications for women's health care providers and educating on the risks associated with ERT/HRT use. The message invites brainstorming to enhance the scientific agenda and project plans.",
+        "createdAt": "2025-07-11T10:24:09.603Z",
+        "updatedAt": "2025-07-11T10:24:17.515Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "5238.png",
+      "status": "success",
+      "response": {
+        "id": "e84afa31-444c-40a2-8f37-c245429fa82b",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/e84afa31-444c-40a2-8f37-c245429fa82b/5238.png",
+        "title": "5238.png",
+        "type": "image",
+        "fileSize": "135568",
+        "metadata": {
+          "originalFilename": "5238.png",
+          "mimeType": "image/png",
+          "imageTitle": "Project Assignment and Confidentiality Agreement",
+          "imageDescription": "This document outlines the confidentiality agreement and project details for a manuscript assignment. It includes instructions that the writer must observe strict confidentiality, with correspondence sent directly to DesignWrite. It details payment structures, with specific invoicing terms tied to the commencement of work, manuscript acceptance, and paper submission. Termination conditions are indicated if the first draft is unacceptable. Formatting requirements are provided, including manuscript submission guidelines using Word 97 and adherence to 'Uniform Requirements for Manuscripts Submitted to Biomedical Journals.' Reference citation guidance is included, with instructions to use Reference Manager. The document is signed as assigned by Karen D. Mittleman, Ph.D., and accepted by Carol A. Tozzi, Ph.D. on specified dates. The document is a contractual guideline emphasizing confidentiality and submission standards for academic manuscripts, reflecting its professional and instructional nature."
+        },
+        "summary": "This document outlines the confidentiality and assignment details for a writer working with DesignWrite. It specifies payment terms, manuscript requirements, and the process for submitting work. The document mentions a fee of $3,500 and lists specific conditions under which DesignWrite can terminate the project. The assignment was given by Karen D. Mittleman, Ph.D., on January 18, 2005, and accepted by Carol A. Tozzi, Ph.D., on July 26, 2000. It emphasizes strict confidentiality and the necessity to follow specific formatting guidelines for biomedical journal submissions.",
+        "createdAt": "2025-07-11T10:24:22.953Z",
+        "updatedAt": "2025-07-11T10:24:31.851Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4751.png",
+      "status": "success",
+      "response": {
+        "id": "03d144f3-3fed-4d1d-9a03-c13f15c18909",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/03d144f3-3fed-4d1d-9a03-c13f15c18909/4751.png",
+        "title": "4751.png",
+        "type": "image",
+        "fileSize": "234894",
+        "metadata": {
+          "originalFilename": "4751.png",
+          "mimeType": "image/png",
+          "imageTitle": "Committee Meeting Attendance and Roles in Corporate Governance",
+          "imageDescription": "The image contains a detailed report on committee meeting attendance and the roles of the Sustainability and Corporate Management Committees within the organization. On the left, a table lists the attendance of directors at Nomination Committee Meetings for the financial year, showing varying attendance numbers and notes on appointments. A similar table on the right details attendance for Sustainability Committee Meetings, including the dates of meetings and the strength of each meeting. The image contextualizes these tables by describing the roles, objectives, and compositions of the Sustainability Committee, focusing on reviewing and directing sustainability practices in line with business strategies. It also outlines the role of the Corporate Management Committee in strategic management within a Board-approved framework. Both sections emphasize governance structures designed for effective business management, highlighted by a quote at the bottom of the page. The page source information is noted, providing further context for the report."
+        },
+        "summary": "The document provides an overview of attendance at ITC's nominations and sustainability committee meetings during the financial year. It outlines the role and composition of the Sustainability and Corporate Management Committees, highlighting strategic management and governance processes. The report includes detailed attendance records for various directors and specifies the appointment dates for new members. Dated March 31, 2013, the source is ITC Report and Accounts 2013.",
+        "createdAt": "2025-07-11T10:24:36.446Z",
+        "updatedAt": "2025-07-11T10:24:44.754Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "5487.png",
+      "status": "success",
+      "response": {
+        "id": "1ad99d2c-0d68-412c-adbb-4ba8271a2e8f",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/1ad99d2c-0d68-412c-adbb-4ba8271a2e8f/5487.png",
+        "title": "5487.png",
+        "type": "image",
+        "fileSize": "59233",
+        "metadata": {
+          "originalFilename": "5487.png",
+          "mimeType": "image/png",
+          "imageTitle": "Public Concern About Chemical Compounds in Cigarettes",
+          "imageDescription": "The image is a pie chart titled 'Chemical Compounds Found In Cigarettes (First Response)' displaying survey responses about public concern regarding chemicals in cigarettes. The chart segments and their respective percentages are: 'Not At All Concerned' (32.7%), 'Somewhat Concerned' (34.3%), 'Very Concerned' (19.1%), 'Extremely Concerned' (12.3%), and 'Don't Know' (1.6%). This image visualizes public awareness and varying levels of concern about the health implications of chemical compounds in cigarettes. It likely aims to provide context within a discussion on tobacco usage and health risks."
+        },
+        "summary": "This file contains a pie chart illustrating the levels of public concern regarding chemical compounds found in cigarettes as part of a survey's first response. The chart segments the respondents into percentages, with 32.7% not at all concerned, 34.3% somewhat concerned, 19.1% very concerned, 12.3% extremely concerned, and 1.6% don't know. Metadata and author information are not available in the file.",
+        "createdAt": "2025-07-11T10:24:51.719Z",
+        "updatedAt": "2025-07-11T10:24:57.660Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4978.png",
+      "status": "success",
+      "response": {
+        "id": "7b44b3ca-beeb-4a22-b8a8-ca5447edb381",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/7b44b3ca-beeb-4a22-b8a8-ca5447edb381/4978.png",
+        "title": "4978.png",
+        "type": "image",
+        "fileSize": "44083",
+        "metadata": {
+          "originalFilename": "4978.png",
+          "mimeType": "image/png",
+          "imageTitle": "EAGAR Study Subject Flow Diagram",
+          "imageDescription": "The image shows a flow diagram illustrating the subject flow in the EAGAR study. It begins with 'Subjects Signed Consent' totaling N=103. From there, 'study Subjects Enrolled drug' is N=100, with a note of 'Protocol violation N=3 (Table 1)'. The flow branches out to 'Subject with baseline angiogram' (n=81) and 'Subject refused to continue in study N=19 (Table 2)'. Further down, the paths diverge into 'IVUS N=63' and 'No IVUS 18 (All SVG occluded or diseased)'. This diagram visually summarizes how subjects progress or discontinue throughout the clinical study and relates to the surrounding context by providing a clear understanding of the study's logistics and data collection process. It likely serves to clarify participant involvement and data segmentation in accompanying textual documentation."
+        },
+        "summary": "This image is a flowchart depicting the subject progression in an EAGAR study. It shows the process from subjects signing consent to entering the study and being randomized. Key stages include enrollment, protocol violation, and decision points like baseline angiogram availability. Metadata such as source link is available, but specific author and date details are not provided.",
+        "createdAt": "2025-07-11T10:25:01.330Z",
+        "updatedAt": "2025-07-11T10:25:08.932Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "219.png",
+      "status": "success",
+      "response": {
+        "id": "bfe8c483-12a6-4293-9a59-17cb29c58526",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/bfe8c483-12a6-4293-9a59-17cb29c58526/219.png",
+        "title": "219.png",
+        "type": "image",
+        "fileSize": "257577",
+        "metadata": {
+          "originalFilename": "219.png",
+          "mimeType": "image/png",
+          "imageTitle": "Article on Petroleum Industries' Air Pollution Control",
+          "imageDescription": "The image represents a cover page for an article titled 'The Petroleum Industries\u2019 Air Pollution Control Program' by G. A. Lloyd, published in the Journal of the Air Pollution Control Association. It features details such as the journal's ISSN, and a link to the DOI for citation purposes. The page includes information about viewing related articles, submitting articles to the journal, and article view statistics. The article is made available online as of March 19, 2012. The document is published by Taylor & Francis and is part of efforts to address air pollution by the petroleum industry. This page serves as a gateway to explore the article, showcasing publication details and academic access options."
+        },
+        "summary": "This document is an article titled 'The Petroleum Industries\u2019 Air Pollution Control Program' by G. A. Lloyd, published in the Journal of the Air Pollution Control Association. The article, originally published in 1961, discusses the strategies and efforts of the petroleum industry in managing and reducing air pollution. It provides insights into historical approaches to pollution control within the industry. The document was published online on 19 March 2012 and includes a DOI link for further access. The journal ISSN is 0002-2470, and additional article views and related resources are mentioned.",
+        "createdAt": "2025-07-11T10:25:14.657Z",
+        "updatedAt": "2025-07-11T10:25:21.113Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "5545.png",
+      "status": "success",
+      "response": {
+        "id": "730899d7-dd4d-493d-8bee-a3cd3d1beeeb",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/730899d7-dd4d-493d-8bee-a3cd3d1beeeb/5545.png",
+        "title": "5545.png",
+        "type": "image",
+        "fileSize": "318752",
+        "metadata": {
+          "originalFilename": "5545.png",
+          "mimeType": "image/png",
+          "imageTitle": "Detailed Job Quote/Invoice for R.J. Reynolds Tobacco Co.",
+          "imageDescription": "The image displays a job quote/invoice from the R.J. Reynolds Tobacco Co., dated April 24, 1997, for the billing period of March 29, 1997, to April 4, 1997. It includes a comprehensive breakdown of support services, with columns for price, quotation, current invoice, and cumulative totals. The invoice contains information such as the purchase order number, release number, job number, invoice number, and billing period. Specific services listed include reporting, correspondence handling, consumer affairs, unqualified returns, third-party transmissions, mailing charges, and other administrative tasks. Each service is detailed with quantity, cost, and balance adjustments, and the document highlights total support services with monetary figures. Notations and calculations are handwritten on the document, providing additional context and adjustments."
+        },
+        "summary": "This document is a job quote/invoice from R. J. Reynolds Tobacco Co. for support services. It includes itemized services with prices, current invoice details, and cumulative totals. The services listed range from reporting activities to inventory management and consumer correspondence. The document is dated April 24, 1997, and covers the billing period from March 29, 1997, to April 4, 1997. The invoice is to Sue Wall and includes annotations and metadata such as P.O. number 93-51954 and Job number 2565-16.",
+        "createdAt": "2025-07-11T10:25:28.890Z",
+        "updatedAt": "2025-07-11T10:25:37.594Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "romeo_juliet.pdf",
+      "status": "success",
+      "response": {
+        "id": "3c5e531e-edae-4a37-9ef5-2e4570f36835",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/3c5e531e-edae-4a37-9ef5-2e4570f36835/romeo_juliet.pdf",
+        "title": "romeo_juliet.pdf",
+        "type": "pdf",
+        "fileSize": "409460",
+        "metadata": {
+          "originalFilename": "romeo_juliet.pdf",
+          "mimeType": "application/pdf",
+          "textFileKey": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/3c5e531e-edae-4a37-9ef5-2e4570f36835/romeo_juliet_text.txt",
+          "pageCount": 69,
+          "extractedImages": []
+        },
+        "summary": "This file is an eBook of 'Romeo and Juliet' by William Shakespeare, provided by Project Gutenberg. The play is a tragedy about two young star-crossed lovers whose deaths ultimately reconcile their feuding families. Comprising multiple acts and scenes, it depicts themes of love, fate, and conflict. The eBook includes a detailed prologue, a full list of characters, and the entirety of the play's text. It was released on November 1, 1998, with updates up until June 19, 2024. Additional metadata includes credits to the PG Shakespeare Team and usage terms under the Project Gutenberg License.",
+        "createdAt": "2025-07-11T10:25:45.481Z",
+        "updatedAt": "2025-07-11T10:26:07.365Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "InterviewCard.tsx",
+      "status": "success",
+      "response": {
+        "id": "b89d27bf-2f27-4f6b-8dd5-9bb9a8f127f7",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/b89d27bf-2f27-4f6b-8dd5-9bb9a8f127f7/InterviewCard.tsx",
+        "title": "InterviewCard.tsx",
+        "type": "text",
+        "fileSize": "3042",
+        "metadata": {
+          "originalFilename": "InterviewCard.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a functional component named 'InterviewCard' in a React application. The component displays a card with details about an interview, including its type, role, creation date, score, and technology stack. It uses external libraries and utility functions to format the date and manage component styles. The component dynamically shows feedback based on user and interview data. No specific author or creation date metadata is available.",
+        "createdAt": "2025-07-11T10:26:10.564Z",
+        "updatedAt": "2025-07-11T10:26:11.006Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "295.png",
+      "status": "success",
+      "response": {
+        "id": "60242d4c-034b-4ae7-bcbf-e4a7c0670732",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/60242d4c-034b-4ae7-bcbf-e4a7c0670732/295.png",
+        "title": "295.png",
+        "type": "image",
+        "fileSize": "182214",
+        "metadata": {
+          "originalFilename": "295.png",
+          "mimeType": "image/png",
+          "imageTitle": "Inter-Office Correspondence on NNK in Tobacco Smoke",
+          "imageDescription": "The image is a scanned document from Philip Morris U.S.A.'s inter-office correspondence, dated May 24, 1990. It is addressed to Richard Carchman from Martha Smith and discusses the subject of NNK (4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone), a tobacco-specific nitrosamine. The document provides detailed information on NNK's formation during curing and smoking of tobacco, its presence in smoke, and its carcinogenic effects in laboratory animals. References to several studies are included to support the claims about NNK's carcinogenicity. The letter discusses how environmental factors and agricultural practices, such as air-curing and fertilization, impact NNK levels in tobacco. The purpose of this correspondence appears to be internal communication on the health risks associated with NNK in tobacco products, possibly informing research or product development strategies. Text within the image includes labels such as 'PHILIP MORRIS U.S.A.', 'INTER-OFFICE CORRESPONDENCE', indicating its official nature."
+        },
+        "summary": "This document is an inter-office correspondence from Philip Morris U.S.A. dated May 24, 1990. The subject is NNK or 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone, a carcinogenic compound found in tobacco smoke. The communication is addressed to Richard Carchman from Martha Smith. It details NNK\u2019s carcinogenic properties, its formation during tobacco processing, and the differing levels found in various tobacco types. Studies cited discuss the role of curing conditions and fertilizers in influencing NNK levels. The document includes metadata such as the date, author, and reference studies related to tobacco-specific nitrosamines.",
+        "createdAt": "2025-07-11T10:26:17.597Z",
+        "updatedAt": "2025-07-11T10:26:27.362Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "1761.png",
+      "status": "success",
+      "response": {
+        "id": "9d481374-2861-4c74-8a2b-c7ab364bbcd7",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/9d481374-2861-4c74-8a2b-c7ab364bbcd7/1761.png",
+        "title": "1761.png",
+        "type": "image",
+        "fileSize": "1685451",
+        "metadata": {
+          "originalFilename": "1761.png",
+          "mimeType": "image/png",
+          "imageTitle": "Effect of Irrigation Termination on Sugar Beet Production",
+          "imageDescription": "The image is a table titled 'Table 3. The Effect of Terminating Irrigation at Several Dates Late in the Season on the Yield of Roots, Percent Sucrose and Gross Sugar Production of Sugar Beets.' The table presents data on sugar beet production based on different irrigation termination dates. It includes columns for treatment number, date of irrigation termination, number of irrigations, yield of roots (T./A.), percent sucrose, and gross sugar in lbs./A. The data is structured to show how terminating irrigation on different dates affects these parameters. The table includes a note on the least significant difference at 5% and 1% levels, both marked as 'N.S.' (not significant). Additionally, it mentions that all plots were irrigated with approximately 36% of available water to a 27-inch soil depth until irrigation termination. This table likely serves to provide empirical evidence or results for agricultural studies or reports focusing on optimizing irrigation schedules for sugar beet crops."
+        },
+        "summary": "This document presents a table titled 'The Effect of Terminating Irrigation at Several Dates Late in the Season on the Yield of Roots, Percent Sucrose and Gross Sugar Production of Sugar Beets.' It summarizes an experiment analyzing how ending irrigation at different times impacts sugar beet yield, sucrose percentage, and sugar production. The data includes treatments with varying irrigation termination dates and their respective effects on yield and sugar content. No significant differences were found at 5% or 1% significance levels. Additional information notes that plots were irrigated until reaching 36% of available water to a 27-inch soil depth before irrigation stopped. Metadata such as the author and creation date are not provided.",
+        "createdAt": "2025-07-11T10:26:37.398Z",
+        "updatedAt": "2025-07-11T10:26:50.512Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "361.png",
+      "status": "success",
+      "response": {
+        "id": "8760abf6-5871-4771-8af6-e02d41249257",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/8760abf6-5871-4771-8af6-e02d41249257/361.png",
+        "title": "361.png",
+        "type": "image",
+        "fileSize": "158553",
+        "metadata": {
+          "originalFilename": "361.png",
+          "mimeType": "image/png",
+          "imageTitle": "Analysis of Soft Drink Consumption and Market Concentration",
+          "imageDescription": "The document page provides an analysis of soft drink consumption in the early 1970s, detailing statistics and projections for the industry's future. It highlights that the per capita consumption of soft drinks reached an all-time high of 34.8 gallons, as reported by Advertising Age. The report discusses industry expectations for a 7 to 9 percent annual growth rate. In terms of competition, the document outlines market concentration within the industry, stating that eight companies, including Coca-Cola and PepsiCo, dominated 84.1% of the sales in 1970. The page is part of a broader discussion on soft drinks, emphasizing on consumption patterns and market dynamics. References to sources such as Advertising Age and the FTC Joint Statement support the findings."
+        },
+        "summary": "This document discusses the consumption patterns and market concentration of the soft drink industry in 1972. It highlights the per capita consumption rates, industry growth expectations, and competitive landscape, emphasizing a high concentration among major companies. The document cites 'Advertising Age' from June 12, 1972, and the 'FTC Joint Statement'.",
+        "createdAt": "2025-07-11T10:26:54.192Z",
+        "updatedAt": "2025-07-11T10:27:02.589Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "index.d.ts",
+      "status": "success",
+      "response": {
+        "id": "8cb1e306-a905-47da-aa48-57591b7ccae4",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/8cb1e306-a905-47da-aa48-57591b7ccae4/index.d.ts",
+        "title": "index.d.ts",
+        "type": "text",
+        "fileSize": "1695",
+        "metadata": {
+          "originalFilename": "index.d.ts",
+          "mimeType": "text/plain"
+        },
+        "summary": "The file defines TypeScript interfaces related to feedback and interview management systems. It includes structures for feedback evaluation, interview details, user data, and various operational parameters (e.g., sign-in, sign-up). The file outlines the necessary data fields and types, facilitating the development of consistent and type-safe code modules. Metadata such as the author and date of creation is not present.",
+        "createdAt": "2025-07-11T10:27:05.354Z",
+        "updatedAt": "2025-07-11T10:27:05.987Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "249.png",
+      "status": "success",
+      "response": {
+        "id": "49a0cdfc-1294-491e-a3f3-1ac708dce91e",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/49a0cdfc-1294-491e-a3f3-1ac708dce91e/249.png",
+        "title": "249.png",
+        "type": "image",
+        "fileSize": "91769",
+        "metadata": {
+          "originalFilename": "249.png",
+          "mimeType": "image/png",
+          "imageTitle": "1991 Nicotine RSM Research and Development Overview",
+          "imageDescription": "The image is a structured outline detailing the 1991 research and development milestones and objectives related to Nicotine RSM. It includes three main sections titled '1991 Completion Milestones,' '1991 Research Projects,' and '1991-1995 Continued Research.' Each section lists various objectives, such as completing test methods for smoker satisfaction, optimizing nicotine and tar levels, and conducting studies for ULT improvement. Additionally, there is a section labeled 'Driving Science/Technologies' which outlines existing, developing, and needed technologies and processes, such as SULT products and extraction processes. Handwritten notes and crossed-out text suggest revisions and annotations, indicating ongoing work. This document appears to be part of a larger research and development file focused on optimizing smoking-related products."
+        },
+        "summary": "The document outlines the milestones and research projects related to nicotine RSM from 1991 to 1995. It summarizes the testing methods for smoker satisfaction, nicotine optimization, and product implementation plans. The file includes future research directions and technologies needed for nicotine modification and improvement. Metadata includes references to 1991 completion milestones, research project objectives, and driving scientific technologies. Source: https://www.industrydocuments.ucsf.edu/docs/hjbl0037.",
+        "createdAt": "2025-07-11T10:27:14.775Z",
+        "updatedAt": "2025-07-11T10:27:23.479Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4779.png",
+      "status": "success",
+      "response": {
+        "id": "fc2807e4-3ae1-449b-aa6b-a5c62961a036",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/fc2807e4-3ae1-449b-aa6b-a5c62961a036/4779.png",
+        "title": "4779.png",
+        "type": "image",
+        "fileSize": "260922",
+        "metadata": {
+          "originalFilename": "4779.png",
+          "mimeType": "image/png",
+          "imageTitle": "Fashion and Product Launches in FMCG Sector",
+          "imageDescription": "The image is a promotional compilation showcasing various fashion and product launches in the FMCG sector for the year 2011-12. It includes different sections featuring clothing and tobacco products. The top left section, titled 'Wills Classic Wonderpress Shirts,' describes shirts with advanced treatments and includes an image of a man wearing one. Adjacent to it, 'Wendell Rodricks Now At Wills Lifestyle' speaks about Indian designers collaborating with Wills Lifestyle, accompanied by a fashion photo. Below, 'John Players Jeans' highlights denim styles, with an image of models in jeans. The bottom row introduces tobacco products: 'Gold Flake Kings,' 'Gold Flake Filter,' 'Royal Special Filter,' and 'Scissors Menthol Fresh,' each with brief descriptions and product logos. The image serves as an overview of select fashion and product launches, emphasizing the diversity in product offerings."
+        },
+        "summary": "This image presents a summary of select FMCG product launches during 2011-2012, focusing on apparel and tobacco products. It includes highlights such as Wendell Rodricks joining Wills Lifestyle with a range of designer offerings and the introduction of Wills Classic Wonderpress Shirts and John Players Jeans. The bottom section showcases relaunched and newly introduced tobacco products such as Gold Flake Kings, Gold Flake Filter, Royal Special Filter, and Scissors Menthol Fresh in various markets. The source of this document is from the UCSF industry documents library.",
+        "createdAt": "2025-07-11T10:27:28.585Z",
+        "updatedAt": "2025-07-11T10:27:38.155Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "281.png",
+      "status": "success",
+      "response": {
+        "id": "d23182d9-03c5-4d2f-bf26-32758e6f3621",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/d23182d9-03c5-4d2f-bf26-32758e6f3621/281.png",
+        "title": "281.png",
+        "type": "image",
+        "fileSize": "320504",
+        "metadata": {
+          "originalFilename": "281.png",
+          "mimeType": "image/png",
+          "imageTitle": "Results of Method Development Project Survey",
+          "imageDescription": "The image is a document titled 'Appendix I - Results of Method Development Project Survey,' listing various R&D projects with details such as priority, duration, and related business needs. The table is formatted into columns: Project, Customer, Priority, Duration (Months), Date Needed, and Business Need. Each row corresponds to a specific project and provides detailed information about its timeline and objectives. Business needs range from cost reduction and productivity improvement to competitive analysis and product development. Text at the bottom explains asterisks and some acronyms used in the table, indicating aspects such as current status or method validation. This document likely serves as a comprehensive overview of project status and requirements in a business or research entity related to tobacco products."
+        },
+        "summary": "This document is an appendix page from a survey detailing various method development projects. The table lists multiple projects, the associated research and development (R&D) customer, project priority, duration in months, date needed, and business needs. It includes specific technical projects such as developing measurement methods and quality assessments for tobacco products. The projects are categorized by status, such as current or method validation. The document includes metadata like project dates ranging from December 1993 to June 1994.",
+        "createdAt": "2025-07-11T10:27:44.084Z",
+        "updatedAt": "2025-07-11T10:27:50.717Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4953.png",
+      "status": "success",
+      "response": {
+        "id": "4b7366d4-4c3a-439e-9991-1f25d6123e04",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/4b7366d4-4c3a-439e-9991-1f25d6123e04/4953.png",
+        "title": "4953.png",
+        "type": "image",
+        "fileSize": "46641",
+        "metadata": {
+          "originalFilename": "4953.png",
+          "mimeType": "image/png",
+          "imageTitle": "Flowchart of Subject Enrollment and Study Progression",
+          "imageDescription": "The image is a flowchart illustrating the progression of subjects in a study starting from consent to different stages of participation. The flowchart begins with 'Subjects Signed Consent' (N=103), indicating the initial number of participants who agreed to join the study. It progresses to 'Subjects Enrolled' (N=100) and accounts for 'Protocol violation' (N=3), referring to subjects removed due to protocol breaches detailed in Table 1. Following enrollment, subjects were further divided based on baseline assessments, with 'Subject with baseline angiogram' (N=81), from which participants either underwent 'IVUS' (N=63) or were classified as 'No IVUS' (N=18), where all SVG were occluded or diseased. Additionally, 'Subjects refused to continue in study' (N=19) are noted, referenced in Table 2. This flowchart provides a structured overview of the study's participant flow, highlighting various points of attrition and protocol adherence."
+        },
+        "summary": "This image is a flowchart depicting the enrollment and participation details of subjects in a study. The chart outlines the progression from consent signing to enrollment, including protocol violations and subjects' decisions to continue or withdraw. Key metrics include 103 signed consents, 100 enrolled subjects, and divisions between baseline angiogram groups. The document source is from 'industrydocuments.ucsf.edu', but no specific author or date is available.",
+        "createdAt": "2025-07-11T10:27:55.634Z",
+        "updatedAt": "2025-07-11T10:28:03.723Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "382.png",
+      "status": "success",
+      "response": {
+        "id": "48775180-f130-4e0b-a2e7-3740908da0c7",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/48775180-f130-4e0b-a2e7-3740908da0c7/382.png",
+        "title": "382.png",
+        "type": "image",
+        "fileSize": "71210",
+        "metadata": {
+          "originalFilename": "382.png",
+          "mimeType": "image/png",
+          "imageTitle": "PepsiCo Annual Shareholders Meeting Notice",
+          "imageDescription": "The image is a notice for the Annual Meeting of Shareholders of PepsiCo, scheduled to take place at the headquarters of Frito-Lay, Inc. on May 3, 2006, at 9:00 a.m. local time in Plano, Texas. The document outlines the agenda items for the meeting, which include the election of the Board of Directors, ratification of the appointment of independent registered public accountants, actions on two shareholder proposals, and other pertinent business matters. The notice specifies that holders of record as of March 10, 2006, will be entitled to vote. It directs readers to a Proxy Statement for further details and is signed by Larry D. Thompson, Secretary, dated March 24, 2006. The logos for PepsiCo and its brands are displayed at the top, emphasizing the corporate identity."
+        },
+        "summary": "This document is a notice for PepsiCo's Annual Meeting of Shareholders held on May 3, 2006, at the headquarters of Frito-Lay, Inc. in Plano, Texas. The agenda included electing the Board of Directors, ratifying the appointment of independent accountants, and discussing shareholder proposals. The notice was issued by Larry D. Thompson, Secretary, on March 24, 2006, and outlines the voting entitlements based on records as of March 10, 2006.",
+        "createdAt": "2025-07-11T10:28:09.000Z",
+        "updatedAt": "2025-07-11T10:28:16.236Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "README.md",
+      "status": "success",
+      "response": {
+        "id": "33521c72-0b94-40ee-a2f3-61f0f959395e",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/33521c72-0b94-40ee-a2f3-61f0f959395e/README.md",
+        "title": "README.md",
+        "type": "text",
+        "fileSize": "1685",
+        "metadata": {
+          "originalFilename": "README.md",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file provides information on Grocky, a platform designed for job interview preparation using AI voice agents. It outlines the technological framework, including the use of Next.js, Tailwind CSS, Firebase, and Google Gemini for providing real-time feedback. The document details installation steps, necessary prerequisites, and configuration instructions to set up the development environment. Metadata such as authorship and date are not provided.",
+        "createdAt": "2025-07-11T10:28:19.288Z",
+        "updatedAt": "2025-07-11T10:28:19.842Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "vapi.d.ts",
+      "status": "success",
+      "response": {
+        "id": "3a0a5966-f53d-405e-8a36-43fea3c330b8",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/3a0a5966-f53d-405e-8a36-43fea3c330b8/vapi.d.ts",
+        "title": "vapi.d.ts",
+        "type": "text",
+        "fileSize": "1045",
+        "metadata": {
+          "originalFilename": "vapi.d.ts",
+          "mimeType": "text/plain"
+        },
+        "summary": "This TypeScript definition file specifies the structure for messaging interfaces used in a virtual assistant application programming interface (VAPI). It defines various enums and interfaces for handling transcripts, function calls, and their results within the system. The file outlines the `MessageTypeEnum`, `MessageRoleEnum`, `TranscriptMessageTypeEnum`, and interfaces such as `BaseMessage`, `TranscriptMessage`, `FunctionCallMessage`, and `FunctionCallResultMessage`, providing a comprehensive framework for message handling. Note: The file lacks metadata such as author or date.",
+        "createdAt": "2025-07-11T10:28:22.187Z",
+        "updatedAt": "2025-07-11T10:28:22.872Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "next.config.ts",
+      "status": "success",
+      "response": {
+        "id": "41258ad2-7b25-4f1d-bfc2-7fc3cb87af9b",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/41258ad2-7b25-4f1d-bfc2-7fc3cb87af9b/next.config.ts",
+        "title": "next.config.ts",
+        "type": "text",
+        "fileSize": "401",
+        "metadata": {
+          "originalFilename": "next.config.ts",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file is a configuration file for a Next.js application. It defines settings such as TypeScript and ESLint configurations, including directives to ignore certain build errors. The file also comments on potential image handling settings, specifically for handling remote patterns. There is no metadata regarding the author or date.",
+        "createdAt": "2025-07-11T10:28:24.614Z",
+        "updatedAt": "2025-07-11T10:28:25.330Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "file_tree_grocky.txt",
+      "status": "success",
+      "response": {
+        "id": "05111cae-5dc0-4a39-8510-3bf51028aa9f",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/05111cae-5dc0-4a39-8510-3bf51028aa9f/file_tree_grocky.txt",
+        "title": "file_tree_grocky.txt",
+        "type": "text",
+        "fileSize": "1291",
+        "metadata": {
+          "originalFilename": "file_tree_grocky.txt",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file outlines the directory structure of a web project utilizing technologies like TypeScript, React, and Next.js. It includes components, configuration files, and public assets for building a front-end application. No specific author or creation date is provided in the file.",
+        "createdAt": "2025-07-11T10:28:26.866Z",
+        "updatedAt": "2025-07-11T10:28:27.582Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "357.png",
+      "status": "success",
+      "response": {
+        "id": "44095a0d-ac93-4bc9-840e-e1283fc36279",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/44095a0d-ac93-4bc9-840e-e1283fc36279/357.png",
+        "title": "357.png",
+        "type": "image",
+        "fileSize": "269291",
+        "metadata": {
+          "originalFilename": "357.png",
+          "mimeType": "image/png",
+          "imageTitle": "Understanding Sodium Content in Soft Drinks",
+          "imageDescription": "This image is a text document discussing the sodium content in soft drinks, specifically those produced by Coca-Cola USA. It explains that soft drinks are labeled as 'very low sodium' by the Food and Drug Administration, containing less than 35 milligrams of sodium per serving. Sodium in these beverages comes from ingredients and local water used during production. The document compares sodium levels in soft drinks to other foods, noting that soft drinks have significantly lower sodium levels. It also clarifies the difference between sodium and table salt, explaining sodium's role in human physiology. This information helps consumers understand the nutritional content of soft drinks and the role of sodium in the diet."
+        },
+        "summary": "This document addresses questions about sodium in Coca-Cola USA's soft drinks, clarifying that they contain very low sodium levels, often less than 35 milligrams per serving. It explains that these beverages comply with state and federal food regulations, using sodium compounds like sodium benzoate and sodium chloride. Despite common misconceptions, sodium's presence in soft drinks is minor compared to other dietary sources. The piece highlights sodium's essential role in human physiology, helping in water regulation and supporting various bodily functions. Source: industrydocuments.ucsf.edu/docs/mtyj0226.",
+        "createdAt": "2025-07-11T10:28:34.445Z",
+        "updatedAt": "2025-07-11T10:28:42.124Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4843.png",
+      "status": "success",
+      "response": {
+        "id": "3eb234b3-2490-4d6f-8930-66bd367b9157",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/3eb234b3-2490-4d6f-8930-66bd367b9157/4843.png",
+        "title": "4843.png",
+        "type": "image",
+        "fileSize": "609416",
+        "metadata": {
+          "originalFilename": "4843.png",
+          "mimeType": "image/png",
+          "imageTitle": "ITC Limited Sunfeast Biscuit Product Range Overview",
+          "imageDescription": "The image features a variety of Sunfeast branded biscuit products, highlighting ITC Limited's diverse offerings within the biscuit category. At the top right is a close-up of a chocolate-filled biscuit, emphasizing product quality and innovation. The center-left displays the Sunfeast logo next to text stating: 'Sunfeast straddles all segments in the biscuit category and offers high quality products in exciting and innovative formats, which reinforces ITC\u2019s commitment to delivering a world-class product experience to the discerning consumer.' The main section of the image showcases an assortment of Sunfeast products, including Dark Fantasy, Delishus, Nice, and Snacky, with product packaging visible. This presentation underscores ITC's dedication to product variety and excellence, as discussed in the ITC Limited Report and Accounts 2013."
+        },
+        "summary": "This image is part of the ITC Limited Report and Accounts for the year 2013, showcasing a range of Sunfeast biscuit products. The content highlights Sunfeast's commitment to quality and innovation in the biscuit category, offering diverse products to appeal to consumers. The image includes various Sunfeast products like Dark Fantasy, Marie Light, and Dream Cream, arranged to emphasize their variety and appeal. No specific author details are available, and the metadata indicates the source as the UCSF Industry Documents Library.",
+        "createdAt": "2025-07-11T10:28:49.702Z",
+        "updatedAt": "2025-07-11T10:28:58.713Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "AuthForm.tsx",
+      "status": "success",
+      "response": {
+        "id": "c8212c4a-6521-4456-9157-0030017b670a",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/c8212c4a-6521-4456-9157-0030017b670a/AuthForm.tsx",
+        "title": "AuthForm.tsx",
+        "type": "text",
+        "fileSize": "4196",
+        "metadata": {
+          "originalFilename": "AuthForm.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines an authentication form component named AuthForm using TypeScript and React. It handles user sign-up and sign-in processes, integrating Firebase Authentication and form validation using Zod and React Hook Form. The form displays different fields based on whether a user is signing up or logging in. Metadata such as author and date are not available in the file.",
+        "createdAt": "2025-07-11T10:29:00.702Z",
+        "updatedAt": "2025-07-11T10:29:01.377Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "416.png",
+      "status": "success",
+      "response": {
+        "id": "3a1d6acc-9946-4f85-847d-dd95670d1030",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/3a1d6acc-9946-4f85-847d-dd95670d1030/416.png",
+        "title": "416.png",
+        "type": "image",
+        "fileSize": "203656",
+        "metadata": {
+          "originalFilename": "416.png",
+          "mimeType": "image/png",
+          "imageTitle": "Pepsi-Cola Product Information and Nutritional Data",
+          "imageDescription": "The image presents a table detailing the nutritional content of various Pepsi-Cola Slice beverages per fluid ounce, including calories, water, carbohydrates/sugars, phosphorus, caffeine, potassium, sodium, benzoic acid, and aspartame. The table compares different Slice flavors such as Diet Slice, Mandarin Orange Slice, Apple Slice, and Cherry Cola Slice. Additional annotations provide clarifications on the nutritional data. Accompanying the table is text explaining the quality and testing standards of Pepsi-Cola products, emphasizing the use of high-quality ingredients approved by the FDA. It highlights Slice's popularity and innovation in the soft drink market, noting its unique use of 10% fruit juice in each drink to enhance flavor. The text contextualizes Slice as part of a broader product lineup enhancing Pepsi-Cola's market position. Annotations at the bottom mention the trace amounts of nutrients and date the information to October 1986."
+        },
+        "summary": "This document provides nutritional and ingredient data for various Pepsi-Cola beverages per fluid ounce, such as Slice, Diet Slice, and different fruit-flavored Slice drinks. It highlights the caloric content, vitamins, minerals, and sweeteners used in these beverages as of October 1986. Additionally, the document details Pepsi-Cola's commitment to quality control and the inclusion of natural fruit juices in their Slice products. Source: https://www.industrydocuments.ucsf.edu/docs/hpjp0226.",
+        "createdAt": "2025-07-11T10:29:06.393Z",
+        "updatedAt": "2025-07-11T10:29:15.174Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "layout_interview.tsx",
+      "status": "success",
+      "response": {
+        "id": "dee9ef74-f007-4666-942b-062b815183a9",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/dee9ef74-f007-4666-942b-062b815183a9/layout_interview.tsx",
+        "title": "layout_interview.tsx",
+        "type": "text",
+        "fileSize": "717",
+        "metadata": {
+          "originalFilename": "layout_interview.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a React component named 'Layout' that manages user authentication and application navigation. It checks if a user is authenticated and redirects them to the sign-in page if they are not. The component also includes a header with navigation using Next.js 'Link' and 'Image' components, displaying a logo and title. Authors and date metadata are not available.",
+        "createdAt": "2025-07-11T10:29:17.572Z",
+        "updatedAt": "2025-07-11T10:29:18.274Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "1982.png",
+      "status": "success",
+      "response": {
+        "id": "2a6f5175-023d-4012-b79f-d596dc204e65",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/2a6f5175-023d-4012-b79f-d596dc204e65/1982.png",
+        "title": "1982.png",
+        "type": "image",
+        "fileSize": "138636",
+        "metadata": {
+          "originalFilename": "1982.png",
+          "mimeType": "image/png",
+          "imageTitle": "Request for Gratis Tobacco Products Form",
+          "imageDescription": "The image is a form titled 'REQUEST FOR GRATIS TOBACCO PRODUCTS' used by R.J. Reynolds Tobacco Company. It specifies the policy of providing free tobacco samples only to adult smokers of at least 21 years of age. The document details a new order with a request number 0088010. Key sections include the originator's information, delivery details, and instructions for the pick-up and distribution of tobacco products. The product is shipped to MARC, Inc. in Greensboro, NC, with the delivery instructions outlining the need for the product to be picked up from R&D Inventory. It includes a table listing two cartons with brand Eclipse and specific product codes and quantities. The form contains approval signatures and a section for distribution notes. This form signifies the administrative and logistical procedure in distributing complimentary tobacco products as part of a test distribution to a national panel of smokers."
+        },
+        "summary": "This document is a request form for complimentary tobacco products from R. J. Reynolds Tobacco Company. The form details a new order for gratis tobacco products intended for in-home testing by a national panel of smokers. It includes order specifics such as the originator, Amy Brown Watson, from the Consumer & Sensory Product Development department. Dated October 26, 2004, the order specifies a delivery date of November 3, 2004, to MARC, Inc. in Greensboro, NC. The request involves two products, Eclipse FF Box and Eclipse FF Men Box, with a total of 240 cartons ordered. Approval signatures and order totals are also included. The document references internal codes for tracking and procedural compliance.",
+        "createdAt": "2025-07-11T10:29:24.250Z",
+        "updatedAt": "2025-07-11T10:29:31.621Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "349.png",
+      "status": "success",
+      "response": {
+        "id": "47099bf1-a14b-45b3-9dec-6b5578ed3194",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/47099bf1-a14b-45b3-9dec-6b5578ed3194/349.png",
+        "title": "349.png",
+        "type": "image",
+        "fileSize": "125952",
+        "metadata": {
+          "originalFilename": "349.png",
+          "mimeType": "image/png",
+          "imageTitle": "Product Evaluation of VSSS Cigarettes",
+          "imageDescription": "This page from a document provides an evaluation of the VSSS cigarette brand, focusing on its appeal and areas for improvement. The text is structured into several sections with headings such as 'Purpose of the Product,' 'After Trial: Likes and Dislikes,' 'Suggestions for Improvements,' and 'Low Visible Smoke.' The document discusses the product's marketing focus on women, emphasizing the thinness and attractive packaging. A trial revealed that the packaging was favored, but there were mixed feelings regarding smoke intensity and thinness. Suggestions for improvement include increasing the product's circumference and modifying smoke strength. The final section discusses perceptions of low visible smoke, highlighting preferences for a less intrusive, odorless option. This image supports the broader discussion of consumer reactions and potential product improvements."
+        },
+        "summary": "This document details a consumer analysis of VSSS cigarettes, specifically targeting female smokers. It describes the product's appeal in packaging and its perceived low smoke benefits. Dislikes include intensity and thinness, with suggestions for increasing circumference and adjusting smoke strength. The report highlights the importance of low visible smoke to consumers. Author and date information are not provided.",
+        "createdAt": "2025-07-11T10:29:35.373Z",
+        "updatedAt": "2025-07-11T10:29:43.872Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4894.png",
+      "status": "success",
+      "response": {
+        "id": "770a655b-0027-4a4c-aaf0-c5821ac89db6",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/770a655b-0027-4a4c-aaf0-c5821ac89db6/4894.png",
+        "title": "4894.png",
+        "type": "image",
+        "fileSize": "158214",
+        "metadata": {
+          "originalFilename": "4894.png",
+          "mimeType": "image/png",
+          "imageTitle": "Trimegestone Progress Report Overview",
+          "imageDescription": "The image is a progress report for the drug Trimegestone, dated with a focus on various phases of research protocols (Phase 1 and Phase 2) and associated papers. The report is organized into a table format with columns for 'Project', 'Target Date', 'Current Status/Comments', and 'Next Action'. It details specific studies with identifiers (e.g., 0915A3-101/102), describing trial completions, publication interests, and next steps such as data finalization and publication acceptability. Text within the image includes study descriptions (e.g., bioavailability study, pharmacokinetics effects, lipid effects), publication targets (e.g., J Steroid Biochem Molec Biol), and anticipated actions (e.g., awaiting final data, acceptability to publish). The purpose of this image is to provide a structured update on the progress and future steps of research protocols involving Trimegestone, targeting stakeholders interested in the development and dissemination of the research findings."
+        },
+        "summary": "This document is a progress report detailing various studies related to Trimegestone (1mg), focusing on different phases of clinical trials and associated research papers. The report summarizes the status, comments, and next actions for protocols and papers, including insights on pharmacokinetics, lipid effects, and endometrial safety. Notable research includes comparative studies of steroidal progestins and the effects of Trimegestone on biological functions. The report includes anticipated publication and presentation dates, target journals, and outlines for future research. The document is confidential and dates back to 1999.",
+        "createdAt": "2025-07-11T10:29:49.518Z",
+        "updatedAt": "2025-07-11T10:30:02.334Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "index.ts",
+      "status": "success",
+      "response": {
+        "id": "0a2f5260-e0de-4fd7-8ef3-f5b96e6cc7d0",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/0a2f5260-e0de-4fd7-8ef3-f5b96e6cc7d0/index.ts",
+        "title": "index.ts",
+        "type": "text",
+        "fileSize": "5725",
+        "metadata": {
+          "originalFilename": "index.ts",
+          "mimeType": "text/plain"
+        },
+        "summary": "The file is about configuring an interview assistant using TypeScript. It includes a mapping of various technologies to standard identifiers, defines a data structure for creating a voice-enabled job interviewer using services like Deepgram and OpenAI, and outlines a schema for interview feedback. Additionally, it provides examples of dummy interviews with metadata about users and roles. No specific author or creation date is available, but the dummy interview data suggests a context around March 2024.",
+        "createdAt": "2025-07-11T10:30:05.860Z",
+        "updatedAt": "2025-07-11T10:30:06.503Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "5550.png",
+      "status": "success",
+      "response": {
+        "id": "4041755a-0804-45f4-b84c-476f7f7d1f5a",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/4041755a-0804-45f4-b84c-476f7f7d1f5a/5550.png",
+        "title": "5550.png",
+        "type": "image",
+        "fileSize": "103861",
+        "metadata": {
+          "originalFilename": "5550.png",
+          "mimeType": "image/png",
+          "imageTitle": "Tidal Volume in Mice After Smoke Inhalation: Pre-Exposure vs. 60 Minute Average",
+          "imageDescription": "The bar graph illustrates the tidal volume means for mice over a 14-day smoke inhalation study (TRD-ATS-020), comparing pre-exposure values to 60-minute exposure period averages. The y-axis measures tidal volume in milliliters, ranging from 0 to 0.2 mls. The x-axis lists different exposure groups labeled as MC, TLE, TME, THE, RLE, RME, and RHE, each with two bars representing pre-exposure (empty) and 60-minute average (hatched). Error bars indicate variability in measurements. The chart's significance lies in highlighting the physiological response of tidal volumes in mice to smoke exposure, providing insights into respiratory impacts in experimental settings."
+        },
+        "summary": "This image presents a bar graph from a study on the effects of smoke inhalation in mice over a 14-day period, labeled TRD-ATS-020. It shows the tidal volume means at pre-exposure and at a 60-minute exposure period average, with data combined for both sexes. The graph compares different exposure groups indicated as MC, TLE, TME, THE, RLE, RME, and RHE, providing insights into respiratory changes. No specific author or date information is included in the image.",
+        "createdAt": "2025-07-11T10:30:11.639Z",
+        "updatedAt": "2025-07-11T10:30:22.063Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "package.json",
+      "status": "success",
+      "response": {
+        "id": "87187fb4-53ae-4688-902c-6f827093b7d7",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/87187fb4-53ae-4688-902c-6f827093b7d7/package.json",
+        "title": "package.json",
+        "type": "json",
+        "fileSize": "1132",
+        "metadata": {
+          "originalFilename": "package.json",
+          "mimeType": "application/json"
+        },
+        "summary": "This file is the configuration for a project named 'Grocky', specifying its dependencies and scripts for development using Next.js and TypeScript. It includes scripts for development, build, and linting processes, along with dependencies like React, Next.js, Firebase, and Tailwind CSS to enhance development capabilities. The project is marked as private and is using Turbopack for development. The file also lists several packages for form handling, UI components, and analytics integration.",
+        "createdAt": "2025-07-11T10:30:26.447Z",
+        "updatedAt": "2025-07-11T10:30:27.194Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "page_sign_up.tsx",
+      "status": "success",
+      "response": {
+        "id": "17d34a80-f834-4a77-ae57-478da2bd4dbe",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/17d34a80-f834-4a77-ae57-478da2bd4dbe/page_sign_up.tsx",
+        "title": "page_sign_up.tsx",
+        "type": "text",
+        "fileSize": "131",
+        "metadata": {
+          "originalFilename": "page_sign_up.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This file defines a React component for the sign-up page using the 'AuthForm' component with a specific type of 'sign-up'. It serves as a simple wrapper to render the sign-up form for user authentication. No specific author or date metadata is available in the file.",
+        "createdAt": "2025-07-11T10:30:29.427Z",
+        "updatedAt": "2025-07-11T10:30:29.851Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "266.png",
+      "status": "success",
+      "response": {
+        "id": "42e90d27-4f3d-41e9-8cd0-2c027533cbe4",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/42e90d27-4f3d-41e9-8cd0-2c027533cbe4/266.png",
+        "title": "266.png",
+        "type": "image",
+        "fileSize": "113073",
+        "metadata": {
+          "originalFilename": "266.png",
+          "mimeType": "image/png",
+          "imageTitle": "Appendix IIB: Methods Development Two-Year Project Plan",
+          "imageDescription": "The image is a table outlining a two-year project plan for methods development, labeled as 'Appendix IIB'. The table is titled 'PROJECTS TO BE DELEGATED OR DROPPED' and includes various projects with details such as R&D customer, priority, duration in months, and project leader. Projects listed include 'Replace Flex Tester', 'Water on Tobacco', 'Develop Filter Hardness Method', among others. Each project is associated with an R&D customer (e.g., METH DEV, AM, KMW) and has assigned priority levels, durations, and project leaders indicated by initials (e.g., FY, TVB, NMD2). There are footnotes describing abbreviations used for project leaders such as 'NMD1 = STH Replacement', 'NMD2 = Robotics/Analytical Chemist', and 'NMD3 = VLG Replacement'. The table is relevant to the context of organizing and prioritizing projects within a specified timeframe, and may be significant for resource allocation and strategic planning in methods development."
+        },
+        "summary": "This document outlines the Methods Development Two-Year Project Plan, specifically projects to be delegated or dropped. It lists 12 projects related to the development and testing of methods involving tobacco, such as replacing test equipment, and evaluating water activity and organic acids. Each entry includes the R&D customer, priority, duration (in months), and project leader. Additional notes clarify abbreviations for the project leaders. No specific author or date is provided. The bottom source indicates a link to a webpage hosting industry documents.",
+        "createdAt": "2025-07-11T10:30:36.814Z",
+        "updatedAt": "2025-07-11T10:30:47.087Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "5324.png",
+      "status": "success",
+      "response": {
+        "id": "f9ccd8c4-6655-44e0-8a6a-8364e580bd97",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/f9ccd8c4-6655-44e0-8a6a-8364e580bd97/5324.png",
+        "title": "5324.png",
+        "type": "image",
+        "fileSize": "191358",
+        "metadata": {
+          "originalFilename": "5324.png",
+          "mimeType": "image/png",
+          "imageTitle": "Conference Registration and Media Partners Information",
+          "imageDescription": "The image is a detailed informational page related to the Pharmaceutical Education Associates conference about Publication Planning 2003. On the left side, it lists various media partners such as Pharma Marketing News, Current Medical Research and Opinion, Product Management Today, PharmaVOICE, CanBioTech Marketplace, and PharmCast.com with descriptions of their services and focus. On the right side, the section titled 'Administrative Details' provides four ways to register for the conference via fax, mail, phone, and online. Venue information is given for The Westin Princeton at Forrestal Village, including the address and contact details. It outlines the fees for different participation packages, the deadline for early registration with a discount, and group discount information. The text indicates that a portion of the program's profits will be donated to charity. Additionally, accommodations and cancellation policies are described. The bottom of the page includes contact information for sponsorship or exhibition inquiries."
+        },
+        "summary": "This document provides information about registering for a Pharmaceutical Education Associates conference in 2003, including fees, payment details, and discounts. It also lists media partners with brief descriptions of Pharma Marketing News, Current Medical Research and Opinion, Product Management Today, PharmaVOICE, CamBiotech, and PharmCast, highlighting their roles in the pharmaceutical industry. Contact information and logistics for the event are included, such as venue details at The Westin Princeton and payment instructions.",
+        "createdAt": "2025-07-11T10:30:51.700Z",
+        "updatedAt": "2025-07-11T10:31:01.083Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "button.tsx",
+      "status": "success",
+      "response": {
+        "id": "b95bcc9c-a651-43d8-a674-4eae081f5b32",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/b95bcc9c-a651-43d8-a674-4eae081f5b32/button.tsx",
+        "title": "button.tsx",
+        "type": "text",
+        "fileSize": "2123",
+        "metadata": {
+          "originalFilename": "button.tsx",
+          "mimeType": "text/plain"
+        },
+        "summary": "This TypeScript file defines a customizable Button component using React. It utilizes class variance authority for style variants, allowing different button appearances such as 'default', 'destructive', 'outline', 'secondary', 'ghost', and 'link'. Additionally, it supports size variations ('default', 'sm', 'lg', 'icon') and integrates with Radix UI's Slot component for rendering flexibility. The component prioritizes accessibility with focus and aria-invalid styles. Author and date metadata are not available.",
+        "createdAt": "2025-07-11T10:31:05.562Z",
+        "updatedAt": "2025-07-11T10:31:06.203Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "5400.png",
+      "status": "success",
+      "response": {
+        "id": "66bbe3bb-8ff3-4b42-a6ba-a7aa4b93558e",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/66bbe3bb-8ff3-4b42-a6ba-a7aa4b93558e/5400.png",
+        "title": "5400.png",
+        "type": "image",
+        "fileSize": "67854",
+        "metadata": {
+          "originalFilename": "5400.png",
+          "mimeType": "image/png",
+          "imageTitle": "Fax Message Regarding Low-Dose Review Paper",
+          "imageDescription": "The image displays a fax cover sheet from DesignWrite, Inc., addressed to Dr. Malcolm Whitehead at Kings College School of Medicine & Dentistry. It is dated January 22, 2001, sent by Karen D. Mittleman, PhD, Senior Medical Writer, with a subject concerning a 'Low-Dose Review Paper Response.' The fax highlights the importance of delivering the message immediately. The message informs Dr. Whitehead about the inclusion of reviewers\u2019 comments and a letter from Alastair MacLennan regarding a review paper submitted to Climacteric. The sender promises to address reviewers' concerns and provide a revised copy for review in the upcoming weeks. Contact information for DesignWrite is provided at the bottom. The fax serves as an official communication to coordinate revisions based on peer feedback."
+        },
+        "summary": "This document is a fax message sent from Karen D. Mittleman, PhD, a Senior Medical Writer at DesignWrite, to Dr. Malcolm Whitehead at Kings College School of Medicine & Dentistry. Dated January 22, 2001, the message discusses the reviewers' comments and a letter from Alastair MacLennan concerning a low-dose review paper submitted to Climacteric. It mentions that the concerns will be addressed, and a revised copy will be sent for review within weeks. The fax contains metadata such as contact information and involves four pages including the cover sheet.",
+        "createdAt": "2025-07-11T10:31:11.637Z",
+        "updatedAt": "2025-07-11T10:31:19.925Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4848.png",
+      "status": "success",
+      "response": {
+        "id": "85185bad-32c4-46d6-beca-bb6786e3b8a7",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/85185bad-32c4-46d6-beca-bb6786e3b8a7/4848.png",
+        "title": "4848.png",
+        "type": "image",
+        "fileSize": "671660",
+        "metadata": {
+          "originalFilename": "4848.png",
+          "mimeType": "image/png",
+          "imageTitle": "Promotional Display of ITC's Snack and Confectionery Products",
+          "imageDescription": "The image is a promotional page from ITC Limited's 2013 Report and Accounts, showcasing a variety of snack and confectionery products. The upper section features 'Bingo!' snacks, including products like Mad Angles, Tedhe Medhe, Yumitos, and Tangles, highlighted with vibrant packaging. The accompanying text emphasizes the brand's association with youth and excitement, offering multiple variants of potato chips and finger snacks to meet consumer demands for variety and novelty. The lower section highlights 'Candyman' and 'mint-o' confectionery products, illustrating a range of flavors and formats designed to appeal to diverse age groups. This section aims to convey the broad appeal and flavor diversity of ITC's confectionery lines. Overall, the image serves as a visual testament to ITC's commitment to product variety and consumer satisfaction within its snack and confectionery divisions."
+        },
+        "summary": "This image is an advertisement page from the ITC Limited Report and Accounts for the year 2013, showcasing ITC's snack and confectionery brands. The top section highlights various Bingo! snack products, known for their range and diverse flavors, aiming to appeal to youth with exciting and innovative options. The lower section features Candyman and mint-o brands, emphasizing a broad selection of flavored confectionery designed to satisfy consumers of different age groups. The page illustrates ITC's product variety and market appeal as reflected in their annual report.",
+        "createdAt": "2025-07-11T10:31:26.377Z",
+        "updatedAt": "2025-07-11T10:31:35.592Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "4748.png",
+      "status": "success",
+      "response": {
+        "id": "8ffa2cc7-ea12-4b7c-9807-e8e533bb43d4",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/8ffa2cc7-ea12-4b7c-9807-e8e533bb43d4/4748.png",
+        "title": "4748.png",
+        "type": "image",
+        "fileSize": "151176",
+        "metadata": {
+          "originalFilename": "4748.png",
+          "mimeType": "image/png",
+          "imageTitle": "ITC's Sustainability Initiatives and Review Statement",
+          "imageDescription": "The image consists of two main sections. The first section titled 'ITC's Sustainability Initiatives: Scale and Impact' lists various programs and their achievements, such as empowering over 4 million farmers in 40,000 villages, creating over 56 million person days of employment, and covering 90,000 hectares of watershed development. Other initiatives include livestock development, women's empowerment, and supplementary education. The second section is a 'Review Statement by Ernst & Young,' where an independent review of ITC's sustainability updates for 2012 is described. It highlights the company's commitments to environmental and social parameters, carbon sequestration, waste recycling, and other sustainable practices. The purpose of the image is to showcase ITC's sustainability efforts and the independent review process, emphasizing transparency and corporate responsibility."
+        },
+        "summary": "This document provides an overview of ITC Limited's sustainability initiatives as of 2012, emphasizing their scale and impact. The document details various programs including e-Choupals, Social and Farm Forestry, Watershed Development, Livestock Development, Women's Empowerment, and Supplementary Education, highlighting their reach and achievements. It also includes a review statement by Ernst & Young, which independently assesses ITC's sustainability practices focusing on environmental, health, safety, and social parameters for the period from April 1, 2011, to March 31, 2012. The document was created by ITC Limited with the review by Sudipta Das, Partner at Ernst & Young Private Limited, dated May 30, 2012, in Kolkata.",
+        "createdAt": "2025-07-11T10:31:41.635Z",
+        "updatedAt": "2025-07-11T10:31:48.700Z",
+        "deletedAt": null
+      }
+    },
+    {
+      "filename": "272.png",
+      "status": "success",
+      "response": {
+        "id": "a8b4849e-a214-40c0-a899-d83812b3f87a",
+        "projectId": "46ec05bd-a783-47ad-a9aa-ebcdfb768e63",
+        "resourceUrl": "projects/46ec05bd-a783-47ad-a9aa-ebcdfb768e63/knowledge-bases/a8b4849e-a214-40c0-a899-d83812b3f87a/272.png",
+        "title": "272.png",
+        "type": "image",
+        "fileSize": "144239",
+        "metadata": {
+          "originalFilename": "272.png",
+          "mimeType": "image/png",
+          "imageTitle": "Research and Development in Tobacco Processing and Filter Innovation",
+          "imageDescription": "The document discusses the integration of a Sidestream Smoke Chamber designed to monitor CO and CO2 levels in smoke. This system facilitates precise measurements within a 0-10% range using various gas checks. It also highlights new processes in tobacco lamina expansion and stress relaxation tests, employing the Dynastat instrument. The document reports on the rate at which the stress in the lamina diminishes to 33% of its initial value within a second and notes the variability in relaxation rates relative to initial strain. Additionally, the text delves into filter research and development, focusing on concentric filter models and their subjective qualities evaluated by Flavor Development. It references new web filter developments at the University of Maine, detailing the materials and methods used to test filter making machinability. The image functions as a page in a technical report, presenting findings and updates on tobacco and filter innovations."
+        },
+        "summary": "This document discusses the implementation of a Sidestream Smoke Chamber for monitoring CO and CO2 levels in smoke, alongside new processes for tobacco expansion using stress relaxation tests. It outlines the calibration of a multigas system and highlights research in filter development, including tests on concentric filters and web filters developed at the University of Maine. The document originates from an industrial context focused on evaluating smoke filtration efficiency and tobacco reordering methods. Date and author details are not specified.",
+        "createdAt": "2025-07-11T10:31:54.040Z",
+        "updatedAt": "2025-07-11T10:32:02.728Z",
+        "deletedAt": null
+      }
+    }
+  ]
+}
