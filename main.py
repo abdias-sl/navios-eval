@@ -4,6 +4,7 @@ from typing import Optional
 import uvicorn
 import requests
 import json
+import asyncio  
 from evals import run_ragas_evaluations
 from get_data import process_chat_query
 
@@ -87,7 +88,7 @@ async def execute(
             print(f"Warning: Requested {num_examples} examples but only {total_examples} available. Using {actual_num_examples} examples.")
             
         results = []
-        for example in dataset_data['examples'][:actual_num_examples]:
+        for i, example in enumerate(dataset_data['examples'][:actual_num_examples]):
             query = example['query']
             reference = example['reference_answer']
             
@@ -102,7 +103,7 @@ async def execute(
                 'response': result["response"],
                 'reference': reference
             })
-        
+           
         # Run RAGAS evaluations on results
         evaluation_results = run_ragas_evaluations(results, model, dataset, project_id, actual_num_examples)
         print("evaluation_results")
@@ -123,6 +124,7 @@ async def execute(
         # Re-raise HTTP exceptions as-is
         raise
     except Exception as e:
+        print(f"Error executing query: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error executing query: {str(e)}")
 
 @app.get("/health")

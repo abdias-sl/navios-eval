@@ -1,5 +1,5 @@
 {
-  "date": "20250714",
+  "date": "20250905",
   "attempt": 1,
   "total_examples": 88,
   "response_columns_evaluated": [
@@ -13,14 +13,14 @@
   ],
   "results": {
     "response_default": {
-      "ResponseRelevancy": 0.9195816063166976,
-      "FactualCorrectness": 0.86125,
+      "ResponseRelevancy": 0.9199135679480591,
+      "FactualCorrectness": 0.8695454545454546,
       "AnswerAccuracy": 0.9545454545454546
     },
     "response_c37": {
-      "ResponseRelevancy": 0.590732161211736,
-      "FactualCorrectness": 0.3277272727272727,
-      "AnswerAccuracy": 0.4630681818181818
+      "ResponseRelevancy": 0.579934531824501,
+      "FactualCorrectness": 0.32181818181818184,
+      "AnswerAccuracy": 0.4602272727272727
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "date": "20250905",
+  "attempt": 1,
+  "total_examples": 88,
+  "response_columns_evaluated": [
+    "response_default",
+    "response_c37"
+  ],
+  "metrics_used": [
+    "ResponseRelevancy",
+    "FactualCorrectness",
+    "AnswerAccuracy"
+  ],
+  "results": {
+    "response_default": {
+      "ResponseRelevancy": 0.9195193448737562,
+      "FactualCorrectness": 0.8682954545454545,
+      "AnswerAccuracy": 0.9573863636363636
+    },
+    "response_c37": {
+      "ResponseRelevancy": 0.6124028716399393,
+      "FactualCorrectness": 0.32409090909090915,
+      "AnswerAccuracy": 0.45170454545454547
+    }
+  }
+}

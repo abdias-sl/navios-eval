@@ -29,7 +29,7 @@ def upload_to_knowledge_base():
     # Make login request
     print("🔐 Authenticating...")
     response = requests.post(
-        "https://auth.shyftos.shyftops.io/rbac/auth/login",
+        "http://localhost:9009/rbac/auth/login",
         headers=headers,
         json=login_data,
     )
@@ -62,8 +62,8 @@ def upload_to_knowledge_base():
         return
     
     # Project ID and endpoint
-    project_id = "46ec05bd-a783-47ad-a9aa-ebcdfb768e63"
-    upload_url = f"http://localhost:8000/api/projects/{project_id}/knowledge-bases/upload"
+    project_id = "54bf9a67-4893-47df-b587-ffa46fbbcb9d"
+    upload_url = f"http://localhost:9000/api/projects/{project_id}/knowledge-bases/upload"
     
     # Set up headers with authentication
     headers = {

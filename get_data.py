@@ -18,6 +18,11 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
     Returns:
         dict: The results containing retrieved_contexts and response
     """
+    print(f"🚀 Starting process_chat_query with:")
+    print(f"   Content: {content[:100]}{'...' if len(content) > 100 else ''}")
+    print(f"   Project ID: {project_id}")
+    print(f"   Model ID: {model_id}")
+    
     # Load environment variables
     load_dotenv()
 
@@ -38,8 +43,9 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
     }
     
     # Make login request
+    print(f"🔐 Attempting login to local IAM service...")
     response = requests.post(
-        "https://auth.shyftos.shyftops.io/rbac/auth/login",
+        "http://localhost:9009/rbac/auth/login",
         headers=headers,
         json=login_data,
     )
@@ -47,7 +53,11 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
     if response.status_code == 200 or response.status_code == 201:
         access_token = response.json().get("access_token")
     else:
-        raise Exception(f"Login failed with status code: {response.status_code}")
+        print(f"Login request failed with status code: {response.status_code}")
+        print(f"Login URL: http://localhost:9009/rbac/auth/login")
+        print(f"Login data: {login_data}")
+        print(f"Response body: {response.text}")
+        raise Exception(f"Login failed with status code: {response.status_code}. Response: {response.text}")
 
     # Add header to all below requests -> "Authentication: Bearer {access_token}"
     def send_chat_message(content: str, project_id: str, modelId: str) -> dict:
@@ -76,8 +86,9 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
         }
 
         # Make the POST request
+        print(f"   🔍 Sending request with form data: {form_data}")
         response = requests.post(
-            'http://localhost:8000/api/chat-messages',
+            'http://localhost:9000/api/chat-messages',
             headers=headers,
             files=form_data
         )
@@ -87,10 +98,39 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
             return response.json()
         
         else:
-            raise Exception(f"Chat message request failed with status code: {response.status_code}")
+            print(f"Chat message request failed with status code: {response.status_code}")
+            print(f"Request URL: http://localhost:9000/api/chat-messages")
+            print(f"Request headers: {headers}")
+            print(f"Request data: content={content}, projectId={project_id}, modelId={modelId}")
+            print(f"Response body: {response.text}")
+            raise Exception(f"Chat message request failed with status code: {response.status_code}. URL: http://localhost:9000/api/chat-messages, Response: {response.text}")
 
     # Send the chat message
+    print(f"💬 Sending chat message to localhost:9000...")
+    print(f"   Using model ID: {model_id}")
+    print(f"   Request details: content='{content[:50]}...', projectId='{project_id}', modelId='{model_id}'")
     response = send_chat_message(content, project_id, model_id)
+    
+    print(f"📥 API Response: {response}")
+    
+    # Check if we can determine which model was actually used
+    print(f"🔍 Checking response for model information...")
+    if isinstance(response, list) and len(response) > 0:
+        for msg in response:
+            if msg.get('role') == 'assistant':
+                print(f"   Assistant message ID: {msg.get('id')}")
+                print(f"   Message format: {msg.get('format')}")
+                print(f"   Content preview: {msg.get('content', '')[:100]}...")
+                print(f"   Response style analysis:")
+                content = msg.get('content', '')
+                if '🚀' in content or '💬' in content or '📡' in content:
+                    print(f"     - Contains emojis (likely Claude-style formatting)")
+                if '##' in content or '###' in content:
+                    print(f"     - Contains markdown headers (likely Claude-style formatting)")
+                if 'Based on the' in content and len(content) > 500:
+                    print(f"     - Long, detailed response (likely Claude-style)")
+                if 'Here\'s how' in content or 'The calculator' in content:
+                    print(f"     - Conversational tone (likely Claude-style)")
     
     # Extract assistant message ID from the response
     assistant_message_id = next((msg['id'] for msg in response if msg['role'] == 'assistant'), None)
@@ -98,12 +138,20 @@ def process_chat_query(content: str, project_id: str, model_id: str) -> dict:
         raise Exception("Could not find assistant message ID in response")
 
     # Connect to SSE stream
-    sse_url = f"http://localhost:8000/api/sse/connect/{assistant_message_id}"
+    print(f"📡 Connecting to SSE stream...")
+    sse_url = f"http://localhost:9000/api/sse/connect/{assistant_message_id}"
     sse_response = requests.get(
         sse_url,
         headers={'Authorization': f'Bearer {access_token}', "accept": "*/*"},
         stream=True
     )
+    
+    if sse_response.status_code != 200:
+        print(f"SSE connection failed with status code: {sse_response.status_code}")
+        print(f"SSE URL: {sse_url}")
+        print(f"SSE headers: {{'Authorization': f'Bearer {access_token[:20]}...', 'accept': '*/*'}}")
+        print(f"SSE response body: {sse_response.text}")
+        raise Exception(f"SSE connection failed with status code: {sse_response.status_code}. URL: {sse_url}, Response: {sse_response.text}")
 
     client = SSEClient(sse_response)
 

@@ -39,7 +39,7 @@ def run_comparison_evaluations():
     try:
         # Load the consolidated dataset
         print("📊 Loading consolidated dataset...")
-        df = pd.read_csv('./datasets/final_consolidated.csv')
+        df = pd.read_csv('./datasets/consolidated.csv')
         
         # Cast all columns to strings to handle NaN values
         df = df.astype(str)
@@ -53,8 +53,8 @@ def run_comparison_evaluations():
         
         # Define response columns to evaluate
         response_columns = [
-            'response_default',
-            'response_c37'
+            'response_default',  # Default responses
+            'response_c37'       # Claude 3.7 responses
         ]
         
         # Filter to only include columns that exist in the dataframe
